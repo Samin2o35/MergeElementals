@@ -1,0 +1,1338 @@
+{
+  "c02e2f3c-873d-40d9-91be-08b970cb3a61": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "ae717591-2f3b-47ec-bbb8-2b847188177f": {
+    "url": "db://assets/Scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "12964a29-f495-4aaa-83d2-1b60562b2f49": {
+    "url": "db://assets/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5594931a-1893-4e17-ba4b-e807389bfc55": {
+    "url": "db://assets/Textures",
+    "value": {},
+    "versionCode": 1
+  },
+  "d39ab3c1-105a-44f0-85cb-05e847ff22c5": {
+    "url": "db://assets/Textures/Eggs",
+    "value": {},
+    "versionCode": 1
+  },
+  "24a5964d-248c-42c5-990f-7fb761b4fab5": {
+    "url": "db://assets/Scripts/AdManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "46be32bc-e220-4644-96b5-8958cd53de7d": {
+    "url": "db://assets/Scripts/AudioContent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7496fb00-a349-40fc-8ca7-49126bfe7103": {
+    "url": "db://assets/Scripts/ClickRedirect.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6280560e-dec3-448e-b55d-91093bd2b39d": {
+    "url": "db://assets/Scripts/Egg.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "bb2b77ec-7f0c-4c34-b148-8a9e35bc5504": {
+    "url": "db://assets/Scripts/EggDatabase.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6af2839a-6f93-4984-8e6f-c0881aacca68": {
+    "url": "db://assets/Scripts/EndCard.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1a622092-c9d3-4a77-9ad5-975b94c31ace": {
+    "url": "db://assets/Scripts/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2ba60a15-def9-4db2-8a99-7a2eb3cbcd1e": {
+    "url": "db://assets/Scripts/GlobalAudioManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "9f23c8e3-30cb-46c3-b7c7-0f6260cd79af": {
+    "url": "db://assets/Scripts/Helper.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d747a727-65d2-4ac7-992c-34a8030a9ceb": {
+    "url": "db://assets/Scripts/Launcher.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "64ea437d-cac2-496e-8dd6-311dd3f15b9a": {
+    "url": "db://assets/Scripts/LayoutResponsive.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5a1b866f-7c1b-4dab-92be-549b64b664df": {
+    "url": "db://assets/Scripts/PlayableUiCanvasFix.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8e385c85-6f1a-4a0e-8805-ce0178f604c0": {
+    "url": "db://assets/Scripts/ThrowMergeGame.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7ccee78d-4830-483d-861e-96c7a9ffa16c": {
+    "url": "db://assets/Prefabs/Egg1.prefab",
+    "value": {
+      "depends": [
+        "e7ce0687-eb9d-48b9-959b-136b71cab16b@f9941",
+        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7afcc593-c01f-4396-b1ae-786b1de291ea": {
+    "url": "db://assets/Prefabs/Egg2.prefab",
+    "value": {
+      "depends": [
+        "e4b04ae5-1030-4f2f-99ee-99760fb2c650@f9941",
+        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2f5fa609-e238-47f1-9323-15185010eaf2": {
+    "url": "db://assets/Prefabs/Egg3.prefab",
+    "value": {
+      "depends": [
+        "e9bcd66d-5b72-4234-a9e1-38fb26704b81@f9941",
+        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "430062fd-187a-44eb-b1c8-df3cb4824df2": {
+    "url": "db://assets/Prefabs/Egg4.prefab",
+    "value": {
+      "depends": [
+        "3af1fa35-1771-4a06-811f-bb046199ba29@f9941",
+        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5fe6aa88-a263-4486-9b97-2f4cfc994a3b": {
+    "url": "db://assets/Prefabs/Egg5.prefab",
+    "value": {
+      "depends": [
+        "2471cdae-aff1-4bd1-b2a3-70c95392f31a@f9941",
+        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9a0326ee-b725-41db-bae5-433f726da9c5": {
+    "url": "db://assets/Prefabs/Egg6.prefab",
+    "value": {
+      "depends": [
+        "267bafd8-788c-4bce-9bd9-716059eedab3@f9941",
+        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fa3422e1-dede-4857-93f4-b655a89c2d61": {
+    "url": "db://assets/Prefabs/Egg7.prefab",
+    "value": {
+      "depends": [
+        "4647fa79-d40e-4646-855c-bed4c09edd33@f9941",
+        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "636b0f73-7c2d-450e-b9e0-696bf9c3d606": {
+    "url": "db://assets/Prefabs/Egg8.prefab",
+    "value": {
+      "depends": [
+        "cacb4b3d-7918-4652-b8d4-01f8b4522ff3@f9941",
+        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5a06ef2a-4d68-4de7-9582-eec329720de0": {
+    "url": "db://assets/Prefabs/Egg9.prefab",
+    "value": {
+      "depends": [
+        "b6ad940a-1313-4fae-9456-c77a889507c6@f9941",
+        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e4599460-c72f-4397-ad20-79bfa04e3add": {
+    "url": "db://assets/Scenes/scene.scene",
+    "value": {
+      "depends": [
+        "e4599460-c72f-4397-ad20-79bfa04e3add",
+        "eb7a1d64-96e4-4661-9e23-a9f18d434164",
+        "029d9fcb-bd28-4292-994a-3ba7f9d56013",
+        "80e89bbf-59be-413f-b98b-3922fc3ca487",
+        "c3707c0d-7f8b-4454-aaae-f5b9fc40b927",
+        "7df2dc20-22c4-4155-ae0f-a5ca1e850093",
+        "c2769702-1d7d-4c5a-a1be-0f711bb7782a",
+        "ffb2482e-7db0-41ce-9dac-92c1eaa58bda@f9941",
+        "8a5c6672-5689-490b-b8bf-574db9e8c2d2@f9941",
+        "87f0a9a8-bd85-4017-86df-1def74b3f16e@f9941",
+        "ec695995-cf55-4903-ac6d-a7878a3756a9@f9941",
+        "deccc226-f721-4bdc-a408-d1999097e447",
+        "7ccee78d-4830-483d-861e-96c7a9ffa16c",
+        "e7ce0687-eb9d-48b9-959b-136b71cab16b@f9941",
+        "7afcc593-c01f-4396-b1ae-786b1de291ea",
+        "e4b04ae5-1030-4f2f-99ee-99760fb2c650@f9941",
+        "2f5fa609-e238-47f1-9323-15185010eaf2",
+        "e9bcd66d-5b72-4234-a9e1-38fb26704b81@f9941",
+        "430062fd-187a-44eb-b1c8-df3cb4824df2",
+        "3af1fa35-1771-4a06-811f-bb046199ba29@f9941",
+        "5fe6aa88-a263-4486-9b97-2f4cfc994a3b",
+        "2471cdae-aff1-4bd1-b2a3-70c95392f31a@f9941",
+        "9a0326ee-b725-41db-bae5-433f726da9c5",
+        "267bafd8-788c-4bce-9bd9-716059eedab3@f9941",
+        "fa3422e1-dede-4857-93f4-b655a89c2d61",
+        "4647fa79-d40e-4646-855c-bed4c09edd33@f9941",
+        "636b0f73-7c2d-450e-b9e0-696bf9c3d606",
+        "cacb4b3d-7918-4652-b8d4-01f8b4522ff3@f9941",
+        "5a06ef2a-4d68-4de7-9582-eec329720de0",
+        "b6ad940a-1313-4fae-9456-c77a889507c6@f9941",
+        "46a0e931-8587-42e8-ad74-44274b5da07d@f9941",
+        "97f06b97-9560-4da2-a146-28db9616ab1c@f9941",
+        "061927ad-2681-445f-b286-9019446074c6@f9941",
+        "7f2f3031-2363-462a-b9df-337868210f07@f9941",
+        "33f2bff1-7720-490e-92d1-dec4124b58d2",
+        "df9d692f-a33d-4869-ad03-0b59419c9cd6@f9941",
+        "80ff214f-9437-4b7f-98ec-8f28fe4913fd@f9941",
+        "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f@f9941",
+        "76e94333-0850-4d03-8b84-c211a0dae96e@f9941",
+        "d6f65851-39c7-4038-bebf-cd86f1fff79e@f9941"
+      ],
+      "dependScripts": [
+        "46be32bc-e220-4644-96b5-8958cd53de7d",
+        "1a622092-c9d3-4a77-9ad5-975b94c31ace",
+        "6af2839a-6f93-4984-8e6f-c0881aacca68",
+        "8e385c85-6f1a-4a0e-8805-ce0178f604c0",
+        "bb2b77ec-7f0c-4c34-b148-8a9e35bc5504",
+        "d747a727-65d2-4ac7-992c-34a8030a9ceb",
+        "64ea437d-cac2-496e-8dd6-311dd3f15b9a",
+        "5a1b866f-7c1b-4dab-92be-549b64b664df",
+        "7496fb00-a349-40fc-8ca7-49126bfe7103",
+        "2ba60a15-def9-4db2-8a99-7a2eb3cbcd1e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b2eb6562-e7f0-4fe8-9b6d-0f28a07b1087": {
+    "url": "db://assets/Textures/Arrow.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "33f2bff1-7720-490e-92d1-dec4124b58d2": {
+    "url": "db://assets/Textures/AsapCondensedSemiBoldSP.ttf",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "061927ad-2681-445f-b286-9019446074c6": {
+    "url": "db://assets/Textures/Banner.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "27d152f4-7e6a-4fc3-8b26-84d9f3a5de62": {
+    "url": "db://assets/Textures/Button.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "df9d692f-a33d-4869-ad03-0b59419c9cd6": {
+    "url": "db://assets/Textures/Evolution_Chart.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b2eb6562-e7f0-4fe8-9b6d-0f28a07b1087@6c48a": {
+    "url": "db://assets/Textures/Arrow.webp@6c48a",
+    "value": {
+      "depends": [
+        "b2eb6562-e7f0-4fe8-9b6d-0f28a07b1087"
+      ]
+    },
+    "versionCode": 1
+  },
+  "27d152f4-7e6a-4fc3-8b26-84d9f3a5de62@6c48a": {
+    "url": "db://assets/Textures/Button.webp@6c48a",
+    "value": {
+      "depends": [
+        "27d152f4-7e6a-4fc3-8b26-84d9f3a5de62"
+      ]
+    },
+    "versionCode": 1
+  },
+  "061927ad-2681-445f-b286-9019446074c6@6c48a": {
+    "url": "db://assets/Textures/Banner.webp@6c48a",
+    "value": {
+      "depends": [
+        "061927ad-2681-445f-b286-9019446074c6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "df9d692f-a33d-4869-ad03-0b59419c9cd6@6c48a": {
+    "url": "db://assets/Textures/Evolution_Chart.webp@6c48a",
+    "value": {
+      "depends": [
+        "df9d692f-a33d-4869-ad03-0b59419c9cd6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "97f06b97-9560-4da2-a146-28db9616ab1c": {
+    "url": "db://assets/Textures/Logo.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b2eb6562-e7f0-4fe8-9b6d-0f28a07b1087@f9941": {
+    "url": "db://assets/Textures/Arrow.webp@f9941",
+    "value": {
+      "depends": [
+        "b2eb6562-e7f0-4fe8-9b6d-0f28a07b1087@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3c984007-6cd7-4961-b685-17dc011cd43a": {
+    "url": "db://assets/Textures/Main_Scene_00000.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "27d152f4-7e6a-4fc3-8b26-84d9f3a5de62@f9941": {
+    "url": "db://assets/Textures/Button.webp@f9941",
+    "value": {
+      "depends": [
+        "27d152f4-7e6a-4fc3-8b26-84d9f3a5de62@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4c211fd6-9152-4a81-a703-5d08d84baa70": {
+    "url": "db://assets/Textures/Main_UI_Final_UI.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "061927ad-2681-445f-b286-9019446074c6@f9941": {
+    "url": "db://assets/Textures/Banner.webp@f9941",
+    "value": {
+      "depends": [
+        "061927ad-2681-445f-b286-9019446074c6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6cbfb3ea-d869-453a-92ae-14a4b459833b": {
+    "url": "db://assets/Textures/Next_Ip_Board.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "97f06b97-9560-4da2-a146-28db9616ab1c@6c48a": {
+    "url": "db://assets/Textures/Logo.webp@6c48a",
+    "value": {
+      "depends": [
+        "97f06b97-9560-4da2-a146-28db9616ab1c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3c984007-6cd7-4961-b685-17dc011cd43a@6c48a": {
+    "url": "db://assets/Textures/Main_Scene_00000.webp@6c48a",
+    "value": {
+      "depends": [
+        "3c984007-6cd7-4961-b685-17dc011cd43a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4c211fd6-9152-4a81-a703-5d08d84baa70@6c48a": {
+    "url": "db://assets/Textures/Main_UI_Final_UI.webp@6c48a",
+    "value": {
+      "depends": [
+        "4c211fd6-9152-4a81-a703-5d08d84baa70"
+      ]
+    },
+    "versionCode": 1
+  },
+  "97f06b97-9560-4da2-a146-28db9616ab1c@f9941": {
+    "url": "db://assets/Textures/Logo.webp@f9941",
+    "value": {
+      "depends": [
+        "97f06b97-9560-4da2-a146-28db9616ab1c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fd70d8ae-690d-450c-a347-86ce453d5870": {
+    "url": "db://assets/Textures/Shadow.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6cbfb3ea-d869-453a-92ae-14a4b459833b@6c48a": {
+    "url": "db://assets/Textures/Next_Ip_Board.webp@6c48a",
+    "value": {
+      "depends": [
+        "6cbfb3ea-d869-453a-92ae-14a4b459833b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "df9d692f-a33d-4869-ad03-0b59419c9cd6@f9941": {
+    "url": "db://assets/Textures/Evolution_Chart.webp@f9941",
+    "value": {
+      "depends": [
+        "df9d692f-a33d-4869-ad03-0b59419c9cd6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7f2f3031-2363-462a-b9df-337868210f07": {
+    "url": "db://assets/Textures/Star.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6cbfb3ea-d869-453a-92ae-14a4b459833b@f9941": {
+    "url": "db://assets/Textures/Next_Ip_Board.webp@f9941",
+    "value": {
+      "depends": [
+        "6cbfb3ea-d869-453a-92ae-14a4b459833b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e7ce0687-eb9d-48b9-959b-136b71cab16b": {
+    "url": "db://assets/Textures/Eggs/Blackfeather.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fd70d8ae-690d-450c-a347-86ce453d5870@6c48a": {
+    "url": "db://assets/Textures/Shadow.webp@6c48a",
+    "value": {
+      "depends": [
+        "fd70d8ae-690d-450c-a347-86ce453d5870"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7f2f3031-2363-462a-b9df-337868210f07@6c48a": {
+    "url": "db://assets/Textures/Star.webp@6c48a",
+    "value": {
+      "depends": [
+        "7f2f3031-2363-462a-b9df-337868210f07"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e7ce0687-eb9d-48b9-959b-136b71cab16b@6c48a": {
+    "url": "db://assets/Textures/Eggs/Blackfeather.webp@6c48a",
+    "value": {
+      "depends": [
+        "e7ce0687-eb9d-48b9-959b-136b71cab16b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fd70d8ae-690d-450c-a347-86ce453d5870@f9941": {
+    "url": "db://assets/Textures/Shadow.webp@f9941",
+    "value": {
+      "depends": [
+        "fd70d8ae-690d-450c-a347-86ce453d5870@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4647fa79-d40e-4646-855c-bed4c09edd33": {
+    "url": "db://assets/Textures/Eggs/fampirastral.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7f2f3031-2363-462a-b9df-337868210f07@f9941": {
+    "url": "db://assets/Textures/Star.webp@f9941",
+    "value": {
+      "depends": [
+        "7f2f3031-2363-462a-b9df-337868210f07@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e4b04ae5-1030-4f2f-99ee-99760fb2c650": {
+    "url": "db://assets/Textures/Eggs/Firekong.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4647fa79-d40e-4646-855c-bed4c09edd33@6c48a": {
+    "url": "db://assets/Textures/Eggs/fampirastral.webp@6c48a",
+    "value": {
+      "depends": [
+        "4647fa79-d40e-4646-855c-bed4c09edd33"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e4b04ae5-1030-4f2f-99ee-99760fb2c650@6c48a": {
+    "url": "db://assets/Textures/Eggs/Firekong.webp@6c48a",
+    "value": {
+      "depends": [
+        "e4b04ae5-1030-4f2f-99ee-99760fb2c650"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e7ce0687-eb9d-48b9-959b-136b71cab16b@f9941": {
+    "url": "db://assets/Textures/Eggs/Blackfeather.webp@f9941",
+    "value": {
+      "depends": [
+        "e7ce0687-eb9d-48b9-959b-136b71cab16b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e9bcd66d-5b72-4234-a9e1-38fb26704b81": {
+    "url": "db://assets/Textures/Eggs/Lady_Meow.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4647fa79-d40e-4646-855c-bed4c09edd33@f9941": {
+    "url": "db://assets/Textures/Eggs/fampirastral.webp@f9941",
+    "value": {
+      "depends": [
+        "4647fa79-d40e-4646-855c-bed4c09edd33@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2471cdae-aff1-4bd1-b2a3-70c95392f31a": {
+    "url": "db://assets/Textures/Eggs/oliphanatic.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e4b04ae5-1030-4f2f-99ee-99760fb2c650@f9941": {
+    "url": "db://assets/Textures/Eggs/Firekong.webp@f9941",
+    "value": {
+      "depends": [
+        "e4b04ae5-1030-4f2f-99ee-99760fb2c650@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "267bafd8-788c-4bce-9bd9-716059eedab3": {
+    "url": "db://assets/Textures/Eggs/Pandaken.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3c984007-6cd7-4961-b685-17dc011cd43a@f9941": {
+    "url": "db://assets/Textures/Main_Scene_00000.webp@f9941",
+    "value": {
+      "depends": [
+        "3c984007-6cd7-4961-b685-17dc011cd43a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3af1fa35-1771-4a06-811f-bb046199ba29": {
+    "url": "db://assets/Textures/Eggs/Pandalf.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e9bcd66d-5b72-4234-a9e1-38fb26704b81@6c48a": {
+    "url": "db://assets/Textures/Eggs/Lady_Meow.webp@6c48a",
+    "value": {
+      "depends": [
+        "e9bcd66d-5b72-4234-a9e1-38fb26704b81"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2471cdae-aff1-4bd1-b2a3-70c95392f31a@6c48a": {
+    "url": "db://assets/Textures/Eggs/oliphanatic.webp@6c48a",
+    "value": {
+      "depends": [
+        "2471cdae-aff1-4bd1-b2a3-70c95392f31a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4c211fd6-9152-4a81-a703-5d08d84baa70@f9941": {
+    "url": "db://assets/Textures/Main_UI_Final_UI.webp@f9941",
+    "value": {
+      "depends": [
+        "4c211fd6-9152-4a81-a703-5d08d84baa70@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cacb4b3d-7918-4652-b8d4-01f8b4522ff3": {
+    "url": "db://assets/Textures/Eggs/Treezard.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "267bafd8-788c-4bce-9bd9-716059eedab3@6c48a": {
+    "url": "db://assets/Textures/Eggs/Pandaken.webp@6c48a",
+    "value": {
+      "depends": [
+        "267bafd8-788c-4bce-9bd9-716059eedab3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e9bcd66d-5b72-4234-a9e1-38fb26704b81@f9941": {
+    "url": "db://assets/Textures/Eggs/Lady_Meow.webp@f9941",
+    "value": {
+      "depends": [
+        "e9bcd66d-5b72-4234-a9e1-38fb26704b81@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2471cdae-aff1-4bd1-b2a3-70c95392f31a@f9941": {
+    "url": "db://assets/Textures/Eggs/oliphanatic.webp@f9941",
+    "value": {
+      "depends": [
+        "2471cdae-aff1-4bd1-b2a3-70c95392f31a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b6ad940a-1313-4fae-9456-c77a889507c6": {
+    "url": "db://assets/Textures/Eggs/Ursus.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3af1fa35-1771-4a06-811f-bb046199ba29@6c48a": {
+    "url": "db://assets/Textures/Eggs/Pandalf.webp@6c48a",
+    "value": {
+      "depends": [
+        "3af1fa35-1771-4a06-811f-bb046199ba29"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cacb4b3d-7918-4652-b8d4-01f8b4522ff3@6c48a": {
+    "url": "db://assets/Textures/Eggs/Treezard.webp@6c48a",
+    "value": {
+      "depends": [
+        "cacb4b3d-7918-4652-b8d4-01f8b4522ff3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "267bafd8-788c-4bce-9bd9-716059eedab3@f9941": {
+    "url": "db://assets/Textures/Eggs/Pandaken.webp@f9941",
+    "value": {
+      "depends": [
+        "267bafd8-788c-4bce-9bd9-716059eedab3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b6ad940a-1313-4fae-9456-c77a889507c6@6c48a": {
+    "url": "db://assets/Textures/Eggs/Ursus.webp@6c48a",
+    "value": {
+      "depends": [
+        "b6ad940a-1313-4fae-9456-c77a889507c6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3af1fa35-1771-4a06-811f-bb046199ba29@f9941": {
+    "url": "db://assets/Textures/Eggs/Pandalf.webp@f9941",
+    "value": {
+      "depends": [
+        "3af1fa35-1771-4a06-811f-bb046199ba29@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cacb4b3d-7918-4652-b8d4-01f8b4522ff3@f9941": {
+    "url": "db://assets/Textures/Eggs/Treezard.webp@f9941",
+    "value": {
+      "depends": [
+        "cacb4b3d-7918-4652-b8d4-01f8b4522ff3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b6ad940a-1313-4fae-9456-c77a889507c6@f9941": {
+    "url": "db://assets/Textures/Eggs/Ursus.webp@f9941",
+    "value": {
+      "depends": [
+        "b6ad940a-1313-4fae-9456-c77a889507c6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "46a0e931-8587-42e8-ad74-44274b5da07d": {
+    "url": "db://assets/Textures/Line.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "46a0e931-8587-42e8-ad74-44274b5da07d@6c48a": {
+    "url": "db://assets/Textures/Line.webp@6c48a",
+    "value": {
+      "depends": [
+        "46a0e931-8587-42e8-ad74-44274b5da07d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "46a0e931-8587-42e8-ad74-44274b5da07d@f9941": {
+    "url": "db://assets/Textures/Line.webp@f9941",
+    "value": {
+      "depends": [
+        "46a0e931-8587-42e8-ad74-44274b5da07d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "76e94333-0850-4d03-8b84-c211a0dae96e": {
+    "url": "db://assets/Textures/BG.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "76e94333-0850-4d03-8b84-c211a0dae96e@6c48a": {
+    "url": "db://assets/Textures/BG.webp@6c48a",
+    "value": {
+      "depends": [
+        "76e94333-0850-4d03-8b84-c211a0dae96e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "76e94333-0850-4d03-8b84-c211a0dae96e@f9941": {
+    "url": "db://assets/Textures/BG.webp@f9941",
+    "value": {
+      "depends": [
+        "76e94333-0850-4d03-8b84-c211a0dae96e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "eb7a1d64-96e4-4661-9e23-a9f18d434164": {
+    "url": "db://assets/SFX/BGM.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cd156108-0321-49b3-afba-3040d1addd62": {
+    "url": "db://assets/SFX",
+    "value": {},
+    "versionCode": 1
+  },
+  "c3707c0d-7f8b-4454-aaae-f5b9fc40b927": {
+    "url": "db://assets/SFX/EggHit.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7df2dc20-22c4-4155-ae0f-a5ca1e850093": {
+    "url": "db://assets/SFX/Merge.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f1c3b92c-7d20-4293-b095-a56b6c034738": {
+    "url": "db://assets/SFX/Failed.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c2769702-1d7d-4c5a-a1be-0f711bb7782a": {
+    "url": "db://assets/SFX/Win.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "80e89bbf-59be-413f-b98b-3922fc3ca487": {
+    "url": "db://assets/SFX/WoodHit.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "22f70ae9-86d0-44fb-87dd-057726a26abb": {
+    "url": "db://assets/SFX/Slide.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e124ec1a-9d1d-41e1-89d3-a10d6b8f6331": {
+    "url": "db://assets/Scripts/MergeEffect.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "deccc226-f721-4bdc-a408-d1999097e447": {
+    "url": "db://assets/Prefabs/MergeFX.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": [
+        "e124ec1a-9d1d-41e1-89d3-a10d6b8f6331"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0114f4cd-9c82-4971-bc5f-aef9ac5e9b82": {
+    "url": "db://assets/Textures/End_Screen.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0114f4cd-9c82-4971-bc5f-aef9ac5e9b82@6c48a": {
+    "url": "db://assets/Textures/End_Screen.webp@6c48a",
+    "value": {
+      "depends": [
+        "0114f4cd-9c82-4971-bc5f-aef9ac5e9b82"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0114f4cd-9c82-4971-bc5f-aef9ac5e9b82@f9941": {
+    "url": "db://assets/Textures/End_Screen.webp@f9941",
+    "value": {
+      "depends": [
+        "0114f4cd-9c82-4971-bc5f-aef9ac5e9b82@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "87f0a9a8-bd85-4017-86df-1def74b3f16e": {
+    "url": "db://assets/Textures/Claim_Button.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "87f0a9a8-bd85-4017-86df-1def74b3f16e@6c48a": {
+    "url": "db://assets/Textures/Claim_Button.webp@6c48a",
+    "value": {
+      "depends": [
+        "87f0a9a8-bd85-4017-86df-1def74b3f16e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "87f0a9a8-bd85-4017-86df-1def74b3f16e@f9941": {
+    "url": "db://assets/Textures/Claim_Button.webp@f9941",
+    "value": {
+      "depends": [
+        "87f0a9a8-bd85-4017-86df-1def74b3f16e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "029d9fcb-bd28-4292-994a-3ba7f9d56013": {
+    "url": "db://assets/SFX/Slide3.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f258e031-b32c-4595-b2af-a7e8658c93b7": {
+    "url": "db://assets/SFX/Slide2.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ffb2482e-7db0-41ce-9dac-92c1eaa58bda": {
+    "url": "db://assets/Textures/Perfect_Text.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ffb2482e-7db0-41ce-9dac-92c1eaa58bda@6c48a": {
+    "url": "db://assets/Textures/Perfect_Text.webp@6c48a",
+    "value": {
+      "depends": [
+        "ffb2482e-7db0-41ce-9dac-92c1eaa58bda"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ffb2482e-7db0-41ce-9dac-92c1eaa58bda@f9941": {
+    "url": "db://assets/Textures/Perfect_Text.webp@f9941",
+    "value": {
+      "depends": [
+        "ffb2482e-7db0-41ce-9dac-92c1eaa58bda@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8a5c6672-5689-490b-b8bf-574db9e8c2d2": {
+    "url": "db://assets/Textures/Oops.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d6f65851-39c7-4038-bebf-cd86f1fff79e": {
+    "url": "db://assets/Textures/End_Screen_BG.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d6f65851-39c7-4038-bebf-cd86f1fff79e@6c48a": {
+    "url": "db://assets/Textures/End_Screen_BG.webp@6c48a",
+    "value": {
+      "depends": [
+        "d6f65851-39c7-4038-bebf-cd86f1fff79e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8a5c6672-5689-490b-b8bf-574db9e8c2d2@6c48a": {
+    "url": "db://assets/Textures/Oops.webp@6c48a",
+    "value": {
+      "depends": [
+        "8a5c6672-5689-490b-b8bf-574db9e8c2d2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8a5c6672-5689-490b-b8bf-574db9e8c2d2@f9941": {
+    "url": "db://assets/Textures/Oops.webp@f9941",
+    "value": {
+      "depends": [
+        "8a5c6672-5689-490b-b8bf-574db9e8c2d2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d6f65851-39c7-4038-bebf-cd86f1fff79e@f9941": {
+    "url": "db://assets/Textures/End_Screen_BG.webp@f9941",
+    "value": {
+      "depends": [
+        "d6f65851-39c7-4038-bebf-cd86f1fff79e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "80ff214f-9437-4b7f-98ec-8f28fe4913fd": {
+    "url": "db://assets/Textures/Next_Up.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "80ff214f-9437-4b7f-98ec-8f28fe4913fd@6c48a": {
+    "url": "db://assets/Textures/Next_Up.webp@6c48a",
+    "value": {
+      "depends": [
+        "80ff214f-9437-4b7f-98ec-8f28fe4913fd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "80ff214f-9437-4b7f-98ec-8f28fe4913fd@f9941": {
+    "url": "db://assets/Textures/Next_Up.webp@f9941",
+    "value": {
+      "depends": [
+        "80ff214f-9437-4b7f-98ec-8f28fe4913fd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ec695995-cf55-4903-ac6d-a7878a3756a9": {
+    "url": "db://assets/Textures/Play_Now.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ec695995-cf55-4903-ac6d-a7878a3756a9@6c48a": {
+    "url": "db://assets/Textures/Play_Now.webp@6c48a",
+    "value": {
+      "depends": [
+        "ec695995-cf55-4903-ac6d-a7878a3756a9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ec695995-cf55-4903-ac6d-a7878a3756a9@f9941": {
+    "url": "db://assets/Textures/Play_Now.webp@f9941",
+    "value": {
+      "depends": [
+        "ec695995-cf55-4903-ac6d-a7878a3756a9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f": {
+    "url": "db://assets/Textures/image.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f@6c48a": {
+    "url": "db://assets/Textures/image.webp@6c48a",
+    "value": {
+      "depends": [
+        "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f@f9941": {
+    "url": "db://assets/Textures/image.webp@f9941",
+    "value": {
+      "depends": [
+        "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "77e2cdde-d49f-44a2-b8a6-b20d0c6957b9": {
+    "url": "db://assets/Textures/End_Screen_BG-001.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "77e2cdde-d49f-44a2-b8a6-b20d0c6957b9@6c48a": {
+    "url": "db://assets/Textures/End_Screen_BG-001.webp@6c48a",
+    "value": {
+      "depends": [
+        "77e2cdde-d49f-44a2-b8a6-b20d0c6957b9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "77e2cdde-d49f-44a2-b8a6-b20d0c6957b9@f9941": {
+    "url": "db://assets/Textures/End_Screen_BG-001.webp@f9941",
+    "value": {
+      "depends": [
+        "77e2cdde-d49f-44a2-b8a6-b20d0c6957b9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3d58b38d-d8db-42b4-81da-7f156ca3a60e": {
+    "url": "db://assets/Textures/Custom",
+    "value": {},
+    "versionCode": 1
+  },
+  "395c4908-fd4c-47ac-8839-05b0a830c490": {
+    "url": "db://assets/Textures/Custom/Amethyst Room.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "c86a3960-1c2b-4171-9aa6-40b7b9984ce0": {
+    "url": "db://assets/Textures/Custom/Bronze Room.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "c1f50dd3-f52d-4851-9cc0-12865b1b0118": {
+    "url": "db://assets/Textures/Custom/Gold Room.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "085f27c9-b092-4466-a9df-f33cac6dc39e": {
+    "url": "db://assets/Textures/Custom/IceRoom.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "93f0efe1-6f3a-434b-a3a6-6910a99bf0ed": {
+    "url": "db://assets/Textures/Custom/NatureRoom.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "c86a3960-1c2b-4171-9aa6-40b7b9984ce0@6c48a": {
+    "url": "db://assets/Textures/Custom/Bronze Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "c86a3960-1c2b-4171-9aa6-40b7b9984ce0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c1f50dd3-f52d-4851-9cc0-12865b1b0118@6c48a": {
+    "url": "db://assets/Textures/Custom/Gold Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "c1f50dd3-f52d-4851-9cc0-12865b1b0118"
+      ]
+    },
+    "versionCode": 1
+  },
+  "085f27c9-b092-4466-a9df-f33cac6dc39e@6c48a": {
+    "url": "db://assets/Textures/Custom/IceRoom.webp@6c48a",
+    "value": {
+      "depends": [
+        "085f27c9-b092-4466-a9df-f33cac6dc39e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "395c4908-fd4c-47ac-8839-05b0a830c490@6c48a": {
+    "url": "db://assets/Textures/Custom/Amethyst Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "395c4908-fd4c-47ac-8839-05b0a830c490"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c1f50dd3-f52d-4851-9cc0-12865b1b0118@f9941": {
+    "url": "db://assets/Textures/Custom/Gold Room.webp@f9941",
+    "value": {
+      "depends": [
+        "c1f50dd3-f52d-4851-9cc0-12865b1b0118@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c86a3960-1c2b-4171-9aa6-40b7b9984ce0@f9941": {
+    "url": "db://assets/Textures/Custom/Bronze Room.webp@f9941",
+    "value": {
+      "depends": [
+        "c86a3960-1c2b-4171-9aa6-40b7b9984ce0@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "deaacb01-aee6-4826-ac6f-8a8c360b25b7": {
+    "url": "db://assets/Textures/Custom/Onyx Room.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "e24dda23-d0bb-47f6-86c4-85979858a310": {
+    "url": "db://assets/Textures/Custom/Platinum Room.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "395c4908-fd4c-47ac-8839-05b0a830c490@f9941": {
+    "url": "db://assets/Textures/Custom/Amethyst Room.webp@f9941",
+    "value": {
+      "depends": [
+        "395c4908-fd4c-47ac-8839-05b0a830c490@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "085f27c9-b092-4466-a9df-f33cac6dc39e@f9941": {
+    "url": "db://assets/Textures/Custom/IceRoom.webp@f9941",
+    "value": {
+      "depends": [
+        "085f27c9-b092-4466-a9df-f33cac6dc39e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "935d014a-393e-4803-859c-5827d8cdb901": {
+    "url": "db://assets/Textures/Custom/Silver Room.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "00fcac24-0496-4735-a875-1ee12098f999": {
+    "url": "db://assets/Textures/Custom/Stone Room.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "93f0efe1-6f3a-434b-a3a6-6910a99bf0ed@6c48a": {
+    "url": "db://assets/Textures/Custom/NatureRoom.webp@6c48a",
+    "value": {
+      "depends": [
+        "93f0efe1-6f3a-434b-a3a6-6910a99bf0ed"
+      ]
+    },
+    "versionCode": 1
+  },
+  "deaacb01-aee6-4826-ac6f-8a8c360b25b7@6c48a": {
+    "url": "db://assets/Textures/Custom/Onyx Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "deaacb01-aee6-4826-ac6f-8a8c360b25b7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e24dda23-d0bb-47f6-86c4-85979858a310@6c48a": {
+    "url": "db://assets/Textures/Custom/Platinum Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "e24dda23-d0bb-47f6-86c4-85979858a310"
+      ]
+    },
+    "versionCode": 1
+  },
+  "935d014a-393e-4803-859c-5827d8cdb901@6c48a": {
+    "url": "db://assets/Textures/Custom/Silver Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "935d014a-393e-4803-859c-5827d8cdb901"
+      ]
+    },
+    "versionCode": 1
+  },
+  "00fcac24-0496-4735-a875-1ee12098f999@6c48a": {
+    "url": "db://assets/Textures/Custom/Stone Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "00fcac24-0496-4735-a875-1ee12098f999"
+      ]
+    },
+    "versionCode": 1
+  },
+  "93f0efe1-6f3a-434b-a3a6-6910a99bf0ed@f9941": {
+    "url": "db://assets/Textures/Custom/NatureRoom.webp@f9941",
+    "value": {
+      "depends": [
+        "93f0efe1-6f3a-434b-a3a6-6910a99bf0ed@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "904a3fc5-06e3-4d2f-a315-cf034cf0ca45": {
+    "url": "db://assets/Textures/Custom/Wood Room.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "e24dda23-d0bb-47f6-86c4-85979858a310@f9941": {
+    "url": "db://assets/Textures/Custom/Platinum Room.webp@f9941",
+    "value": {
+      "depends": [
+        "e24dda23-d0bb-47f6-86c4-85979858a310@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "935d014a-393e-4803-859c-5827d8cdb901@f9941": {
+    "url": "db://assets/Textures/Custom/Silver Room.webp@f9941",
+    "value": {
+      "depends": [
+        "935d014a-393e-4803-859c-5827d8cdb901@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "deaacb01-aee6-4826-ac6f-8a8c360b25b7@f9941": {
+    "url": "db://assets/Textures/Custom/Onyx Room.webp@f9941",
+    "value": {
+      "depends": [
+        "deaacb01-aee6-4826-ac6f-8a8c360b25b7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "904a3fc5-06e3-4d2f-a315-cf034cf0ca45@6c48a": {
+    "url": "db://assets/Textures/Custom/Wood Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "904a3fc5-06e3-4d2f-a315-cf034cf0ca45"
+      ]
+    },
+    "versionCode": 1
+  },
+  "00fcac24-0496-4735-a875-1ee12098f999@f9941": {
+    "url": "db://assets/Textures/Custom/Stone Room.webp@f9941",
+    "value": {
+      "depends": [
+        "00fcac24-0496-4735-a875-1ee12098f999@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "904a3fc5-06e3-4d2f-a315-cf034cf0ca45@f9941": {
+    "url": "db://assets/Textures/Custom/Wood Room.webp@f9941",
+    "value": {
+      "depends": [
+        "904a3fc5-06e3-4d2f-a315-cf034cf0ca45@6c48a"
+      ]
+    },
+    "versionCode": 1
+  }
+}
