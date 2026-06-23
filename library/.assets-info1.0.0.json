@@ -494,7 +494,7 @@
       "uuid": "cd156108-0321-49b3-afba-3040d1addd62"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures": {
-      "time": 1782199353286.8057,
+      "time": 1782203058589.2915,
       "uuid": "5594931a-1893-4e17-ba4b-e807389bfc55"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\AdManager.ts": {
@@ -510,7 +510,7 @@
       "uuid": "7496fb00-a349-40fc-8ca7-49126bfe7103"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\Egg.ts": {
-      "time": 1782194801537.7002,
+      "time": 1782208327384.0044,
       "uuid": "6280560e-dec3-448e-b55d-91093bd2b39d"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\EggDatabase.ts": {
@@ -611,7 +611,7 @@
       "time": 1780862545083.1707
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg1.prefab": {
-      "time": 1782202509081.3198,
+      "time": 1782207423671.5122,
       "uuid": "7ccee78d-4830-483d-861e-96c7a9ffa16c"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\MergeFX.prefab": {
@@ -619,7 +619,7 @@
       "uuid": "deccc226-f721-4bdc-a408-d1999097e447"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scenes\\scene.scene": {
-      "time": 1782202099711.533,
+      "time": 1782209339067.2246,
       "uuid": "e4599460-c72f-4397-ad20-79bfa04e3add"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\SFX\\BGM.mp3": {
@@ -817,7 +817,7 @@
       "time": 1782192514133.538
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Monster.prefab": {
-      "time": 1782192514129.6484,
+      "time": 1782207544772.2026,
       "uuid": "9a0070f2-8eb8-4eb5-ae82-ede1cd972c1a"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\FloatingText.prefab.meta": {
@@ -859,7 +859,7 @@
       "time": 1782194529607.1501
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\ThemeButton.ts": {
-      "time": 1782194534341.7078,
+      "time": 1782208354565.548,
       "uuid": "528d5edf-cda9-47cc-8899-8828a041dce0"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms.meta": {
@@ -1335,43 +1335,1198 @@
       "time": 1782199065794.183
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg2.prefab": {
-      "time": 1782202518299.5083,
+      "time": 1782207462557.5354,
       "uuid": "882a5efb-bca8-4869-b63e-8b63c88999eb"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg3.prefab.meta": {
       "time": 1782199070398.6404
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg3.prefab": {
-      "time": 1782202560277.3745,
+      "time": 1782207470634.329,
       "uuid": "d8387840-d816-48f3-873e-2d791f2e52cd"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg4.prefab.meta": {
       "time": 1782199070911.9585
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg4.prefab": {
-      "time": 1782202572477.8396,
+      "time": 1782207481496.0337,
       "uuid": "91359ca0-071b-4524-ab84-cf20cd7f6aa3"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg5.prefab.meta": {
       "time": 1782199071326.1494
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg5.prefab": {
-      "time": 1782202616741.3022,
+      "time": 1782207488993.1594,
       "uuid": "c16f6fd8-5160-4e7d-96dd-18918972ad6d"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg6.prefab.meta": {
       "time": 1782199071800.684
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg6.prefab": {
-      "time": 1782202629381.2144,
+      "time": 1782207496389.516,
       "uuid": "b2739bea-84d1-400e-bd12-49812db40b3f"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg7.prefab.meta": {
       "time": 1782199072235.195
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg7.prefab": {
-      "time": 1782202636470.8535,
+      "time": 1782207505045.066,
       "uuid": "b4d9b1c9-8977-4297-9284-bd30e2df211c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters.meta": {
+      "time": 1782203058598.2908
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters": {
+      "time": 1782206581299.6667,
+      "uuid": "b59a4254-a4f6-40cc-83b3-454403919cdc"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy036a.png.meta": {
+      "time": 1782203155111.9983
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy036b.png.meta": {
+      "time": 1782203155162.36
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy037.png.meta": {
+      "time": 1782203155180.6633
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy037a.png.meta": {
+      "time": 1782203155172.5981
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy037b.png.meta": {
+      "time": 1782203155170.573
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy038.png.meta": {
+      "time": 1782203163857.202
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy038a.png.meta": {
+      "time": 1782203155247.9868
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy038b.png.meta": {
+      "time": 1782203155252.36
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy039.png.meta": {
+      "time": 1782203164031.1292
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy039a.png.meta": {
+      "time": 1782203163663.9258
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy039b.png.meta": {
+      "time": 1782203155260.8726
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy040.png.meta": {
+      "time": 1782203164040.0151
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy040a.png.meta": {
+      "time": 1782203164023.2622
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy040b.png.meta": {
+      "time": 1782203164035.1614
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy041.png.meta": {
+      "time": 1782203164100.0828
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy041a.png.meta": {
+      "time": 1782203164038.0027
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy041b.png.meta": {
+      "time": 1782203164088.895
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy042.png.meta": {
+      "time": 1782203164124.2607
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy042a.png.meta": {
+      "time": 1782203164093.0208
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy042b.png.meta": {
+      "time": 1782203164120.236
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy043.png.meta": {
+      "time": 1782203176824.2783
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044.png.meta": {
+      "time": 1782203176898.5398
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044b.png.meta": {
+      "time": 1782203176832.3232
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044c.png.meta": {
+      "time": 1782203176838.3557
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044d.png.meta": {
+      "time": 1782203176842.3796
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044e.png.meta": {
+      "time": 1782203176842.3796
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044f.png.meta": {
+      "time": 1782203176887.766
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy045.png.meta": {
+      "time": 1782203189151.369
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy045a.png.meta": {
+      "time": 1782203189151.369
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy045b.png.meta": {
+      "time": 1782203176898.5398
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy046.png.meta": {
+      "time": 1782203189266.7007
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy046a.png.meta": {
+      "time": 1782203189262.4028
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy046b.png.meta": {
+      "time": 1782203189275.0286
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy047.png.meta": {
+      "time": 1782203189324.4678
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy047a.png.meta": {
+      "time": 1782203189289.5525
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy047b.png.meta": {
+      "time": 1782203189281.081
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy048.png.meta": {
+      "time": 1782203189345.6294
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy048a.png.meta": {
+      "time": 1782203189324.4678
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy048b.png.meta": {
+      "time": 1782203189340.184
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy049.png.meta": {
+      "time": 1782203201513.924
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy049a.png.meta": {
+      "time": 1782203189355.583
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy049b.png.meta": {
+      "time": 1782203201508.3235
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy050.png.meta": {
+      "time": 1782203201581.31
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy050a.png.meta": {
+      "time": 1782203201557.1501
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy050b.png.meta": {
+      "time": 1782203201561.1838
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy037.png": {
+      "time": 1781840988467.1326,
+      "uuid": "ecfbf7e6-3511-46b1-8163-69fc8743c068"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy037a.png": {
+      "time": 1781840988475.154,
+      "uuid": "5a0bc77d-4217-46a7-b0b1-8504211b3710"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy036b.png": {
+      "time": 1781840988459.6277,
+      "uuid": "7659e5d6-16fc-4bc8-a88b-a05cb75e8977"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy036a.png": {
+      "time": 1781840988451.6206,
+      "uuid": "5012e21f-9647-4628-8df0-663d83556e11"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy037b.png": {
+      "time": 1781840988483.1404,
+      "uuid": "9b98a90c-f03b-4b82-980b-378202f214da"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy038b.png": {
+      "time": 1781840988516.1494,
+      "uuid": "49ffe8cf-1b8d-41b0-a7e8-31f0f5669896"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy038a.png": {
+      "time": 1781840988503.1536,
+      "uuid": "3ed4b10b-22c0-40f3-83d3-339a22d32740"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy038.png": {
+      "time": 1781840988491.1533,
+      "uuid": "c1058c8a-fc90-4ce4-bcf1-eb310ca0f05f"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy039.png": {
+      "time": 1781840988531.1526,
+      "uuid": "509ec74f-8100-48e2-80fa-0bac21b854e1"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy039a.png": {
+      "time": 1781840988544.1375,
+      "uuid": "1c9ed87a-4530-46ac-8748-47c828483401"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy039b.png": {
+      "time": 1781840988553.145,
+      "uuid": "8cacad14-7a7a-42c8-8e28-33a496223bc9"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy040a.png": {
+      "time": 1781840988570.6597,
+      "uuid": "871afedf-9bba-463b-951d-02ee306f8d48"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy040.png": {
+      "time": 1781840988562.1443,
+      "uuid": "cc3e2c82-4aa2-43fe-a57f-00dd78871722"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy040b.png": {
+      "time": 1781840988578.6614,
+      "uuid": "83c9ec26-e6f5-406d-bcf8-3ad4d16ea74b"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy041.png": {
+      "time": 1781840988585.6858,
+      "uuid": "de883a8b-fc51-475a-ae35-110d5e413fa7"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy041a.png": {
+      "time": 1781840988595.6616,
+      "uuid": "ce8dcdf0-30da-4f88-8642-e6a8b48b9117"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy042.png": {
+      "time": 1781840988614.6736,
+      "uuid": "38249ecf-3752-4b70-bafa-4481a3d0ef3e"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy041b.png": {
+      "time": 1781840988605.663,
+      "uuid": "e1c40b98-3ec6-48ff-8ed5-08e139971f93"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy042a.png": {
+      "time": 1781840988624.6602,
+      "uuid": "44aafb8d-460d-483f-860e-b3ab7fec9a1f"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy042b.png": {
+      "time": 1781840988632.6611,
+      "uuid": "95e3018a-375a-448b-a052-3529f6219799"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044b.png": {
+      "time": 1781840988658.668,
+      "uuid": "26fd3e7f-3168-4ec5-af57-e4cacf7c3976"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044.png": {
+      "time": 1781840988650.66,
+      "uuid": "dc89aae2-1f11-4f0c-8e91-aa09d67141f5"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy043.png": {
+      "time": 1781840988641.6577,
+      "uuid": "031688b0-625b-46e9-9236-fd815d1e36dd"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044c.png": {
+      "time": 1781840988667.174,
+      "uuid": "39d8d6cb-1af7-4f51-8ea6-47a35522243a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044d.png": {
+      "time": 1781840988675.1982,
+      "uuid": "2d8aa555-724c-4a59-9aac-160391375d96"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044e.png": {
+      "time": 1781840988683.1821,
+      "uuid": "5f5f78a3-bd94-40e7-9e95-80e39a198e75"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy044f.png": {
+      "time": 1781840988692.182,
+      "uuid": "e45e5f22-404d-4b14-880c-eedd3e51d18c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy045.png": {
+      "time": 1781840988699.182,
+      "uuid": "8219452e-5538-4bde-a841-162acb9ebce6"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy045a.png": {
+      "time": 1781840988707.18,
+      "uuid": "fa8e9e07-dde6-43d8-8f9e-263cc4c5f38f"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy046.png": {
+      "time": 1781840988723.1814,
+      "uuid": "af791ca4-2e26-4c09-a5d7-be83b458ca2a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy045b.png": {
+      "time": 1781840988716.1814,
+      "uuid": "7db62fff-80f1-47fc-a244-c38c4f6edc3c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy046a.png": {
+      "time": 1781840988730.1948,
+      "uuid": "21c88161-cb72-489c-9542-ff6ab2fa2619"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy046b.png": {
+      "time": 1781840988739.1816,
+      "uuid": "db6a2776-aba8-474c-bb01-e9981cccc338"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy047.png": {
+      "time": 1781840988748.1804,
+      "uuid": "a1fade1f-de8b-42f0-b139-04842edb2b6c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy047b.png": {
+      "time": 1781840988768.708,
+      "uuid": "cf806469-9a5a-456c-936f-cfbeddf31063"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy047a.png": {
+      "time": 1781840988759.1895,
+      "uuid": "97520168-cbf1-4a5b-a022-14577dd75975"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy048.png": {
+      "time": 1781840988775.708,
+      "uuid": "cfeb1392-b8c4-4346-a403-2b381d1b711d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy048a.png": {
+      "time": 1781840988782.7078,
+      "uuid": "f58b5b22-5036-46f7-8c74-9c7a5a3dc2b2"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy048b.png": {
+      "time": 1781840988790.7075,
+      "uuid": "6598f323-dfbb-47a0-adfc-4bf32e622e1f"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy049.png": {
+      "time": 1781840988796.7197,
+      "uuid": "825ec70d-23c9-4569-accf-bc4737abb78b"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy049a.png": {
+      "time": 1781840988804.7075,
+      "uuid": "763c7a5b-b668-4022-8068-df2f132ae0ac"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy049b.png": {
+      "time": 1781840988811.7073,
+      "uuid": "5ac3fb2a-1b5b-4bf3-813b-652a65a7b823"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy050.png": {
+      "time": 1781840988818.7075,
+      "uuid": "d1e1660f-8480-4026-a01f-ad262fb54586"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy050a.png": {
+      "time": 1781840988825.707,
+      "uuid": "cb53cd04-f742-4e93-8caf-d821c1d02ed6"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy050b.png": {
+      "time": 1781840988832.707,
+      "uuid": "6caf3b84-9417-4eae-878a-efdfa13a10f0"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy006.png.meta": {
+      "time": 1782203085492.6606
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy006a.png.meta": {
+      "time": 1782203085445.6587
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy006b.png.meta": {
+      "time": 1782203085475.6602
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy007.png.meta": {
+      "time": 1782203085488.66
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy007a.png.meta": {
+      "time": 1782203085483.66
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy007b.png.meta": {
+      "time": 1782203085480.6692
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy008.png.meta": {
+      "time": 1782203085522.6602
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy008a.png.meta": {
+      "time": 1782203085516.6604
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy008b.png.meta": {
+      "time": 1782203085519.658
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy009.png.meta": {
+      "time": 1782203092068.3755
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy009a.png.meta": {
+      "time": 1782203085525.662
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy009b.png.meta": {
+      "time": 1782203085527.6587
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy010.png.meta": {
+      "time": 1782203092088.374
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy010a.png.meta": {
+      "time": 1782203092071.373
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy010b.png.meta": {
+      "time": 1782203092079.3733
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy011.png.meta": {
+      "time": 1782203092149.8086
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy011a.png.meta": {
+      "time": 1782203092077.3743
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy011b.png.meta": {
+      "time": 1782203092154.8113
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy012.png.meta": {
+      "time": 1782203092157.8127
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy012a.png.meta": {
+      "time": 1782203092165.2327
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy012b.png.meta": {
+      "time": 1782203092159.81
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy013.png.meta": {
+      "time": 1782203092207.7603
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy013a.png.meta": {
+      "time": 1782203092203.761
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy013b.png.meta": {
+      "time": 1782203092211.7588
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy014.png.meta": {
+      "time": 1782203100546.0293
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy014a.png.meta": {
+      "time": 1782203092218.7734
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy014b.png.meta": {
+      "time": 1782203092212.76
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy015.png.meta": {
+      "time": 1782203100549.0337
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy015a.png.meta": {
+      "time": 1782203100553.0327
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy015b.png.meta": {
+      "time": 1782203100552.0317
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy016.png.meta": {
+      "time": 1782203100608.5718
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy016a.png.meta": {
+      "time": 1782203100559.0315
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy016b.png.meta": {
+      "time": 1782203100594.1533
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy017.png.meta": {
+      "time": 1782203100605.1436
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy017a.png.meta": {
+      "time": 1782203100593.1443
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy017b.png.meta": {
+      "time": 1782203100595.1443
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy018.png.meta": {
+      "time": 1782203104742.4639
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy018a.png.meta": {
+      "time": 1782203104738.465
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy018b.png.meta": {
+      "time": 1782203104729.2012
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy019.png.meta": {
+      "time": 1782203104792.8528
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy019a.png.meta": {
+      "time": 1782203104751.8726
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy019b.png.meta": {
+      "time": 1782203104749.8774
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy020.png.meta": {
+      "time": 1782203104816.6953
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy020a.png.meta": {
+      "time": 1782203104798.922
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy020b.png.meta": {
+      "time": 1782203104805.3132
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy021.png.meta": {
+      "time": 1782203113929.8403
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy021a.png.meta": {
+      "time": 1782203104812.696
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy021b.png.meta": {
+      "time": 1782203113925.8423
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy022.png.meta": {
+      "time": 1782203113940.8425
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy022a.png.meta": {
+      "time": 1782203113933.842
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy022b.png.meta": {
+      "time": 1782203113941.8733
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy023.png.meta": {
+      "time": 1782203114000.1062
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy023a.png.meta": {
+      "time": 1782203113992.1086
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy023b.png.meta": {
+      "time": 1782203113989.105
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy024.png.meta": {
+      "time": 1782203120321.6838
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy024a.png.meta": {
+      "time": 1782203114004.1038
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy024b.png.meta": {
+      "time": 1782203113998.1028
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy025.png.meta": {
+      "time": 1782203120444.383
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy025a.png.meta": {
+      "time": 1782203120329.817
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy025b.png.meta": {
+      "time": 1782203120422.916
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy026.png.meta": {
+      "time": 1782203120493.5352
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy026a.png.meta": {
+      "time": 1782203120422.916
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy026b.png.meta": {
+      "time": 1782203120487.2234
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy027.png.meta": {
+      "time": 1782203120503.5928
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy027a.png.meta": {
+      "time": 1782203120509.7537
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy027b.png.meta": {
+      "time": 1782203120501.5786
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy028.png.meta": {
+      "time": 1782203120565.6543
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy028a.png.meta": {
+      "time": 1782203120542.3047
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy028b.png.meta": {
+      "time": 1782203120552.3718
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy029.png.meta": {
+      "time": 1782203120624.586
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy029a.png.meta": {
+      "time": 1782203120567.1665
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy029b.png.meta": {
+      "time": 1782203120558.8423
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy030.png.meta": {
+      "time": 1782203120634.6755
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy030a.png.meta": {
+      "time": 1782203120629.504
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy030b.png.meta": {
+      "time": 1782203120634.6755
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy031.png.meta": {
+      "time": 1782203137309.6487
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy031a.png.meta": {
+      "time": 1782203120642.1814
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy031b.png.meta": {
+      "time": 1782203137301.1577
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy032.png.meta": {
+      "time": 1782203137341.3794
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy032a.png.meta": {
+      "time": 1782203137325.4058
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy032b.png.meta": {
+      "time": 1782203137325.4058
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy033.png.meta": {
+      "time": 1782203137402.543
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy033a.png.meta": {
+      "time": 1782203137395.2427
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy033b.png.meta": {
+      "time": 1782203137389.6782
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy034.png.meta": {
+      "time": 1782203155089.42
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy034a.png.meta": {
+      "time": 1782203137382.136
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy034b.png.meta": {
+      "time": 1782203137410.5984
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy035.png.meta": {
+      "time": 1782203155111.9983
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy035a.png.meta": {
+      "time": 1782203155086.8782
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy035b.png.meta": {
+      "time": 1782203155097.495
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy036.png.meta": {
+      "time": 1782203155156.9814
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy006.png": {
+      "time": 1781840987152.093,
+      "uuid": "cb22fd2c-a147-4dc9-9f9d-c9d9fc4e45a6"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy006b.png": {
+      "time": 1781840987168.2593,
+      "uuid": "8409a4f3-7707-413d-90b6-caad00d841fc"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy006a.png": {
+      "time": 1781840987161.0916,
+      "uuid": "9c4c15b7-b583-4620-9118-d2f84d44a1df"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy007.png": {
+      "time": 1781840987176.2583,
+      "uuid": "753cea01-8559-42bd-a4bc-eae16dd97692"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy007a.png": {
+      "time": 1781840987184.245,
+      "uuid": "2279c944-8c70-40d7-b621-a5cef6a3ca92"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy007b.png": {
+      "time": 1781840987193.2434,
+      "uuid": "6ad09f27-6df6-4e9f-83d5-d8262fca9f1d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy008a.png": {
+      "time": 1781840987211.2427,
+      "uuid": "e783bb49-af82-4c5c-8403-6df8d06093ae"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy008.png": {
+      "time": 1781840987202.246,
+      "uuid": "16240da1-ea6f-45dd-98a8-c8e54ca9e8c5"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy008b.png": {
+      "time": 1781840987219.2422,
+      "uuid": "46ae9fca-a929-43ee-8226-398d928094ae"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy009.png": {
+      "time": 1781840987226.2576,
+      "uuid": "06f8ea0c-5404-4667-8c60-765da5ca6322"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy009a.png": {
+      "time": 1781840987234.253,
+      "uuid": "f7cc3f2f-a832-40cc-8d64-6ce2784bd423"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy009b.png": {
+      "time": 1781840987242.2588,
+      "uuid": "530ef8a5-6abc-4ba4-9644-8290ece84d2a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy010.png": {
+      "time": 1781840987250.2686,
+      "uuid": "0a5c9d98-3f8f-4b89-89c3-8f455c532beb"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy010a.png": {
+      "time": 1781840987258.3857,
+      "uuid": "57d6ebdd-a429-4a15-b42e-5a8f757f345e"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy010b.png": {
+      "time": 1781840987269.8389,
+      "uuid": "20eb4182-aaba-456e-a21e-e8645771f429"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy011.png": {
+      "time": 1781840987280.8516,
+      "uuid": "81f45704-3bca-49f2-9a41-66243ab424fb"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy011a.png": {
+      "time": 1781840987289.8518,
+      "uuid": "d2a9eca6-2190-4c79-96ef-655d61e3479b"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy011b.png": {
+      "time": 1781840987298.8372,
+      "uuid": "97461022-7109-458b-bd65-9c059d37511c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy012.png": {
+      "time": 1781840987307.838,
+      "uuid": "9a4f26dc-7290-45fd-a31a-08a903349f83"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy012a.png": {
+      "time": 1781840987315.838,
+      "uuid": "1466ded2-1717-4a45-96d6-c4d68af0019d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy012b.png": {
+      "time": 1781840987323.852,
+      "uuid": "ad4eefa2-708f-4db6-a5bd-4507d408f2b3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy013.png": {
+      "time": 1781840987331.8538,
+      "uuid": "b3b2ac3a-216a-4eca-841d-f9719ea6a425"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy013a.png": {
+      "time": 1781840987341.8513,
+      "uuid": "bd961a5e-f796-464a-8111-b08f28f217a1"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy013b.png": {
+      "time": 1781840987350.8577,
+      "uuid": "ecb3c5a0-53ad-4334-88b5-be6e060ed55c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy014.png": {
+      "time": 1781840987358.856,
+      "uuid": "08f6de91-7d9b-4858-951c-347d1f1b81c1"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy014a.png": {
+      "time": 1781840987368.382,
+      "uuid": "a21e9a94-9235-45da-bd46-8c686c3a7dbc"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy014b.png": {
+      "time": 1781840987377.3906,
+      "uuid": "bab8ac40-2c4c-4bd3-8c19-e10de13a16b9"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy015.png": {
+      "time": 1781840987387.3784,
+      "uuid": "249cf6fc-ab23-40f3-88b8-c79c8ea6cb98"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy015a.png": {
+      "time": 1781840987399.391,
+      "uuid": "18bd2bc0-049f-493d-a5eb-f36b8c9fb1a2"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy015b.png": {
+      "time": 1781840987410.3933,
+      "uuid": "0c5f91c1-4e38-4d9e-9299-e5f41efae0d2"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy016.png": {
+      "time": 1781840987421.391,
+      "uuid": "9c3400c4-0c98-4fff-9a90-a895b63665db"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy016a.png": {
+      "time": 1781840987430.375,
+      "uuid": "a05b7703-ef28-4e22-8ecb-5dcdf635078e"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy016b.png": {
+      "time": 1781840987443.3918,
+      "uuid": "3add3c4b-d8c3-4042-9ccb-2ea70a9a9a00"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy017.png": {
+      "time": 1781840987454.389,
+      "uuid": "84aeeb4a-b2ce-4bf3-8a81-c8e15493ef22"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy017a.png": {
+      "time": 1781840987464.9138,
+      "uuid": "b40dbb28-a3d5-40c1-bc08-694e7d704bdd"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy017b.png": {
+      "time": 1781840987472.9077,
+      "uuid": "0cfee5a1-af08-451c-94ed-bd307ad179d3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy018.png": {
+      "time": 1781840987484.921,
+      "uuid": "f519370d-fc5a-4a33-b097-5e0036d6ce24"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy018a.png": {
+      "time": 1781840987501.9094,
+      "uuid": "f3ecc454-87b9-438f-82d6-db80d4c6972e"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy018b.png": {
+      "time": 1781840987517.91,
+      "uuid": "272ec284-b5d7-47f1-a7d7-7d37306a9e50"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy019.png": {
+      "time": 1781840987533.9094,
+      "uuid": "dda8a90c-9842-4722-a4b8-e908707da0eb"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy019a.png": {
+      "time": 1781840987544.9224,
+      "uuid": "f5492d94-215d-4d96-a421-45b4a25d2e19"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy019b.png": {
+      "time": 1781840987558.9556,
+      "uuid": "2fc31c91-a16b-4936-b467-6abcf4521c3a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy020.png": {
+      "time": 1781840987578.505,
+      "uuid": "6d24d749-6852-4b4c-b68f-93cdc55e7202"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy020a.png": {
+      "time": 1781840987594.5112,
+      "uuid": "8f1f57d1-890f-4626-90de-c74c8987200b"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy020b.png": {
+      "time": 1781840987608.5105,
+      "uuid": "b6940b1d-36fc-4eab-a7b1-1d51c46dcfc2"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy021.png": {
+      "time": 1781840987628.513,
+      "uuid": "eb83a251-e978-49d5-afd0-57ed20fe2c55"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy021a.png": {
+      "time": 1781840987646.5046,
+      "uuid": "c4657cfb-029a-43ea-a594-13801c13da03"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy021b.png": {
+      "time": 1781840987659.668,
+      "uuid": "57c893d6-4f8a-43b8-9b2b-9945de8b5a4d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy022.png": {
+      "time": 1781840987671.1665,
+      "uuid": "1cb16a02-b289-4d57-9a6a-559ebe66d0c4"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy022a.png": {
+      "time": 1781840987691.1619,
+      "uuid": "36c3839c-0b7b-42b9-9ecb-73b8b5e06013"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy022b.png": {
+      "time": 1781840987702.1619,
+      "uuid": "b57a9b4d-fa6e-4aaf-94f5-5915b7c7e35e"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy023.png": {
+      "time": 1781840987712.1753,
+      "uuid": "913604ee-1377-4387-b41c-37480925f6ae"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy023a.png": {
+      "time": 1781840987722.1626,
+      "uuid": "f9b1242f-1a56-4150-9fe4-6015bb5804c8"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy023b.png": {
+      "time": 1781840987731.1753,
+      "uuid": "5fffbd69-f2c9-424b-aa5c-859164a4271c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy024.png": {
+      "time": 1781840987739.1611,
+      "uuid": "0e19fe25-9cf4-4374-9757-15e7bffd6292"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy024a.png": {
+      "time": 1781840987947.4116,
+      "uuid": "f740cb0e-4ffc-4567-b121-dd89eb3bce96"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy025.png": {
+      "time": 1781840988031.9824,
+      "uuid": "7b4156a3-a68f-499a-8869-9b35a34243a3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy024b.png": {
+      "time": 1781840987988.979,
+      "uuid": "e47758b4-4e18-41cf-b3d6-530c5e209918"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy025a.png": {
+      "time": 1781840988067.5518,
+      "uuid": "0d767382-db4d-4f6b-b829-f17c5009a37b"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy025b.png": {
+      "time": 1781840988097.9973,
+      "uuid": "1bea6fad-4862-481a-9254-4f29ebd5fe04"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy026.png": {
+      "time": 1781840988120.9915,
+      "uuid": "1fb0d5ba-2e1b-4182-90bb-4c2f65ba2c40"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy026a.png": {
+      "time": 1781840988144.9795,
+      "uuid": "e071c0ab-21fd-49eb-9583-3613f55038ee"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy027a.png": {
+      "time": 1781840988177.5012,
+      "uuid": "7733c97d-3afb-4944-9278-ea52acb21da6"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy026b.png": {
+      "time": 1781840988160.989,
+      "uuid": "1933bc68-47ff-422a-b0aa-2d6520c9f890"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy027.png": {
+      "time": 1781840988169.504,
+      "uuid": "20669027-b0f8-43d5-9b4d-f4d763371321"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy027b.png": {
+      "time": 1781840988185.502,
+      "uuid": "fa099b47-4ecd-4285-b2b5-e799e5bc64ed"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy028.png": {
+      "time": 1781840988195.503,
+      "uuid": "fbd76931-949b-4984-8b2d-ee291c312ade"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy029.png": {
+      "time": 1781840988224.5437,
+      "uuid": "7551498a-c830-456a-ad76-ca7e4f7dbc3a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy028a.png": {
+      "time": 1781840988205.5034,
+      "uuid": "def1a7ad-a85c-4aa2-b866-6edaa7f2803e"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy028b.png": {
+      "time": 1781840988214.5051,
+      "uuid": "07077f6a-a1f3-40f3-b094-2189c5a79b23"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy029a.png": {
+      "time": 1781840988232.5027,
+      "uuid": "c99f5d64-3a3c-496e-85f2-b89da1e007ec"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy029b.png": {
+      "time": 1781840988246.5164,
+      "uuid": "f14a1f94-57cf-4686-b33e-43ae4faad724"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy030.png": {
+      "time": 1781840988255.51,
+      "uuid": "2360ef90-8c64-4172-9f1d-2afb5529b38a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy030a.png": {
+      "time": 1781840988263.514,
+      "uuid": "42d40066-e323-4862-8f3f-23d6f061e7f1"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy030b.png": {
+      "time": 1781840988276.0752,
+      "uuid": "bca13cf1-9aaa-412d-9376-5c00159086f3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy031.png": {
+      "time": 1781840988292.0833,
+      "uuid": "14af3135-473f-4601-93b9-86646a3b1563"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy031a.png": {
+      "time": 1781840988303.0896,
+      "uuid": "41ee01dc-4675-48aa-9f47-b384c4176dcb"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy031b.png": {
+      "time": 1781840988311.0745,
+      "uuid": "0faf5d58-f3d9-4796-8f3d-73db5556e4d3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy032.png": {
+      "time": 1781840988318.0725,
+      "uuid": "6e0194cc-0fa3-4806-b008-0c5a093e7cb6"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy032a.png": {
+      "time": 1781840988326.0745,
+      "uuid": "78dcf051-e48b-42bf-a8bf-7621b3668d06"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy032b.png": {
+      "time": 1781840988333.0715,
+      "uuid": "434c979b-9f1a-43c7-93b3-31b46acfa436"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy033.png": {
+      "time": 1781840988343.0742,
+      "uuid": "2d1c6cd7-ec60-40d3-9e37-1459f0a0fda3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy033a.png": {
+      "time": 1781840988353.096,
+      "uuid": "2f19f230-129a-4647-9369-05aaae2dd4dd"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy033b.png": {
+      "time": 1781840988365.0796,
+      "uuid": "0ba0fd62-6959-4d87-8594-46b1beec5bec"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy034.png": {
+      "time": 1781840988373.6208,
+      "uuid": "ae2fb387-643a-453f-b3ea-4f3361c5c5f8"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy034a.png": {
+      "time": 1781840988384.6218,
+      "uuid": "7faeaa26-ca3b-4306-af32-5891d72f90e8"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy034b.png": {
+      "time": 1781840988395.6365,
+      "uuid": "cd26f6ef-3836-47d8-ac2c-a58092469c5c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy035.png": {
+      "time": 1781840988405.622,
+      "uuid": "4bb830b9-7994-477c-9a3f-0edc042dccac"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy035a.png": {
+      "time": 1781840988416.6353,
+      "uuid": "e5d4ae74-be6c-42d4-85d6-8caa40ec12c4"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy035b.png": {
+      "time": 1781840988429.621,
+      "uuid": "ee04e58a-47c0-4cf0-8058-7cb034350780"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\pipo-enemy036.png": {
+      "time": 1781840988439.6216,
+      "uuid": "f70a72e7-6515-449d-b007-b7711c3d0ce9"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses.meta": {
+      "time": 1782205525898.8418
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses": {
+      "time": 1782205629351.066,
+      "uuid": "b6e060d1-c7b2-4d83-ac64-2e538ce5c519"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses\\boss_AmethGhoul.png.meta": {
+      "time": 1782205399965.838
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses\\boss_AmethGhoul.png": {
+      "time": 1781840986989.2446,
+      "uuid": "b671e6a5-8285-4e47-9c3d-e18becd06e5b"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses\\boss_OnyxShade.png.meta": {
+      "time": 1782205413279.3118
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses\\boss_OnyxShade.png": {
+      "time": 1781840987007.517,
+      "uuid": "a1de9cbf-a19a-44e1-a44f-e04e8437603c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses\\boss_PlatVamp.png.meta": {
+      "time": 1782205418607.9517
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses\\boss_PlatVamp.png": {
+      "time": 1781840986976.2302,
+      "uuid": "be33530d-ce88-41d4-81a5-4c32bf0c20d5"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses\\boss_WoodBeast.png.meta": {
+      "time": 1782205425480.9556
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses\\boss_WoodBeast.png": {
+      "time": 1781840987020.516,
+      "uuid": "5b86dc80-dea0-4d94-a1c0-27790047a055"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Stone.meta": {
+      "time": 1782205602815.893
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Stone": {
+      "time": 1782205669712.2488,
+      "uuid": "a8dced5b-bf2c-40de-80e1-02e186749770"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Onyx.meta": {
+      "time": 1782205609907.7688
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Onyx": {
+      "time": 1782206121573.333,
+      "uuid": "1d39ed41-b6fb-4b1a-8f20-ff5af4baeb06"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Onyx\\onyx_bat.png.meta": {
+      "time": 1782205594416.5095
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Onyx\\onyx_bat.png": {
+      "time": 1781840987036.5173,
+      "uuid": "9ee0a130-6bbf-42f3-a893-cdd18449e8dd"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Amethyst.meta": {
+      "time": 1782205623960.5022
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Amethyst": {
+      "time": 1782206440608.5957,
+      "uuid": "62c555f7-1bf9-44b9-bb53-368b8c1e2dd1"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold.meta": {
+      "time": 1782205645676.646
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold": {
+      "time": 1782206585392.6445,
+      "uuid": "67e09d40-24b1-4e27-adc6-ffa9696a98be"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold\\gold_bat.png.meta": {
+      "time": 1782205550145.4312
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold\\gold_bat.png": {
+      "time": 1781840987043.5183,
+      "uuid": "189b079d-6d4a-4fa0-aba9-c5195b258e32"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Stone\\stone_bat.png.meta": {
+      "time": 1782205572472.726
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Stone\\stone_bat.png": {
+      "time": 1781840987027.5315,
+      "uuid": "6f7a3195-413e-400d-92d6-7f05448d4320"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Silver.meta": {
+      "time": 1782205691341.812
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Silver": {
+      "time": 1782206499726.3313,
+      "uuid": "5a1bb708-85bd-403a-b3ec-395a072166dd"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Platinum.meta": {
+      "time": 1782205693473.3135
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Platinum": {
+      "time": 1782206571999.2988,
+      "uuid": "76d9af35-9630-4e2f-90e9-83a058b6e64f"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bronze.meta": {
+      "time": 1782205699927.797
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bronze": {
+      "time": 1782206422738.9949,
+      "uuid": "af60ceda-ff5a-4ef0-83eb-6b930ee0d42a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood.meta": {
+      "time": 1782205705758.0803
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood": {
+      "time": 1782206515000.0999,
+      "uuid": "689b3c80-12ca-4873-b118-0cb087f5775b"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\wood_dog.png.meta": {
+      "time": 1782206092642.506
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\wood_dog.png": {
+      "time": 1781840987052.5442,
+      "uuid": "0d5d26e4-05a6-4e7e-963b-cf3a34dfbec2"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Onyx\\onyx_dog.png.meta": {
+      "time": 1782206118574.7893
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Onyx\\onyx_dog.png": {
+      "time": 1781840987071.0881,
+      "uuid": "94044597-8e51-4326-b1e1-0bd3721d2cfc"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Platinum\\platinum_dog.png.meta": {
+      "time": 1782206113815.067
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Platinum\\platinum_dog.png": {
+      "time": 1781840987063.0713,
+      "uuid": "a02b5ff7-6630-431e-b421-1dc99602ffb9"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bronze\\bronze_snake.png.meta": {
+      "time": 1782206422802.012
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bronze\\bronze_snake.png": {
+      "time": 1781840987085.0906,
+      "uuid": "48e616ea-438b-4e13-8c14-b24cbf2594b8"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Amethyst\\amethyst_snake.png.meta": {
+      "time": 1782206434913.275
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Amethyst\\amethyst_snake.png": {
+      "time": 1781840987092.1035,
+      "uuid": "53d0288a-07f3-42ef-a7a9-ba7c4c03a2c9"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\wood_snake.png.meta": {
+      "time": 1782206459306.2063
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\wood_snake.png": {
+      "time": 1781840987078.088,
+      "uuid": "3a65f683-4bbb-4c5a-b1c6-f743f0dee36f"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\wood_bug.png.meta": {
+      "time": 1782206463735.3174
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\wood_bug.png": {
+      "time": 1781840987109.0874,
+      "uuid": "e36a09b6-e5b2-46be-8bb6-c9b2d812d4b4"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold\\gold_bug.png.meta": {
+      "time": 1782206475589.5325
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold\\gold_bug.png": {
+      "time": 1781840987118.0881,
+      "uuid": "ed11d113-104d-40bb-8b65-7bc90926a5da"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Silver\\silver_bug.png.meta": {
+      "time": 1782206499749.3318
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Silver\\silver_bug.png": {
+      "time": 1781840987101.0894,
+      "uuid": "3ff4e157-46af-44d7-8d55-65f167d9cb4e"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\wood_worm.png.meta": {
+      "time": 1782206515036.116
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\wood_worm.png": {
+      "time": 1781840987136.0896,
+      "uuid": "60aab9aa-0c0e-4a04-8278-512a51321207"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Platinum\\platinum_worm.png.meta": {
+      "time": 1782206572039.3015
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Platinum\\platinum_worm.png": {
+      "time": 1781840987143.0874,
+      "uuid": "6be23b59-babc-4861-8e3f-5327c79605bd"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold\\gold_worm.png.meta": {
+      "time": 1782206585461.6687
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold\\gold_worm.png": {
+      "time": 1781840987129.088,
+      "uuid": "e751f4d6-c74b-4e1f-b132-89df3f085470"
     }
   },
   "missing": {
@@ -1659,6 +2814,121 @@
       "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Star.webp",
       "time": 1780816227588.9292,
       "removeTime": 1782199353292
+    },
+    "9ee0a130-6bbf-42f3-a893-cdd18449e8dd": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\onyx_bat.png",
+      "time": 1781840987036.5173,
+      "removeTime": 1782205612980
+    },
+    "189b079d-6d4a-4fa0-aba9-c5195b258e32": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\gold_bat.png",
+      "time": 1781840987043.5183,
+      "removeTime": 1782205649676
+    },
+    "6f7a3195-413e-400d-92d6-7f05448d4320": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\stone_bat.png",
+      "time": 1781840987027.5315,
+      "removeTime": 1782205669712
+    },
+    "be33530d-ce88-41d4-81a5-4c32bf0c20d5": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\boss_PlatVamp.png",
+      "time": 1781840986976.2302,
+      "removeTime": 1782205532070
+    },
+    "b671e6a5-8285-4e47-9c3d-e18becd06e5b": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\boss_AmethGhoul.png",
+      "time": 1781840986989.2446,
+      "removeTime": 1782205531940
+    },
+    "a1de9cbf-a19a-44e1-a44f-e04e8437603c": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\boss_OnyxShade.png",
+      "time": 1781840987007.517,
+      "removeTime": 1782205532065
+    },
+    "5b86dc80-dea0-4d94-a1c0-27790047a055": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\boss_WoodBeast.png",
+      "time": 1781840987020.516,
+      "removeTime": 1782205532075
+    },
+    "62c555f7-1bf9-44b9-bb53-368b8c1e2dd1": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bosses\\Amethyst",
+      "time": 1782205623952.4998,
+      "removeTime": 1782205629352
+    },
+    "76d9af35-9630-4e2f-90e9-83a058b6e64f": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Silver-001",
+      "time": 1782205693474.314,
+      "removeTime": 1782205698566
+    },
+    "af60ceda-ff5a-4ef0-83eb-6b930ee0d42a": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Platinum-001",
+      "time": 1782205699934.7998,
+      "removeTime": 1782205703660
+    },
+    "689b3c80-12ca-4873-b118-0cb087f5775b": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bronze-001",
+      "time": 1782205705761.1494,
+      "removeTime": 1782205708869
+    },
+    "0d5d26e4-05a6-4e7e-963b-cf3a34dfbec2": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\wood_dog.png",
+      "time": 1781840987052.5442,
+      "removeTime": 1782206106050
+    },
+    "a02b5ff7-6630-431e-b421-1dc99602ffb9": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\platinum_dog.png",
+      "time": 1781840987063.0713,
+      "removeTime": 1782206144419
+    },
+    "94044597-8e51-4326-b1e1-0bd3721d2cfc": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\onyx_dog.png",
+      "time": 1781840987071.0881,
+      "removeTime": 1782206121576
+    },
+    "48e616ea-438b-4e13-8c14-b24cbf2594b8": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Bronze\\pipo-enemy003a.png",
+      "time": 1781840987085.0906,
+      "removeTime": 1782206422739
+    },
+    "53d0288a-07f3-42ef-a7a9-ba7c4c03a2c9": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\amethyst_snake.png",
+      "time": 1781840987092.1035,
+      "removeTime": 1782206440609
+    },
+    "3a65f683-4bbb-4c5a-b1c6-f743f0dee36f": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\a.png",
+      "time": 1781840987078.088,
+      "removeTime": 1782206459286
+    },
+    "e36a09b6-e5b2-46be-8bb6-c9b2d812d4b4": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\pipo-enemy004a.png",
+      "time": 1781840987109.0874,
+      "removeTime": 1782206463718
+    },
+    "ed11d113-104d-40bb-8b65-7bc90926a5da": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold\\pipo-enemy004b.png",
+      "time": 1781840987118.0881,
+      "removeTime": 1782206475559
+    },
+    "3ff4e157-46af-44d7-8d55-65f167d9cb4e": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Silver\\pipo-enemy004.png",
+      "time": 1781840987101.0894,
+      "removeTime": 1782206499729
+    },
+    "60aab9aa-0c0e-4a04-8278-512a51321207": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Wood\\pipo-enemy005a.png",
+      "time": 1781840987136.0896,
+      "removeTime": 1782206515002
+    },
+    "6be23b59-babc-4861-8e3f-5327c79605bd": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Platinum\\pipo-enemy005b.png",
+      "time": 1781840987143.0874,
+      "removeTime": 1782206572001
+    },
+    "e751f4d6-c74b-4e1f-b132-89df3f085470": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold\\pipo-enemy005.png",
+      "time": 1781840987129.088,
+      "removeTime": 1782206585394
     }
   }
 }

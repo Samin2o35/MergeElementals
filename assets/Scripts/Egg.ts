@@ -25,6 +25,12 @@ export class Egg extends Component {
 
     @property(Sprite) eggArt: Sprite = null!;
 
+    @property({ tooltip: 'Spin speed (deg/sec) for tier 1, the slowest tier.' })
+    spinBaseDeg: number = 30;
+
+    @property({ tooltip: 'Extra deg/sec added per tier. tier spin = base + tierIndex * step.' })
+    spinStepDeg: number = 30;
+
     public tier: number = 0;
     public mergeable: boolean = true;     // false while docked in the launcher
     public consumed: boolean = false;     // guards double-merge
@@ -43,6 +49,13 @@ export class Egg extends Component {
 
     onDestroy() {
         if (this._col) this._col.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+    }
+
+    update(dt: number) {
+        // Visual-only spin on the art child; body has Fixed Rotation so physics is untouched.
+        if (!this.eggArt) return;
+        const speed = this.spinBaseDeg + this.tier * this.spinStepDeg;
+        this.eggArt.node.angle = (this.eggArt.node.angle - speed * dt) % 360;
     }
 
     /** Swap the piece art (used on spawn and on theme change). Tier/physics unchanged. */

@@ -229,13 +229,32 @@
         "d8ecd999-4884-4f5c-b3ec-3f6c1167fdac@f9941",
         "e9ffd143-e22d-47e1-ad14-894a1e51888c@f9941",
         "1e16f461-7ed5-473b-84ca-839a887363c3@f9941",
-        "e93942f9-572c-431b-9ac1-5c65a796d6da@f9941",
+        "f83a5422-eeba-45b3-a6a0-a6c0ca224e55@f9941",
         "80ff214f-9437-4b7f-98ec-8f28fe4913fd@f9941",
         "33f2bff1-7720-490e-92d1-dec4124b58d2",
         "1d8ab62a-6545-4bf8-a5bd-d72af80941c3@f9941",
-        "f83a5422-eeba-45b3-a6a0-a6c0ca224e55@f9941",
+        "e93942f9-572c-431b-9ac1-5c65a796d6da@f9941",
         "9a0070f2-8eb8-4eb5-ae82-ede1cd972c1a",
         "91fb315c-5fd5-44a7-86a3-7d5e8a558bac",
+        "9ee0a130-6bbf-42f3-a893-cdd18449e8dd@f9941",
+        "189b079d-6d4a-4fa0-aba9-c5195b258e32@f9941",
+        "6f7a3195-413e-400d-92d6-7f05448d4320@f9941",
+        "53d0288a-07f3-42ef-a7a9-ba7c4c03a2c9@f9941",
+        "48e616ea-438b-4e13-8c14-b24cbf2594b8@f9941",
+        "3a65f683-4bbb-4c5a-b1c6-f743f0dee36f@f9941",
+        "ed11d113-104d-40bb-8b65-7bc90926a5da@f9941",
+        "3ff4e157-46af-44d7-8d55-65f167d9cb4e@f9941",
+        "e36a09b6-e5b2-46be-8bb6-c9b2d812d4b4@f9941",
+        "94044597-8e51-4326-b1e1-0bd3721d2cfc@f9941",
+        "a02b5ff7-6630-431e-b421-1dc99602ffb9@f9941",
+        "0d5d26e4-05a6-4e7e-963b-cf3a34dfbec2@f9941",
+        "e751f4d6-c74b-4e1f-b132-89df3f085470@f9941",
+        "6be23b59-babc-4861-8e3f-5327c79605bd@f9941",
+        "60aab9aa-0c0e-4a04-8278-512a51321207@f9941",
+        "be33530d-ce88-41d4-81a5-4c32bf0c20d5@f9941",
+        "b671e6a5-8285-4e47-9c3d-e18becd06e5b@f9941",
+        "a1de9cbf-a19a-44e1-a44f-e04e8437603c@f9941",
+        "5b86dc80-dea0-4d94-a1c0-27790047a055@f9941",
         "d6f65851-39c7-4038-bebf-cd86f1fff79e@f9941"
       ],
       "dependScripts": [
@@ -1612,11 +1631,13 @@
     "url": "db://assets/Prefabs/Monster.prefab",
     "value": {
       "depends": [
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "be33530d-ce88-41d4-81a5-4c32bf0c20d5@f9941",
         "f83a5422-eeba-45b3-a6a0-a6c0ca224e55@f9941",
         "e93942f9-572c-431b-9ac1-5c65a796d6da@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "70b81383-46ce-43a0-88d8-ff0b31e6a151"
+      ]
     },
     "versionCode": 1
   },
@@ -3180,6 +3201,3931 @@
         "6280560e-dec3-448e-b55d-91093bd2b39d"
       ]
     },
+    "versionCode": 1
+  },
+  "b59a4254-a4f6-40cc-83b3-454403919cdc": {
+    "url": "db://assets/Textures/Monsters",
+    "value": {},
+    "versionCode": 1
+  },
+  "5012e21f-9647-4628-8df0-663d83556e11": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy036a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7659e5d6-16fc-4bc8-a88b-a05cb75e8977": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy036b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ecfbf7e6-3511-46b1-8163-69fc8743c068": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy037.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5a0bc77d-4217-46a7-b0b1-8504211b3710": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy037a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9b98a90c-f03b-4b82-980b-378202f214da": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy037b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ecfbf7e6-3511-46b1-8163-69fc8743c068@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy037.png@6c48a",
+    "value": {
+      "depends": [
+        "ecfbf7e6-3511-46b1-8163-69fc8743c068"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5a0bc77d-4217-46a7-b0b1-8504211b3710@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy037a.png@6c48a",
+    "value": {
+      "depends": [
+        "5a0bc77d-4217-46a7-b0b1-8504211b3710"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7659e5d6-16fc-4bc8-a88b-a05cb75e8977@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy036b.png@6c48a",
+    "value": {
+      "depends": [
+        "7659e5d6-16fc-4bc8-a88b-a05cb75e8977"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ecfbf7e6-3511-46b1-8163-69fc8743c068@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy037.png@f9941",
+    "value": {
+      "depends": [
+        "ecfbf7e6-3511-46b1-8163-69fc8743c068@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5a0bc77d-4217-46a7-b0b1-8504211b3710@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy037a.png@f9941",
+    "value": {
+      "depends": [
+        "5a0bc77d-4217-46a7-b0b1-8504211b3710@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c1058c8a-fc90-4ce4-bcf1-eb310ca0f05f": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy038.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3ed4b10b-22c0-40f3-83d3-339a22d32740": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy038a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7659e5d6-16fc-4bc8-a88b-a05cb75e8977@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy036b.png@f9941",
+    "value": {
+      "depends": [
+        "7659e5d6-16fc-4bc8-a88b-a05cb75e8977@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5012e21f-9647-4628-8df0-663d83556e11@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy036a.png@6c48a",
+    "value": {
+      "depends": [
+        "5012e21f-9647-4628-8df0-663d83556e11"
+      ]
+    },
+    "versionCode": 1
+  },
+  "49ffe8cf-1b8d-41b0-a7e8-31f0f5669896": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy038b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5012e21f-9647-4628-8df0-663d83556e11@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy036a.png@f9941",
+    "value": {
+      "depends": [
+        "5012e21f-9647-4628-8df0-663d83556e11@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "509ec74f-8100-48e2-80fa-0bac21b854e1": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy039.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9b98a90c-f03b-4b82-980b-378202f214da@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy037b.png@6c48a",
+    "value": {
+      "depends": [
+        "9b98a90c-f03b-4b82-980b-378202f214da"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9b98a90c-f03b-4b82-980b-378202f214da@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy037b.png@f9941",
+    "value": {
+      "depends": [
+        "9b98a90c-f03b-4b82-980b-378202f214da@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1c9ed87a-4530-46ac-8748-47c828483401": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy039a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3ed4b10b-22c0-40f3-83d3-339a22d32740@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy038a.png@6c48a",
+    "value": {
+      "depends": [
+        "3ed4b10b-22c0-40f3-83d3-339a22d32740"
+      ]
+    },
+    "versionCode": 1
+  },
+  "49ffe8cf-1b8d-41b0-a7e8-31f0f5669896@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy038b.png@6c48a",
+    "value": {
+      "depends": [
+        "49ffe8cf-1b8d-41b0-a7e8-31f0f5669896"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c1058c8a-fc90-4ce4-bcf1-eb310ca0f05f@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy038.png@6c48a",
+    "value": {
+      "depends": [
+        "c1058c8a-fc90-4ce4-bcf1-eb310ca0f05f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "49ffe8cf-1b8d-41b0-a7e8-31f0f5669896@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy038b.png@f9941",
+    "value": {
+      "depends": [
+        "49ffe8cf-1b8d-41b0-a7e8-31f0f5669896@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8cacad14-7a7a-42c8-8e28-33a496223bc9": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy039b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3ed4b10b-22c0-40f3-83d3-339a22d32740@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy038a.png@f9941",
+    "value": {
+      "depends": [
+        "3ed4b10b-22c0-40f3-83d3-339a22d32740@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cc3e2c82-4aa2-43fe-a57f-00dd78871722": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy040.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c1058c8a-fc90-4ce4-bcf1-eb310ca0f05f@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy038.png@f9941",
+    "value": {
+      "depends": [
+        "c1058c8a-fc90-4ce4-bcf1-eb310ca0f05f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "871afedf-9bba-463b-951d-02ee306f8d48": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy040a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "509ec74f-8100-48e2-80fa-0bac21b854e1@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy039.png@6c48a",
+    "value": {
+      "depends": [
+        "509ec74f-8100-48e2-80fa-0bac21b854e1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1c9ed87a-4530-46ac-8748-47c828483401@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy039a.png@6c48a",
+    "value": {
+      "depends": [
+        "1c9ed87a-4530-46ac-8748-47c828483401"
+      ]
+    },
+    "versionCode": 1
+  },
+  "509ec74f-8100-48e2-80fa-0bac21b854e1@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy039.png@f9941",
+    "value": {
+      "depends": [
+        "509ec74f-8100-48e2-80fa-0bac21b854e1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "83c9ec26-e6f5-406d-bcf8-3ad4d16ea74b": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy040b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1c9ed87a-4530-46ac-8748-47c828483401@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy039a.png@f9941",
+    "value": {
+      "depends": [
+        "1c9ed87a-4530-46ac-8748-47c828483401@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "de883a8b-fc51-475a-ae35-110d5e413fa7": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy041.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8cacad14-7a7a-42c8-8e28-33a496223bc9@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy039b.png@6c48a",
+    "value": {
+      "depends": [
+        "8cacad14-7a7a-42c8-8e28-33a496223bc9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "871afedf-9bba-463b-951d-02ee306f8d48@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy040a.png@6c48a",
+    "value": {
+      "depends": [
+        "871afedf-9bba-463b-951d-02ee306f8d48"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cc3e2c82-4aa2-43fe-a57f-00dd78871722@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy040.png@6c48a",
+    "value": {
+      "depends": [
+        "cc3e2c82-4aa2-43fe-a57f-00dd78871722"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8cacad14-7a7a-42c8-8e28-33a496223bc9@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy039b.png@f9941",
+    "value": {
+      "depends": [
+        "8cacad14-7a7a-42c8-8e28-33a496223bc9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ce8dcdf0-30da-4f88-8642-e6a8b48b9117": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy041a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "871afedf-9bba-463b-951d-02ee306f8d48@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy040a.png@f9941",
+    "value": {
+      "depends": [
+        "871afedf-9bba-463b-951d-02ee306f8d48@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e1c40b98-3ec6-48ff-8ed5-08e139971f93": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy041b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cc3e2c82-4aa2-43fe-a57f-00dd78871722@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy040.png@f9941",
+    "value": {
+      "depends": [
+        "cc3e2c82-4aa2-43fe-a57f-00dd78871722@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "38249ecf-3752-4b70-bafa-4481a3d0ef3e": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy042.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "83c9ec26-e6f5-406d-bcf8-3ad4d16ea74b@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy040b.png@6c48a",
+    "value": {
+      "depends": [
+        "83c9ec26-e6f5-406d-bcf8-3ad4d16ea74b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "83c9ec26-e6f5-406d-bcf8-3ad4d16ea74b@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy040b.png@f9941",
+    "value": {
+      "depends": [
+        "83c9ec26-e6f5-406d-bcf8-3ad4d16ea74b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "44aafb8d-460d-483f-860e-b3ab7fec9a1f": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy042a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "de883a8b-fc51-475a-ae35-110d5e413fa7@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy041.png@6c48a",
+    "value": {
+      "depends": [
+        "de883a8b-fc51-475a-ae35-110d5e413fa7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "de883a8b-fc51-475a-ae35-110d5e413fa7@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy041.png@f9941",
+    "value": {
+      "depends": [
+        "de883a8b-fc51-475a-ae35-110d5e413fa7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "95e3018a-375a-448b-a052-3529f6219799": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy042b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ce8dcdf0-30da-4f88-8642-e6a8b48b9117@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy041a.png@6c48a",
+    "value": {
+      "depends": [
+        "ce8dcdf0-30da-4f88-8642-e6a8b48b9117"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e1c40b98-3ec6-48ff-8ed5-08e139971f93@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy041b.png@6c48a",
+    "value": {
+      "depends": [
+        "e1c40b98-3ec6-48ff-8ed5-08e139971f93"
+      ]
+    },
+    "versionCode": 1
+  },
+  "38249ecf-3752-4b70-bafa-4481a3d0ef3e@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy042.png@6c48a",
+    "value": {
+      "depends": [
+        "38249ecf-3752-4b70-bafa-4481a3d0ef3e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ce8dcdf0-30da-4f88-8642-e6a8b48b9117@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy041a.png@f9941",
+    "value": {
+      "depends": [
+        "ce8dcdf0-30da-4f88-8642-e6a8b48b9117@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "031688b0-625b-46e9-9236-fd815d1e36dd": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy043.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "44aafb8d-460d-483f-860e-b3ab7fec9a1f@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy042a.png@6c48a",
+    "value": {
+      "depends": [
+        "44aafb8d-460d-483f-860e-b3ab7fec9a1f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "38249ecf-3752-4b70-bafa-4481a3d0ef3e@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy042.png@f9941",
+    "value": {
+      "depends": [
+        "38249ecf-3752-4b70-bafa-4481a3d0ef3e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dc89aae2-1f11-4f0c-8e91-aa09d67141f5": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e1c40b98-3ec6-48ff-8ed5-08e139971f93@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy041b.png@f9941",
+    "value": {
+      "depends": [
+        "e1c40b98-3ec6-48ff-8ed5-08e139971f93@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "26fd3e7f-3168-4ec5-af57-e4cacf7c3976": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "44aafb8d-460d-483f-860e-b3ab7fec9a1f@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy042a.png@f9941",
+    "value": {
+      "depends": [
+        "44aafb8d-460d-483f-860e-b3ab7fec9a1f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "39d8d6cb-1af7-4f51-8ea6-47a35522243a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044c.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "95e3018a-375a-448b-a052-3529f6219799@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy042b.png@6c48a",
+    "value": {
+      "depends": [
+        "95e3018a-375a-448b-a052-3529f6219799"
+      ]
+    },
+    "versionCode": 1
+  },
+  "26fd3e7f-3168-4ec5-af57-e4cacf7c3976@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044b.png@6c48a",
+    "value": {
+      "depends": [
+        "26fd3e7f-3168-4ec5-af57-e4cacf7c3976"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dc89aae2-1f11-4f0c-8e91-aa09d67141f5@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044.png@6c48a",
+    "value": {
+      "depends": [
+        "dc89aae2-1f11-4f0c-8e91-aa09d67141f5"
+      ]
+    },
+    "versionCode": 1
+  },
+  "95e3018a-375a-448b-a052-3529f6219799@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy042b.png@f9941",
+    "value": {
+      "depends": [
+        "95e3018a-375a-448b-a052-3529f6219799@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2d8aa555-724c-4a59-9aac-160391375d96": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044d.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "26fd3e7f-3168-4ec5-af57-e4cacf7c3976@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044b.png@f9941",
+    "value": {
+      "depends": [
+        "26fd3e7f-3168-4ec5-af57-e4cacf7c3976@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5f5f78a3-bd94-40e7-9e95-80e39a198e75": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044e.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dc89aae2-1f11-4f0c-8e91-aa09d67141f5@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044.png@f9941",
+    "value": {
+      "depends": [
+        "dc89aae2-1f11-4f0c-8e91-aa09d67141f5@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "031688b0-625b-46e9-9236-fd815d1e36dd@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy043.png@6c48a",
+    "value": {
+      "depends": [
+        "031688b0-625b-46e9-9236-fd815d1e36dd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e45e5f22-404d-4b14-880c-eedd3e51d18c": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044f.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "031688b0-625b-46e9-9236-fd815d1e36dd@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy043.png@f9941",
+    "value": {
+      "depends": [
+        "031688b0-625b-46e9-9236-fd815d1e36dd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8219452e-5538-4bde-a841-162acb9ebce6": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy045.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "39d8d6cb-1af7-4f51-8ea6-47a35522243a@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044c.png@6c48a",
+    "value": {
+      "depends": [
+        "39d8d6cb-1af7-4f51-8ea6-47a35522243a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "39d8d6cb-1af7-4f51-8ea6-47a35522243a@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044c.png@f9941",
+    "value": {
+      "depends": [
+        "39d8d6cb-1af7-4f51-8ea6-47a35522243a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fa8e9e07-dde6-43d8-8f9e-263cc4c5f38f": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy045a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2d8aa555-724c-4a59-9aac-160391375d96@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044d.png@6c48a",
+    "value": {
+      "depends": [
+        "2d8aa555-724c-4a59-9aac-160391375d96"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5f5f78a3-bd94-40e7-9e95-80e39a198e75@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044e.png@6c48a",
+    "value": {
+      "depends": [
+        "5f5f78a3-bd94-40e7-9e95-80e39a198e75"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2d8aa555-724c-4a59-9aac-160391375d96@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044d.png@f9941",
+    "value": {
+      "depends": [
+        "2d8aa555-724c-4a59-9aac-160391375d96@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7db62fff-80f1-47fc-a244-c38c4f6edc3c": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy045b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e45e5f22-404d-4b14-880c-eedd3e51d18c@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044f.png@6c48a",
+    "value": {
+      "depends": [
+        "e45e5f22-404d-4b14-880c-eedd3e51d18c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5f5f78a3-bd94-40e7-9e95-80e39a198e75@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044e.png@f9941",
+    "value": {
+      "depends": [
+        "5f5f78a3-bd94-40e7-9e95-80e39a198e75@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "af791ca4-2e26-4c09-a5d7-be83b458ca2a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy046.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8219452e-5538-4bde-a841-162acb9ebce6@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy045.png@6c48a",
+    "value": {
+      "depends": [
+        "8219452e-5538-4bde-a841-162acb9ebce6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e45e5f22-404d-4b14-880c-eedd3e51d18c@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy044f.png@f9941",
+    "value": {
+      "depends": [
+        "e45e5f22-404d-4b14-880c-eedd3e51d18c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "21c88161-cb72-489c-9542-ff6ab2fa2619": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy046a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fa8e9e07-dde6-43d8-8f9e-263cc4c5f38f@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy045a.png@6c48a",
+    "value": {
+      "depends": [
+        "fa8e9e07-dde6-43d8-8f9e-263cc4c5f38f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8219452e-5538-4bde-a841-162acb9ebce6@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy045.png@f9941",
+    "value": {
+      "depends": [
+        "8219452e-5538-4bde-a841-162acb9ebce6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "db6a2776-aba8-474c-bb01-e9981cccc338": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy046b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fa8e9e07-dde6-43d8-8f9e-263cc4c5f38f@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy045a.png@f9941",
+    "value": {
+      "depends": [
+        "fa8e9e07-dde6-43d8-8f9e-263cc4c5f38f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a1fade1f-de8b-42f0-b139-04842edb2b6c": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy047.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "af791ca4-2e26-4c09-a5d7-be83b458ca2a@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy046.png@6c48a",
+    "value": {
+      "depends": [
+        "af791ca4-2e26-4c09-a5d7-be83b458ca2a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7db62fff-80f1-47fc-a244-c38c4f6edc3c@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy045b.png@6c48a",
+    "value": {
+      "depends": [
+        "7db62fff-80f1-47fc-a244-c38c4f6edc3c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "af791ca4-2e26-4c09-a5d7-be83b458ca2a@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy046.png@f9941",
+    "value": {
+      "depends": [
+        "af791ca4-2e26-4c09-a5d7-be83b458ca2a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "97520168-cbf1-4a5b-a022-14577dd75975": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy047a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7db62fff-80f1-47fc-a244-c38c4f6edc3c@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy045b.png@f9941",
+    "value": {
+      "depends": [
+        "7db62fff-80f1-47fc-a244-c38c4f6edc3c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cf806469-9a5a-456c-936f-cfbeddf31063": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy047b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "21c88161-cb72-489c-9542-ff6ab2fa2619@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy046a.png@6c48a",
+    "value": {
+      "depends": [
+        "21c88161-cb72-489c-9542-ff6ab2fa2619"
+      ]
+    },
+    "versionCode": 1
+  },
+  "db6a2776-aba8-474c-bb01-e9981cccc338@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy046b.png@6c48a",
+    "value": {
+      "depends": [
+        "db6a2776-aba8-474c-bb01-e9981cccc338"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a1fade1f-de8b-42f0-b139-04842edb2b6c@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy047.png@6c48a",
+    "value": {
+      "depends": [
+        "a1fade1f-de8b-42f0-b139-04842edb2b6c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "21c88161-cb72-489c-9542-ff6ab2fa2619@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy046a.png@f9941",
+    "value": {
+      "depends": [
+        "21c88161-cb72-489c-9542-ff6ab2fa2619@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cfeb1392-b8c4-4346-a403-2b381d1b711d": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy048.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "db6a2776-aba8-474c-bb01-e9981cccc338@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy046b.png@f9941",
+    "value": {
+      "depends": [
+        "db6a2776-aba8-474c-bb01-e9981cccc338@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f58b5b22-5036-46f7-8c74-9c7a5a3dc2b2": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy048a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a1fade1f-de8b-42f0-b139-04842edb2b6c@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy047.png@f9941",
+    "value": {
+      "depends": [
+        "a1fade1f-de8b-42f0-b139-04842edb2b6c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6598f323-dfbb-47a0-adfc-4bf32e622e1f": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy048b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cf806469-9a5a-456c-936f-cfbeddf31063@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy047b.png@6c48a",
+    "value": {
+      "depends": [
+        "cf806469-9a5a-456c-936f-cfbeddf31063"
+      ]
+    },
+    "versionCode": 1
+  },
+  "97520168-cbf1-4a5b-a022-14577dd75975@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy047a.png@6c48a",
+    "value": {
+      "depends": [
+        "97520168-cbf1-4a5b-a022-14577dd75975"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cfeb1392-b8c4-4346-a403-2b381d1b711d@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy048.png@6c48a",
+    "value": {
+      "depends": [
+        "cfeb1392-b8c4-4346-a403-2b381d1b711d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cf806469-9a5a-456c-936f-cfbeddf31063@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy047b.png@f9941",
+    "value": {
+      "depends": [
+        "cf806469-9a5a-456c-936f-cfbeddf31063@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "825ec70d-23c9-4569-accf-bc4737abb78b": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy049.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "97520168-cbf1-4a5b-a022-14577dd75975@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy047a.png@f9941",
+    "value": {
+      "depends": [
+        "97520168-cbf1-4a5b-a022-14577dd75975@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "763c7a5b-b668-4022-8068-df2f132ae0ac": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy049a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f58b5b22-5036-46f7-8c74-9c7a5a3dc2b2@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy048a.png@6c48a",
+    "value": {
+      "depends": [
+        "f58b5b22-5036-46f7-8c74-9c7a5a3dc2b2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cfeb1392-b8c4-4346-a403-2b381d1b711d@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy048.png@f9941",
+    "value": {
+      "depends": [
+        "cfeb1392-b8c4-4346-a403-2b381d1b711d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5ac3fb2a-1b5b-4bf3-813b-652a65a7b823": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy049b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6598f323-dfbb-47a0-adfc-4bf32e622e1f@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy048b.png@6c48a",
+    "value": {
+      "depends": [
+        "6598f323-dfbb-47a0-adfc-4bf32e622e1f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f58b5b22-5036-46f7-8c74-9c7a5a3dc2b2@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy048a.png@f9941",
+    "value": {
+      "depends": [
+        "f58b5b22-5036-46f7-8c74-9c7a5a3dc2b2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d1e1660f-8480-4026-a01f-ad262fb54586": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy050.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6598f323-dfbb-47a0-adfc-4bf32e622e1f@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy048b.png@f9941",
+    "value": {
+      "depends": [
+        "6598f323-dfbb-47a0-adfc-4bf32e622e1f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cb53cd04-f742-4e93-8caf-d821c1d02ed6": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy050a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "825ec70d-23c9-4569-accf-bc4737abb78b@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy049.png@6c48a",
+    "value": {
+      "depends": [
+        "825ec70d-23c9-4569-accf-bc4737abb78b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "825ec70d-23c9-4569-accf-bc4737abb78b@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy049.png@f9941",
+    "value": {
+      "depends": [
+        "825ec70d-23c9-4569-accf-bc4737abb78b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6caf3b84-9417-4eae-878a-efdfa13a10f0": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy050b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "763c7a5b-b668-4022-8068-df2f132ae0ac@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy049a.png@6c48a",
+    "value": {
+      "depends": [
+        "763c7a5b-b668-4022-8068-df2f132ae0ac"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5ac3fb2a-1b5b-4bf3-813b-652a65a7b823@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy049b.png@6c48a",
+    "value": {
+      "depends": [
+        "5ac3fb2a-1b5b-4bf3-813b-652a65a7b823"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d1e1660f-8480-4026-a01f-ad262fb54586@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy050.png@6c48a",
+    "value": {
+      "depends": [
+        "d1e1660f-8480-4026-a01f-ad262fb54586"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cb53cd04-f742-4e93-8caf-d821c1d02ed6@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy050a.png@6c48a",
+    "value": {
+      "depends": [
+        "cb53cd04-f742-4e93-8caf-d821c1d02ed6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "763c7a5b-b668-4022-8068-df2f132ae0ac@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy049a.png@f9941",
+    "value": {
+      "depends": [
+        "763c7a5b-b668-4022-8068-df2f132ae0ac@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5ac3fb2a-1b5b-4bf3-813b-652a65a7b823@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy049b.png@f9941",
+    "value": {
+      "depends": [
+        "5ac3fb2a-1b5b-4bf3-813b-652a65a7b823@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d1e1660f-8480-4026-a01f-ad262fb54586@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy050.png@f9941",
+    "value": {
+      "depends": [
+        "d1e1660f-8480-4026-a01f-ad262fb54586@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cb53cd04-f742-4e93-8caf-d821c1d02ed6@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy050a.png@f9941",
+    "value": {
+      "depends": [
+        "cb53cd04-f742-4e93-8caf-d821c1d02ed6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6caf3b84-9417-4eae-878a-efdfa13a10f0@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy050b.png@6c48a",
+    "value": {
+      "depends": [
+        "6caf3b84-9417-4eae-878a-efdfa13a10f0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6caf3b84-9417-4eae-878a-efdfa13a10f0@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy050b.png@f9941",
+    "value": {
+      "depends": [
+        "6caf3b84-9417-4eae-878a-efdfa13a10f0@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "be33530d-ce88-41d4-81a5-4c32bf0c20d5": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_PlatVamp.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b671e6a5-8285-4e47-9c3d-e18becd06e5b": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_AmethGhoul.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a1de9cbf-a19a-44e1-a44f-e04e8437603c": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_OnyxShade.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5b86dc80-dea0-4d94-a1c0-27790047a055": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_WoodBeast.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6f7a3195-413e-400d-92d6-7f05448d4320": {
+    "url": "db://assets/Textures/Monsters/Stone/stone_bat.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6f7a3195-413e-400d-92d6-7f05448d4320@6c48a": {
+    "url": "db://assets/Textures/Monsters/Stone/stone_bat.png@6c48a",
+    "value": {
+      "depends": [
+        "6f7a3195-413e-400d-92d6-7f05448d4320"
+      ]
+    },
+    "versionCode": 1
+  },
+  "be33530d-ce88-41d4-81a5-4c32bf0c20d5@6c48a": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_PlatVamp.png@6c48a",
+    "value": {
+      "depends": [
+        "be33530d-ce88-41d4-81a5-4c32bf0c20d5"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5b86dc80-dea0-4d94-a1c0-27790047a055@6c48a": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_WoodBeast.png@6c48a",
+    "value": {
+      "depends": [
+        "5b86dc80-dea0-4d94-a1c0-27790047a055"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6f7a3195-413e-400d-92d6-7f05448d4320@f9941": {
+    "url": "db://assets/Textures/Monsters/Stone/stone_bat.png@f9941",
+    "value": {
+      "depends": [
+        "6f7a3195-413e-400d-92d6-7f05448d4320@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9ee0a130-6bbf-42f3-a893-cdd18449e8dd": {
+    "url": "db://assets/Textures/Monsters/Onyx/onyx_bat.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "be33530d-ce88-41d4-81a5-4c32bf0c20d5@f9941": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_PlatVamp.png@f9941",
+    "value": {
+      "depends": [
+        "be33530d-ce88-41d4-81a5-4c32bf0c20d5@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "189b079d-6d4a-4fa0-aba9-c5195b258e32": {
+    "url": "db://assets/Textures/Monsters/Gold/gold_bat.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5b86dc80-dea0-4d94-a1c0-27790047a055@f9941": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_WoodBeast.png@f9941",
+    "value": {
+      "depends": [
+        "5b86dc80-dea0-4d94-a1c0-27790047a055@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0d5d26e4-05a6-4e7e-963b-cf3a34dfbec2": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_dog.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b671e6a5-8285-4e47-9c3d-e18becd06e5b@6c48a": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_AmethGhoul.png@6c48a",
+    "value": {
+      "depends": [
+        "b671e6a5-8285-4e47-9c3d-e18becd06e5b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a1de9cbf-a19a-44e1-a44f-e04e8437603c@6c48a": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_OnyxShade.png@6c48a",
+    "value": {
+      "depends": [
+        "a1de9cbf-a19a-44e1-a44f-e04e8437603c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9ee0a130-6bbf-42f3-a893-cdd18449e8dd@6c48a": {
+    "url": "db://assets/Textures/Monsters/Onyx/onyx_bat.png@6c48a",
+    "value": {
+      "depends": [
+        "9ee0a130-6bbf-42f3-a893-cdd18449e8dd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b671e6a5-8285-4e47-9c3d-e18becd06e5b@f9941": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_AmethGhoul.png@f9941",
+    "value": {
+      "depends": [
+        "b671e6a5-8285-4e47-9c3d-e18becd06e5b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a1de9cbf-a19a-44e1-a44f-e04e8437603c@f9941": {
+    "url": "db://assets/Textures/Monsters/Bosses/boss_OnyxShade.png@f9941",
+    "value": {
+      "depends": [
+        "a1de9cbf-a19a-44e1-a44f-e04e8437603c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a02b5ff7-6630-431e-b421-1dc99602ffb9": {
+    "url": "db://assets/Textures/Monsters/Platinum/platinum_dog.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "94044597-8e51-4326-b1e1-0bd3721d2cfc": {
+    "url": "db://assets/Textures/Monsters/Onyx/onyx_dog.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9ee0a130-6bbf-42f3-a893-cdd18449e8dd@f9941": {
+    "url": "db://assets/Textures/Monsters/Onyx/onyx_bat.png@f9941",
+    "value": {
+      "depends": [
+        "9ee0a130-6bbf-42f3-a893-cdd18449e8dd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3a65f683-4bbb-4c5a-b1c6-f743f0dee36f": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_snake.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0d5d26e4-05a6-4e7e-963b-cf3a34dfbec2@6c48a": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_dog.png@6c48a",
+    "value": {
+      "depends": [
+        "0d5d26e4-05a6-4e7e-963b-cf3a34dfbec2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "189b079d-6d4a-4fa0-aba9-c5195b258e32@6c48a": {
+    "url": "db://assets/Textures/Monsters/Gold/gold_bat.png@6c48a",
+    "value": {
+      "depends": [
+        "189b079d-6d4a-4fa0-aba9-c5195b258e32"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0d5d26e4-05a6-4e7e-963b-cf3a34dfbec2@f9941": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_dog.png@f9941",
+    "value": {
+      "depends": [
+        "0d5d26e4-05a6-4e7e-963b-cf3a34dfbec2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "189b079d-6d4a-4fa0-aba9-c5195b258e32@f9941": {
+    "url": "db://assets/Textures/Monsters/Gold/gold_bat.png@f9941",
+    "value": {
+      "depends": [
+        "189b079d-6d4a-4fa0-aba9-c5195b258e32@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "48e616ea-438b-4e13-8c14-b24cbf2594b8": {
+    "url": "db://assets/Textures/Monsters/Bronze/bronze_snake.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "53d0288a-07f3-42ef-a7a9-ba7c4c03a2c9": {
+    "url": "db://assets/Textures/Monsters/Amethyst/amethyst_snake.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "94044597-8e51-4326-b1e1-0bd3721d2cfc@6c48a": {
+    "url": "db://assets/Textures/Monsters/Onyx/onyx_dog.png@6c48a",
+    "value": {
+      "depends": [
+        "94044597-8e51-4326-b1e1-0bd3721d2cfc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a02b5ff7-6630-431e-b421-1dc99602ffb9@6c48a": {
+    "url": "db://assets/Textures/Monsters/Platinum/platinum_dog.png@6c48a",
+    "value": {
+      "depends": [
+        "a02b5ff7-6630-431e-b421-1dc99602ffb9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "94044597-8e51-4326-b1e1-0bd3721d2cfc@f9941": {
+    "url": "db://assets/Textures/Monsters/Onyx/onyx_dog.png@f9941",
+    "value": {
+      "depends": [
+        "94044597-8e51-4326-b1e1-0bd3721d2cfc@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3ff4e157-46af-44d7-8d55-65f167d9cb4e": {
+    "url": "db://assets/Textures/Monsters/Silver/silver_bug.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3a65f683-4bbb-4c5a-b1c6-f743f0dee36f@6c48a": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_snake.png@6c48a",
+    "value": {
+      "depends": [
+        "3a65f683-4bbb-4c5a-b1c6-f743f0dee36f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a02b5ff7-6630-431e-b421-1dc99602ffb9@f9941": {
+    "url": "db://assets/Textures/Monsters/Platinum/platinum_dog.png@f9941",
+    "value": {
+      "depends": [
+        "a02b5ff7-6630-431e-b421-1dc99602ffb9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e36a09b6-e5b2-46be-8bb6-c9b2d812d4b4": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_bug.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "48e616ea-438b-4e13-8c14-b24cbf2594b8@6c48a": {
+    "url": "db://assets/Textures/Monsters/Bronze/bronze_snake.png@6c48a",
+    "value": {
+      "depends": [
+        "48e616ea-438b-4e13-8c14-b24cbf2594b8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3a65f683-4bbb-4c5a-b1c6-f743f0dee36f@f9941": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_snake.png@f9941",
+    "value": {
+      "depends": [
+        "3a65f683-4bbb-4c5a-b1c6-f743f0dee36f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ed11d113-104d-40bb-8b65-7bc90926a5da": {
+    "url": "db://assets/Textures/Monsters/Gold/gold_bug.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "53d0288a-07f3-42ef-a7a9-ba7c4c03a2c9@6c48a": {
+    "url": "db://assets/Textures/Monsters/Amethyst/amethyst_snake.png@6c48a",
+    "value": {
+      "depends": [
+        "53d0288a-07f3-42ef-a7a9-ba7c4c03a2c9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "48e616ea-438b-4e13-8c14-b24cbf2594b8@f9941": {
+    "url": "db://assets/Textures/Monsters/Bronze/bronze_snake.png@f9941",
+    "value": {
+      "depends": [
+        "48e616ea-438b-4e13-8c14-b24cbf2594b8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e751f4d6-c74b-4e1f-b132-89df3f085470": {
+    "url": "db://assets/Textures/Monsters/Gold/gold_worm.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "53d0288a-07f3-42ef-a7a9-ba7c4c03a2c9@f9941": {
+    "url": "db://assets/Textures/Monsters/Amethyst/amethyst_snake.png@f9941",
+    "value": {
+      "depends": [
+        "53d0288a-07f3-42ef-a7a9-ba7c4c03a2c9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "60aab9aa-0c0e-4a04-8278-512a51321207": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_worm.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e751f4d6-c74b-4e1f-b132-89df3f085470@6c48a": {
+    "url": "db://assets/Textures/Monsters/Gold/gold_worm.png@6c48a",
+    "value": {
+      "depends": [
+        "e751f4d6-c74b-4e1f-b132-89df3f085470"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3ff4e157-46af-44d7-8d55-65f167d9cb4e@6c48a": {
+    "url": "db://assets/Textures/Monsters/Silver/silver_bug.png@6c48a",
+    "value": {
+      "depends": [
+        "3ff4e157-46af-44d7-8d55-65f167d9cb4e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ed11d113-104d-40bb-8b65-7bc90926a5da@6c48a": {
+    "url": "db://assets/Textures/Monsters/Gold/gold_bug.png@6c48a",
+    "value": {
+      "depends": [
+        "ed11d113-104d-40bb-8b65-7bc90926a5da"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e751f4d6-c74b-4e1f-b132-89df3f085470@f9941": {
+    "url": "db://assets/Textures/Monsters/Gold/gold_worm.png@f9941",
+    "value": {
+      "depends": [
+        "e751f4d6-c74b-4e1f-b132-89df3f085470@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6be23b59-babc-4861-8e3f-5327c79605bd": {
+    "url": "db://assets/Textures/Monsters/Platinum/platinum_worm.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3ff4e157-46af-44d7-8d55-65f167d9cb4e@f9941": {
+    "url": "db://assets/Textures/Monsters/Silver/silver_bug.png@f9941",
+    "value": {
+      "depends": [
+        "3ff4e157-46af-44d7-8d55-65f167d9cb4e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cb22fd2c-a147-4dc9-9f9d-c9d9fc4e45a6": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy006.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ed11d113-104d-40bb-8b65-7bc90926a5da@f9941": {
+    "url": "db://assets/Textures/Monsters/Gold/gold_bug.png@f9941",
+    "value": {
+      "depends": [
+        "ed11d113-104d-40bb-8b65-7bc90926a5da@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9c4c15b7-b583-4620-9118-d2f84d44a1df": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy006a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e36a09b6-e5b2-46be-8bb6-c9b2d812d4b4@6c48a": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_bug.png@6c48a",
+    "value": {
+      "depends": [
+        "e36a09b6-e5b2-46be-8bb6-c9b2d812d4b4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "60aab9aa-0c0e-4a04-8278-512a51321207@6c48a": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_worm.png@6c48a",
+    "value": {
+      "depends": [
+        "60aab9aa-0c0e-4a04-8278-512a51321207"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e36a09b6-e5b2-46be-8bb6-c9b2d812d4b4@f9941": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_bug.png@f9941",
+    "value": {
+      "depends": [
+        "e36a09b6-e5b2-46be-8bb6-c9b2d812d4b4@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8409a4f3-7707-413d-90b6-caad00d841fc": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy006b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "60aab9aa-0c0e-4a04-8278-512a51321207@f9941": {
+    "url": "db://assets/Textures/Monsters/Wood/wood_worm.png@f9941",
+    "value": {
+      "depends": [
+        "60aab9aa-0c0e-4a04-8278-512a51321207@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "753cea01-8559-42bd-a4bc-eae16dd97692": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy007.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6be23b59-babc-4861-8e3f-5327c79605bd@6c48a": {
+    "url": "db://assets/Textures/Monsters/Platinum/platinum_worm.png@6c48a",
+    "value": {
+      "depends": [
+        "6be23b59-babc-4861-8e3f-5327c79605bd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cb22fd2c-a147-4dc9-9f9d-c9d9fc4e45a6@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy006.png@6c48a",
+    "value": {
+      "depends": [
+        "cb22fd2c-a147-4dc9-9f9d-c9d9fc4e45a6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6be23b59-babc-4861-8e3f-5327c79605bd@f9941": {
+    "url": "db://assets/Textures/Monsters/Platinum/platinum_worm.png@f9941",
+    "value": {
+      "depends": [
+        "6be23b59-babc-4861-8e3f-5327c79605bd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2279c944-8c70-40d7-b621-a5cef6a3ca92": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy007a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8409a4f3-7707-413d-90b6-caad00d841fc@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy006b.png@6c48a",
+    "value": {
+      "depends": [
+        "8409a4f3-7707-413d-90b6-caad00d841fc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cb22fd2c-a147-4dc9-9f9d-c9d9fc4e45a6@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy006.png@f9941",
+    "value": {
+      "depends": [
+        "cb22fd2c-a147-4dc9-9f9d-c9d9fc4e45a6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6ad09f27-6df6-4e9f-83d5-d8262fca9f1d": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy007b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9c4c15b7-b583-4620-9118-d2f84d44a1df@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy006a.png@6c48a",
+    "value": {
+      "depends": [
+        "9c4c15b7-b583-4620-9118-d2f84d44a1df"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8409a4f3-7707-413d-90b6-caad00d841fc@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy006b.png@f9941",
+    "value": {
+      "depends": [
+        "8409a4f3-7707-413d-90b6-caad00d841fc@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "16240da1-ea6f-45dd-98a8-c8e54ca9e8c5": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy008.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "753cea01-8559-42bd-a4bc-eae16dd97692@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy007.png@6c48a",
+    "value": {
+      "depends": [
+        "753cea01-8559-42bd-a4bc-eae16dd97692"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9c4c15b7-b583-4620-9118-d2f84d44a1df@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy006a.png@f9941",
+    "value": {
+      "depends": [
+        "9c4c15b7-b583-4620-9118-d2f84d44a1df@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e783bb49-af82-4c5c-8403-6df8d06093ae": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy008a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "753cea01-8559-42bd-a4bc-eae16dd97692@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy007.png@f9941",
+    "value": {
+      "depends": [
+        "753cea01-8559-42bd-a4bc-eae16dd97692@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "46ae9fca-a929-43ee-8226-398d928094ae": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy008b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2279c944-8c70-40d7-b621-a5cef6a3ca92@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy007a.png@6c48a",
+    "value": {
+      "depends": [
+        "2279c944-8c70-40d7-b621-a5cef6a3ca92"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6ad09f27-6df6-4e9f-83d5-d8262fca9f1d@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy007b.png@6c48a",
+    "value": {
+      "depends": [
+        "6ad09f27-6df6-4e9f-83d5-d8262fca9f1d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e783bb49-af82-4c5c-8403-6df8d06093ae@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy008a.png@6c48a",
+    "value": {
+      "depends": [
+        "e783bb49-af82-4c5c-8403-6df8d06093ae"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2279c944-8c70-40d7-b621-a5cef6a3ca92@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy007a.png@f9941",
+    "value": {
+      "depends": [
+        "2279c944-8c70-40d7-b621-a5cef6a3ca92@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "06f8ea0c-5404-4667-8c60-765da5ca6322": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy009.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "16240da1-ea6f-45dd-98a8-c8e54ca9e8c5@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy008.png@6c48a",
+    "value": {
+      "depends": [
+        "16240da1-ea6f-45dd-98a8-c8e54ca9e8c5"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6ad09f27-6df6-4e9f-83d5-d8262fca9f1d@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy007b.png@f9941",
+    "value": {
+      "depends": [
+        "6ad09f27-6df6-4e9f-83d5-d8262fca9f1d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f7cc3f2f-a832-40cc-8d64-6ce2784bd423": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy009a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e783bb49-af82-4c5c-8403-6df8d06093ae@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy008a.png@f9941",
+    "value": {
+      "depends": [
+        "e783bb49-af82-4c5c-8403-6df8d06093ae@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "530ef8a5-6abc-4ba4-9644-8290ece84d2a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy009b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "46ae9fca-a929-43ee-8226-398d928094ae@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy008b.png@6c48a",
+    "value": {
+      "depends": [
+        "46ae9fca-a929-43ee-8226-398d928094ae"
+      ]
+    },
+    "versionCode": 1
+  },
+  "16240da1-ea6f-45dd-98a8-c8e54ca9e8c5@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy008.png@f9941",
+    "value": {
+      "depends": [
+        "16240da1-ea6f-45dd-98a8-c8e54ca9e8c5@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0a5c9d98-3f8f-4b89-89c3-8f455c532beb": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy010.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "46ae9fca-a929-43ee-8226-398d928094ae@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy008b.png@f9941",
+    "value": {
+      "depends": [
+        "46ae9fca-a929-43ee-8226-398d928094ae@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "57d6ebdd-a429-4a15-b42e-5a8f757f345e": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy010a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "06f8ea0c-5404-4667-8c60-765da5ca6322@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy009.png@6c48a",
+    "value": {
+      "depends": [
+        "06f8ea0c-5404-4667-8c60-765da5ca6322"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f7cc3f2f-a832-40cc-8d64-6ce2784bd423@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy009a.png@6c48a",
+    "value": {
+      "depends": [
+        "f7cc3f2f-a832-40cc-8d64-6ce2784bd423"
+      ]
+    },
+    "versionCode": 1
+  },
+  "06f8ea0c-5404-4667-8c60-765da5ca6322@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy009.png@f9941",
+    "value": {
+      "depends": [
+        "06f8ea0c-5404-4667-8c60-765da5ca6322@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "20eb4182-aaba-456e-a21e-e8645771f429": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy010b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f7cc3f2f-a832-40cc-8d64-6ce2784bd423@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy009a.png@f9941",
+    "value": {
+      "depends": [
+        "f7cc3f2f-a832-40cc-8d64-6ce2784bd423@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "81f45704-3bca-49f2-9a41-66243ab424fb": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy011.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "530ef8a5-6abc-4ba4-9644-8290ece84d2a@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy009b.png@6c48a",
+    "value": {
+      "depends": [
+        "530ef8a5-6abc-4ba4-9644-8290ece84d2a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0a5c9d98-3f8f-4b89-89c3-8f455c532beb@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy010.png@6c48a",
+    "value": {
+      "depends": [
+        "0a5c9d98-3f8f-4b89-89c3-8f455c532beb"
+      ]
+    },
+    "versionCode": 1
+  },
+  "57d6ebdd-a429-4a15-b42e-5a8f757f345e@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy010a.png@6c48a",
+    "value": {
+      "depends": [
+        "57d6ebdd-a429-4a15-b42e-5a8f757f345e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "530ef8a5-6abc-4ba4-9644-8290ece84d2a@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy009b.png@f9941",
+    "value": {
+      "depends": [
+        "530ef8a5-6abc-4ba4-9644-8290ece84d2a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d2a9eca6-2190-4c79-96ef-655d61e3479b": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy011a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0a5c9d98-3f8f-4b89-89c3-8f455c532beb@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy010.png@f9941",
+    "value": {
+      "depends": [
+        "0a5c9d98-3f8f-4b89-89c3-8f455c532beb@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "97461022-7109-458b-bd65-9c059d37511c": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy011b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "57d6ebdd-a429-4a15-b42e-5a8f757f345e@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy010a.png@f9941",
+    "value": {
+      "depends": [
+        "57d6ebdd-a429-4a15-b42e-5a8f757f345e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9a4f26dc-7290-45fd-a31a-08a903349f83": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy012.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "20eb4182-aaba-456e-a21e-e8645771f429@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy010b.png@6c48a",
+    "value": {
+      "depends": [
+        "20eb4182-aaba-456e-a21e-e8645771f429"
+      ]
+    },
+    "versionCode": 1
+  },
+  "81f45704-3bca-49f2-9a41-66243ab424fb@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy011.png@6c48a",
+    "value": {
+      "depends": [
+        "81f45704-3bca-49f2-9a41-66243ab424fb"
+      ]
+    },
+    "versionCode": 1
+  },
+  "20eb4182-aaba-456e-a21e-e8645771f429@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy010b.png@f9941",
+    "value": {
+      "depends": [
+        "20eb4182-aaba-456e-a21e-e8645771f429@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1466ded2-1717-4a45-96d6-c4d68af0019d": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy012a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d2a9eca6-2190-4c79-96ef-655d61e3479b@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy011a.png@6c48a",
+    "value": {
+      "depends": [
+        "d2a9eca6-2190-4c79-96ef-655d61e3479b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "81f45704-3bca-49f2-9a41-66243ab424fb@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy011.png@f9941",
+    "value": {
+      "depends": [
+        "81f45704-3bca-49f2-9a41-66243ab424fb@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ad4eefa2-708f-4db6-a5bd-4507d408f2b3": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy012b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "97461022-7109-458b-bd65-9c059d37511c@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy011b.png@6c48a",
+    "value": {
+      "depends": [
+        "97461022-7109-458b-bd65-9c059d37511c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d2a9eca6-2190-4c79-96ef-655d61e3479b@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy011a.png@f9941",
+    "value": {
+      "depends": [
+        "d2a9eca6-2190-4c79-96ef-655d61e3479b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b3b2ac3a-216a-4eca-841d-f9719ea6a425": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy013.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9a4f26dc-7290-45fd-a31a-08a903349f83@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy012.png@6c48a",
+    "value": {
+      "depends": [
+        "9a4f26dc-7290-45fd-a31a-08a903349f83"
+      ]
+    },
+    "versionCode": 1
+  },
+  "97461022-7109-458b-bd65-9c059d37511c@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy011b.png@f9941",
+    "value": {
+      "depends": [
+        "97461022-7109-458b-bd65-9c059d37511c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bd961a5e-f796-464a-8111-b08f28f217a1": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy013a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9a4f26dc-7290-45fd-a31a-08a903349f83@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy012.png@f9941",
+    "value": {
+      "depends": [
+        "9a4f26dc-7290-45fd-a31a-08a903349f83@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ecb3c5a0-53ad-4334-88b5-be6e060ed55c": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy013b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1466ded2-1717-4a45-96d6-c4d68af0019d@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy012a.png@6c48a",
+    "value": {
+      "depends": [
+        "1466ded2-1717-4a45-96d6-c4d68af0019d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ad4eefa2-708f-4db6-a5bd-4507d408f2b3@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy012b.png@6c48a",
+    "value": {
+      "depends": [
+        "ad4eefa2-708f-4db6-a5bd-4507d408f2b3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b3b2ac3a-216a-4eca-841d-f9719ea6a425@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy013.png@6c48a",
+    "value": {
+      "depends": [
+        "b3b2ac3a-216a-4eca-841d-f9719ea6a425"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1466ded2-1717-4a45-96d6-c4d68af0019d@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy012a.png@f9941",
+    "value": {
+      "depends": [
+        "1466ded2-1717-4a45-96d6-c4d68af0019d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "08f6de91-7d9b-4858-951c-347d1f1b81c1": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy014.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ad4eefa2-708f-4db6-a5bd-4507d408f2b3@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy012b.png@f9941",
+    "value": {
+      "depends": [
+        "ad4eefa2-708f-4db6-a5bd-4507d408f2b3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a21e9a94-9235-45da-bd46-8c686c3a7dbc": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy014a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bd961a5e-f796-464a-8111-b08f28f217a1@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy013a.png@6c48a",
+    "value": {
+      "depends": [
+        "bd961a5e-f796-464a-8111-b08f28f217a1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b3b2ac3a-216a-4eca-841d-f9719ea6a425@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy013.png@f9941",
+    "value": {
+      "depends": [
+        "b3b2ac3a-216a-4eca-841d-f9719ea6a425@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bab8ac40-2c4c-4bd3-8c19-e10de13a16b9": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy014b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ecb3c5a0-53ad-4334-88b5-be6e060ed55c@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy013b.png@6c48a",
+    "value": {
+      "depends": [
+        "ecb3c5a0-53ad-4334-88b5-be6e060ed55c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bd961a5e-f796-464a-8111-b08f28f217a1@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy013a.png@f9941",
+    "value": {
+      "depends": [
+        "bd961a5e-f796-464a-8111-b08f28f217a1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "249cf6fc-ab23-40f3-88b8-c79c8ea6cb98": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy015.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ecb3c5a0-53ad-4334-88b5-be6e060ed55c@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy013b.png@f9941",
+    "value": {
+      "depends": [
+        "ecb3c5a0-53ad-4334-88b5-be6e060ed55c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "18bd2bc0-049f-493d-a5eb-f36b8c9fb1a2": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy015a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "08f6de91-7d9b-4858-951c-347d1f1b81c1@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy014.png@6c48a",
+    "value": {
+      "depends": [
+        "08f6de91-7d9b-4858-951c-347d1f1b81c1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a21e9a94-9235-45da-bd46-8c686c3a7dbc@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy014a.png@6c48a",
+    "value": {
+      "depends": [
+        "a21e9a94-9235-45da-bd46-8c686c3a7dbc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "08f6de91-7d9b-4858-951c-347d1f1b81c1@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy014.png@f9941",
+    "value": {
+      "depends": [
+        "08f6de91-7d9b-4858-951c-347d1f1b81c1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0c5f91c1-4e38-4d9e-9299-e5f41efae0d2": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy015b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a21e9a94-9235-45da-bd46-8c686c3a7dbc@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy014a.png@f9941",
+    "value": {
+      "depends": [
+        "a21e9a94-9235-45da-bd46-8c686c3a7dbc@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9c3400c4-0c98-4fff-9a90-a895b63665db": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy016.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bab8ac40-2c4c-4bd3-8c19-e10de13a16b9@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy014b.png@6c48a",
+    "value": {
+      "depends": [
+        "bab8ac40-2c4c-4bd3-8c19-e10de13a16b9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "249cf6fc-ab23-40f3-88b8-c79c8ea6cb98@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy015.png@6c48a",
+    "value": {
+      "depends": [
+        "249cf6fc-ab23-40f3-88b8-c79c8ea6cb98"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bab8ac40-2c4c-4bd3-8c19-e10de13a16b9@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy014b.png@f9941",
+    "value": {
+      "depends": [
+        "bab8ac40-2c4c-4bd3-8c19-e10de13a16b9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a05b7703-ef28-4e22-8ecb-5dcdf635078e": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy016a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "249cf6fc-ab23-40f3-88b8-c79c8ea6cb98@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy015.png@f9941",
+    "value": {
+      "depends": [
+        "249cf6fc-ab23-40f3-88b8-c79c8ea6cb98@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3add3c4b-d8c3-4042-9ccb-2ea70a9a9a00": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy016b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "18bd2bc0-049f-493d-a5eb-f36b8c9fb1a2@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy015a.png@6c48a",
+    "value": {
+      "depends": [
+        "18bd2bc0-049f-493d-a5eb-f36b8c9fb1a2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0c5f91c1-4e38-4d9e-9299-e5f41efae0d2@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy015b.png@6c48a",
+    "value": {
+      "depends": [
+        "0c5f91c1-4e38-4d9e-9299-e5f41efae0d2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "18bd2bc0-049f-493d-a5eb-f36b8c9fb1a2@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy015a.png@f9941",
+    "value": {
+      "depends": [
+        "18bd2bc0-049f-493d-a5eb-f36b8c9fb1a2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "84aeeb4a-b2ce-4bf3-8a81-c8e15493ef22": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy017.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9c3400c4-0c98-4fff-9a90-a895b63665db@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy016.png@6c48a",
+    "value": {
+      "depends": [
+        "9c3400c4-0c98-4fff-9a90-a895b63665db"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0c5f91c1-4e38-4d9e-9299-e5f41efae0d2@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy015b.png@f9941",
+    "value": {
+      "depends": [
+        "0c5f91c1-4e38-4d9e-9299-e5f41efae0d2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b40dbb28-a3d5-40c1-bc08-694e7d704bdd": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy017a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9c3400c4-0c98-4fff-9a90-a895b63665db@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy016.png@f9941",
+    "value": {
+      "depends": [
+        "9c3400c4-0c98-4fff-9a90-a895b63665db@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0cfee5a1-af08-451c-94ed-bd307ad179d3": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy017b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a05b7703-ef28-4e22-8ecb-5dcdf635078e@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy016a.png@6c48a",
+    "value": {
+      "depends": [
+        "a05b7703-ef28-4e22-8ecb-5dcdf635078e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a05b7703-ef28-4e22-8ecb-5dcdf635078e@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy016a.png@f9941",
+    "value": {
+      "depends": [
+        "a05b7703-ef28-4e22-8ecb-5dcdf635078e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f519370d-fc5a-4a33-b097-5e0036d6ce24": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy018.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3add3c4b-d8c3-4042-9ccb-2ea70a9a9a00@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy016b.png@6c48a",
+    "value": {
+      "depends": [
+        "3add3c4b-d8c3-4042-9ccb-2ea70a9a9a00"
+      ]
+    },
+    "versionCode": 1
+  },
+  "84aeeb4a-b2ce-4bf3-8a81-c8e15493ef22@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy017.png@6c48a",
+    "value": {
+      "depends": [
+        "84aeeb4a-b2ce-4bf3-8a81-c8e15493ef22"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b40dbb28-a3d5-40c1-bc08-694e7d704bdd@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy017a.png@6c48a",
+    "value": {
+      "depends": [
+        "b40dbb28-a3d5-40c1-bc08-694e7d704bdd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3add3c4b-d8c3-4042-9ccb-2ea70a9a9a00@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy016b.png@f9941",
+    "value": {
+      "depends": [
+        "3add3c4b-d8c3-4042-9ccb-2ea70a9a9a00@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f3ecc454-87b9-438f-82d6-db80d4c6972e": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy018a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "84aeeb4a-b2ce-4bf3-8a81-c8e15493ef22@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy017.png@f9941",
+    "value": {
+      "depends": [
+        "84aeeb4a-b2ce-4bf3-8a81-c8e15493ef22@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "272ec284-b5d7-47f1-a7d7-7d37306a9e50": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy018b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b40dbb28-a3d5-40c1-bc08-694e7d704bdd@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy017a.png@f9941",
+    "value": {
+      "depends": [
+        "b40dbb28-a3d5-40c1-bc08-694e7d704bdd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dda8a90c-9842-4722-a4b8-e908707da0eb": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy019.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0cfee5a1-af08-451c-94ed-bd307ad179d3@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy017b.png@6c48a",
+    "value": {
+      "depends": [
+        "0cfee5a1-af08-451c-94ed-bd307ad179d3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0cfee5a1-af08-451c-94ed-bd307ad179d3@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy017b.png@f9941",
+    "value": {
+      "depends": [
+        "0cfee5a1-af08-451c-94ed-bd307ad179d3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f5492d94-215d-4d96-a421-45b4a25d2e19": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy019a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f519370d-fc5a-4a33-b097-5e0036d6ce24@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy018.png@6c48a",
+    "value": {
+      "depends": [
+        "f519370d-fc5a-4a33-b097-5e0036d6ce24"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f519370d-fc5a-4a33-b097-5e0036d6ce24@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy018.png@f9941",
+    "value": {
+      "depends": [
+        "f519370d-fc5a-4a33-b097-5e0036d6ce24@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2fc31c91-a16b-4936-b467-6abcf4521c3a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy019b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f3ecc454-87b9-438f-82d6-db80d4c6972e@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy018a.png@6c48a",
+    "value": {
+      "depends": [
+        "f3ecc454-87b9-438f-82d6-db80d4c6972e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "272ec284-b5d7-47f1-a7d7-7d37306a9e50@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy018b.png@6c48a",
+    "value": {
+      "depends": [
+        "272ec284-b5d7-47f1-a7d7-7d37306a9e50"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f3ecc454-87b9-438f-82d6-db80d4c6972e@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy018a.png@f9941",
+    "value": {
+      "depends": [
+        "f3ecc454-87b9-438f-82d6-db80d4c6972e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6d24d749-6852-4b4c-b68f-93cdc55e7202": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy020.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "272ec284-b5d7-47f1-a7d7-7d37306a9e50@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy018b.png@f9941",
+    "value": {
+      "depends": [
+        "272ec284-b5d7-47f1-a7d7-7d37306a9e50@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8f1f57d1-890f-4626-90de-c74c8987200b": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy020a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dda8a90c-9842-4722-a4b8-e908707da0eb@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy019.png@6c48a",
+    "value": {
+      "depends": [
+        "dda8a90c-9842-4722-a4b8-e908707da0eb"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f5492d94-215d-4d96-a421-45b4a25d2e19@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy019a.png@6c48a",
+    "value": {
+      "depends": [
+        "f5492d94-215d-4d96-a421-45b4a25d2e19"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dda8a90c-9842-4722-a4b8-e908707da0eb@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy019.png@f9941",
+    "value": {
+      "depends": [
+        "dda8a90c-9842-4722-a4b8-e908707da0eb@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b6940b1d-36fc-4eab-a7b1-1d51c46dcfc2": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy020b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f5492d94-215d-4d96-a421-45b4a25d2e19@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy019a.png@f9941",
+    "value": {
+      "depends": [
+        "f5492d94-215d-4d96-a421-45b4a25d2e19@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "eb83a251-e978-49d5-afd0-57ed20fe2c55": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy021.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2fc31c91-a16b-4936-b467-6abcf4521c3a@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy019b.png@6c48a",
+    "value": {
+      "depends": [
+        "2fc31c91-a16b-4936-b467-6abcf4521c3a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6d24d749-6852-4b4c-b68f-93cdc55e7202@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy020.png@6c48a",
+    "value": {
+      "depends": [
+        "6d24d749-6852-4b4c-b68f-93cdc55e7202"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2fc31c91-a16b-4936-b467-6abcf4521c3a@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy019b.png@f9941",
+    "value": {
+      "depends": [
+        "2fc31c91-a16b-4936-b467-6abcf4521c3a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c4657cfb-029a-43ea-a594-13801c13da03": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy021a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6d24d749-6852-4b4c-b68f-93cdc55e7202@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy020.png@f9941",
+    "value": {
+      "depends": [
+        "6d24d749-6852-4b4c-b68f-93cdc55e7202@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "57c893d6-4f8a-43b8-9b2b-9945de8b5a4d": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy021b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8f1f57d1-890f-4626-90de-c74c8987200b@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy020a.png@6c48a",
+    "value": {
+      "depends": [
+        "8f1f57d1-890f-4626-90de-c74c8987200b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8f1f57d1-890f-4626-90de-c74c8987200b@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy020a.png@f9941",
+    "value": {
+      "depends": [
+        "8f1f57d1-890f-4626-90de-c74c8987200b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1cb16a02-b289-4d57-9a6a-559ebe66d0c4": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy022.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b6940b1d-36fc-4eab-a7b1-1d51c46dcfc2@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy020b.png@6c48a",
+    "value": {
+      "depends": [
+        "b6940b1d-36fc-4eab-a7b1-1d51c46dcfc2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b6940b1d-36fc-4eab-a7b1-1d51c46dcfc2@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy020b.png@f9941",
+    "value": {
+      "depends": [
+        "b6940b1d-36fc-4eab-a7b1-1d51c46dcfc2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "36c3839c-0b7b-42b9-9ecb-73b8b5e06013": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy022a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "eb83a251-e978-49d5-afd0-57ed20fe2c55@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy021.png@6c48a",
+    "value": {
+      "depends": [
+        "eb83a251-e978-49d5-afd0-57ed20fe2c55"
+      ]
+    },
+    "versionCode": 1
+  },
+  "eb83a251-e978-49d5-afd0-57ed20fe2c55@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy021.png@f9941",
+    "value": {
+      "depends": [
+        "eb83a251-e978-49d5-afd0-57ed20fe2c55@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b57a9b4d-fa6e-4aaf-94f5-5915b7c7e35e": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy022b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c4657cfb-029a-43ea-a594-13801c13da03@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy021a.png@6c48a",
+    "value": {
+      "depends": [
+        "c4657cfb-029a-43ea-a594-13801c13da03"
+      ]
+    },
+    "versionCode": 1
+  },
+  "57c893d6-4f8a-43b8-9b2b-9945de8b5a4d@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy021b.png@6c48a",
+    "value": {
+      "depends": [
+        "57c893d6-4f8a-43b8-9b2b-9945de8b5a4d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1cb16a02-b289-4d57-9a6a-559ebe66d0c4@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy022.png@6c48a",
+    "value": {
+      "depends": [
+        "1cb16a02-b289-4d57-9a6a-559ebe66d0c4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c4657cfb-029a-43ea-a594-13801c13da03@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy021a.png@f9941",
+    "value": {
+      "depends": [
+        "c4657cfb-029a-43ea-a594-13801c13da03@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "913604ee-1377-4387-b41c-37480925f6ae": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy023.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "57c893d6-4f8a-43b8-9b2b-9945de8b5a4d@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy021b.png@f9941",
+    "value": {
+      "depends": [
+        "57c893d6-4f8a-43b8-9b2b-9945de8b5a4d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f9b1242f-1a56-4150-9fe4-6015bb5804c8": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy023a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1cb16a02-b289-4d57-9a6a-559ebe66d0c4@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy022.png@f9941",
+    "value": {
+      "depends": [
+        "1cb16a02-b289-4d57-9a6a-559ebe66d0c4@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5fffbd69-f2c9-424b-aa5c-859164a4271c": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy023b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "36c3839c-0b7b-42b9-9ecb-73b8b5e06013@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy022a.png@6c48a",
+    "value": {
+      "depends": [
+        "36c3839c-0b7b-42b9-9ecb-73b8b5e06013"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b57a9b4d-fa6e-4aaf-94f5-5915b7c7e35e@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy022b.png@6c48a",
+    "value": {
+      "depends": [
+        "b57a9b4d-fa6e-4aaf-94f5-5915b7c7e35e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "36c3839c-0b7b-42b9-9ecb-73b8b5e06013@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy022a.png@f9941",
+    "value": {
+      "depends": [
+        "36c3839c-0b7b-42b9-9ecb-73b8b5e06013@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0e19fe25-9cf4-4374-9757-15e7bffd6292": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy024.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b57a9b4d-fa6e-4aaf-94f5-5915b7c7e35e@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy022b.png@f9941",
+    "value": {
+      "depends": [
+        "b57a9b4d-fa6e-4aaf-94f5-5915b7c7e35e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f740cb0e-4ffc-4567-b121-dd89eb3bce96": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy024a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "913604ee-1377-4387-b41c-37480925f6ae@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy023.png@6c48a",
+    "value": {
+      "depends": [
+        "913604ee-1377-4387-b41c-37480925f6ae"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f9b1242f-1a56-4150-9fe4-6015bb5804c8@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy023a.png@6c48a",
+    "value": {
+      "depends": [
+        "f9b1242f-1a56-4150-9fe4-6015bb5804c8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "913604ee-1377-4387-b41c-37480925f6ae@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy023.png@f9941",
+    "value": {
+      "depends": [
+        "913604ee-1377-4387-b41c-37480925f6ae@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e47758b4-4e18-41cf-b3d6-530c5e209918": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy024b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5fffbd69-f2c9-424b-aa5c-859164a4271c@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy023b.png@6c48a",
+    "value": {
+      "depends": [
+        "5fffbd69-f2c9-424b-aa5c-859164a4271c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f9b1242f-1a56-4150-9fe4-6015bb5804c8@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy023a.png@f9941",
+    "value": {
+      "depends": [
+        "f9b1242f-1a56-4150-9fe4-6015bb5804c8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0e19fe25-9cf4-4374-9757-15e7bffd6292@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy024.png@6c48a",
+    "value": {
+      "depends": [
+        "0e19fe25-9cf4-4374-9757-15e7bffd6292"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7b4156a3-a68f-499a-8869-9b35a34243a3": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy025.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5fffbd69-f2c9-424b-aa5c-859164a4271c@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy023b.png@f9941",
+    "value": {
+      "depends": [
+        "5fffbd69-f2c9-424b-aa5c-859164a4271c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0d767382-db4d-4f6b-b829-f17c5009a37b": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy025a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0e19fe25-9cf4-4374-9757-15e7bffd6292@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy024.png@f9941",
+    "value": {
+      "depends": [
+        "0e19fe25-9cf4-4374-9757-15e7bffd6292@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1bea6fad-4862-481a-9254-4f29ebd5fe04": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy025b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f740cb0e-4ffc-4567-b121-dd89eb3bce96@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy024a.png@6c48a",
+    "value": {
+      "depends": [
+        "f740cb0e-4ffc-4567-b121-dd89eb3bce96"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f740cb0e-4ffc-4567-b121-dd89eb3bce96@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy024a.png@f9941",
+    "value": {
+      "depends": [
+        "f740cb0e-4ffc-4567-b121-dd89eb3bce96@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1fb0d5ba-2e1b-4182-90bb-4c2f65ba2c40": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy026.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7b4156a3-a68f-499a-8869-9b35a34243a3@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy025.png@6c48a",
+    "value": {
+      "depends": [
+        "7b4156a3-a68f-499a-8869-9b35a34243a3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e47758b4-4e18-41cf-b3d6-530c5e209918@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy024b.png@6c48a",
+    "value": {
+      "depends": [
+        "e47758b4-4e18-41cf-b3d6-530c5e209918"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0d767382-db4d-4f6b-b829-f17c5009a37b@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy025a.png@6c48a",
+    "value": {
+      "depends": [
+        "0d767382-db4d-4f6b-b829-f17c5009a37b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7b4156a3-a68f-499a-8869-9b35a34243a3@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy025.png@f9941",
+    "value": {
+      "depends": [
+        "7b4156a3-a68f-499a-8869-9b35a34243a3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e071c0ab-21fd-49eb-9583-3613f55038ee": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy026a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e47758b4-4e18-41cf-b3d6-530c5e209918@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy024b.png@f9941",
+    "value": {
+      "depends": [
+        "e47758b4-4e18-41cf-b3d6-530c5e209918@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1933bc68-47ff-422a-b0aa-2d6520c9f890": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy026b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0d767382-db4d-4f6b-b829-f17c5009a37b@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy025a.png@f9941",
+    "value": {
+      "depends": [
+        "0d767382-db4d-4f6b-b829-f17c5009a37b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "20669027-b0f8-43d5-9b4d-f4d763371321": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy027.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1bea6fad-4862-481a-9254-4f29ebd5fe04@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy025b.png@6c48a",
+    "value": {
+      "depends": [
+        "1bea6fad-4862-481a-9254-4f29ebd5fe04"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1bea6fad-4862-481a-9254-4f29ebd5fe04@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy025b.png@f9941",
+    "value": {
+      "depends": [
+        "1bea6fad-4862-481a-9254-4f29ebd5fe04@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7733c97d-3afb-4944-9278-ea52acb21da6": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy027a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1fb0d5ba-2e1b-4182-90bb-4c2f65ba2c40@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy026.png@6c48a",
+    "value": {
+      "depends": [
+        "1fb0d5ba-2e1b-4182-90bb-4c2f65ba2c40"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1fb0d5ba-2e1b-4182-90bb-4c2f65ba2c40@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy026.png@f9941",
+    "value": {
+      "depends": [
+        "1fb0d5ba-2e1b-4182-90bb-4c2f65ba2c40@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fa099b47-4ecd-4285-b2b5-e799e5bc64ed": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy027b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e071c0ab-21fd-49eb-9583-3613f55038ee@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy026a.png@6c48a",
+    "value": {
+      "depends": [
+        "e071c0ab-21fd-49eb-9583-3613f55038ee"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7733c97d-3afb-4944-9278-ea52acb21da6@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy027a.png@6c48a",
+    "value": {
+      "depends": [
+        "7733c97d-3afb-4944-9278-ea52acb21da6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e071c0ab-21fd-49eb-9583-3613f55038ee@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy026a.png@f9941",
+    "value": {
+      "depends": [
+        "e071c0ab-21fd-49eb-9583-3613f55038ee@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fbd76931-949b-4984-8b2d-ee291c312ade": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy028.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7733c97d-3afb-4944-9278-ea52acb21da6@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy027a.png@f9941",
+    "value": {
+      "depends": [
+        "7733c97d-3afb-4944-9278-ea52acb21da6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "def1a7ad-a85c-4aa2-b866-6edaa7f2803e": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy028a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1933bc68-47ff-422a-b0aa-2d6520c9f890@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy026b.png@6c48a",
+    "value": {
+      "depends": [
+        "1933bc68-47ff-422a-b0aa-2d6520c9f890"
+      ]
+    },
+    "versionCode": 1
+  },
+  "20669027-b0f8-43d5-9b4d-f4d763371321@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy027.png@6c48a",
+    "value": {
+      "depends": [
+        "20669027-b0f8-43d5-9b4d-f4d763371321"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1933bc68-47ff-422a-b0aa-2d6520c9f890@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy026b.png@f9941",
+    "value": {
+      "depends": [
+        "1933bc68-47ff-422a-b0aa-2d6520c9f890@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "07077f6a-a1f3-40f3-b094-2189c5a79b23": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy028b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "20669027-b0f8-43d5-9b4d-f4d763371321@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy027.png@f9941",
+    "value": {
+      "depends": [
+        "20669027-b0f8-43d5-9b4d-f4d763371321@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7551498a-c830-456a-ad76-ca7e4f7dbc3a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy029.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fa099b47-4ecd-4285-b2b5-e799e5bc64ed@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy027b.png@6c48a",
+    "value": {
+      "depends": [
+        "fa099b47-4ecd-4285-b2b5-e799e5bc64ed"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fa099b47-4ecd-4285-b2b5-e799e5bc64ed@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy027b.png@f9941",
+    "value": {
+      "depends": [
+        "fa099b47-4ecd-4285-b2b5-e799e5bc64ed@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c99f5d64-3a3c-496e-85f2-b89da1e007ec": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy029a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fbd76931-949b-4984-8b2d-ee291c312ade@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy028.png@6c48a",
+    "value": {
+      "depends": [
+        "fbd76931-949b-4984-8b2d-ee291c312ade"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fbd76931-949b-4984-8b2d-ee291c312ade@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy028.png@f9941",
+    "value": {
+      "depends": [
+        "fbd76931-949b-4984-8b2d-ee291c312ade@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f14a1f94-57cf-4686-b33e-43ae4faad724": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy029b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7551498a-c830-456a-ad76-ca7e4f7dbc3a@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy029.png@6c48a",
+    "value": {
+      "depends": [
+        "7551498a-c830-456a-ad76-ca7e4f7dbc3a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "def1a7ad-a85c-4aa2-b866-6edaa7f2803e@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy028a.png@6c48a",
+    "value": {
+      "depends": [
+        "def1a7ad-a85c-4aa2-b866-6edaa7f2803e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "07077f6a-a1f3-40f3-b094-2189c5a79b23@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy028b.png@6c48a",
+    "value": {
+      "depends": [
+        "07077f6a-a1f3-40f3-b094-2189c5a79b23"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7551498a-c830-456a-ad76-ca7e4f7dbc3a@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy029.png@f9941",
+    "value": {
+      "depends": [
+        "7551498a-c830-456a-ad76-ca7e4f7dbc3a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2360ef90-8c64-4172-9f1d-2afb5529b38a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy030.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "def1a7ad-a85c-4aa2-b866-6edaa7f2803e@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy028a.png@f9941",
+    "value": {
+      "depends": [
+        "def1a7ad-a85c-4aa2-b866-6edaa7f2803e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "42d40066-e323-4862-8f3f-23d6f061e7f1": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy030a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "07077f6a-a1f3-40f3-b094-2189c5a79b23@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy028b.png@f9941",
+    "value": {
+      "depends": [
+        "07077f6a-a1f3-40f3-b094-2189c5a79b23@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bca13cf1-9aaa-412d-9376-5c00159086f3": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy030b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c99f5d64-3a3c-496e-85f2-b89da1e007ec@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy029a.png@6c48a",
+    "value": {
+      "depends": [
+        "c99f5d64-3a3c-496e-85f2-b89da1e007ec"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c99f5d64-3a3c-496e-85f2-b89da1e007ec@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy029a.png@f9941",
+    "value": {
+      "depends": [
+        "c99f5d64-3a3c-496e-85f2-b89da1e007ec@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "14af3135-473f-4601-93b9-86646a3b1563": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy031.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f14a1f94-57cf-4686-b33e-43ae4faad724@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy029b.png@6c48a",
+    "value": {
+      "depends": [
+        "f14a1f94-57cf-4686-b33e-43ae4faad724"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f14a1f94-57cf-4686-b33e-43ae4faad724@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy029b.png@f9941",
+    "value": {
+      "depends": [
+        "f14a1f94-57cf-4686-b33e-43ae4faad724@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "41ee01dc-4675-48aa-9f47-b384c4176dcb": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy031a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2360ef90-8c64-4172-9f1d-2afb5529b38a@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy030.png@6c48a",
+    "value": {
+      "depends": [
+        "2360ef90-8c64-4172-9f1d-2afb5529b38a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "42d40066-e323-4862-8f3f-23d6f061e7f1@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy030a.png@6c48a",
+    "value": {
+      "depends": [
+        "42d40066-e323-4862-8f3f-23d6f061e7f1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2360ef90-8c64-4172-9f1d-2afb5529b38a@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy030.png@f9941",
+    "value": {
+      "depends": [
+        "2360ef90-8c64-4172-9f1d-2afb5529b38a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0faf5d58-f3d9-4796-8f3d-73db5556e4d3": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy031b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bca13cf1-9aaa-412d-9376-5c00159086f3@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy030b.png@6c48a",
+    "value": {
+      "depends": [
+        "bca13cf1-9aaa-412d-9376-5c00159086f3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "42d40066-e323-4862-8f3f-23d6f061e7f1@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy030a.png@f9941",
+    "value": {
+      "depends": [
+        "42d40066-e323-4862-8f3f-23d6f061e7f1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6e0194cc-0fa3-4806-b008-0c5a093e7cb6": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy032.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "14af3135-473f-4601-93b9-86646a3b1563@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy031.png@6c48a",
+    "value": {
+      "depends": [
+        "14af3135-473f-4601-93b9-86646a3b1563"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bca13cf1-9aaa-412d-9376-5c00159086f3@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy030b.png@f9941",
+    "value": {
+      "depends": [
+        "bca13cf1-9aaa-412d-9376-5c00159086f3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "78dcf051-e48b-42bf-a8bf-7621b3668d06": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy032a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "14af3135-473f-4601-93b9-86646a3b1563@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy031.png@f9941",
+    "value": {
+      "depends": [
+        "14af3135-473f-4601-93b9-86646a3b1563@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "434c979b-9f1a-43c7-93b3-31b46acfa436": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy032b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "41ee01dc-4675-48aa-9f47-b384c4176dcb@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy031a.png@6c48a",
+    "value": {
+      "depends": [
+        "41ee01dc-4675-48aa-9f47-b384c4176dcb"
+      ]
+    },
+    "versionCode": 1
+  },
+  "41ee01dc-4675-48aa-9f47-b384c4176dcb@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy031a.png@f9941",
+    "value": {
+      "depends": [
+        "41ee01dc-4675-48aa-9f47-b384c4176dcb@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2d1c6cd7-ec60-40d3-9e37-1459f0a0fda3": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy033.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0faf5d58-f3d9-4796-8f3d-73db5556e4d3@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy031b.png@6c48a",
+    "value": {
+      "depends": [
+        "0faf5d58-f3d9-4796-8f3d-73db5556e4d3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6e0194cc-0fa3-4806-b008-0c5a093e7cb6@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy032.png@6c48a",
+    "value": {
+      "depends": [
+        "6e0194cc-0fa3-4806-b008-0c5a093e7cb6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0faf5d58-f3d9-4796-8f3d-73db5556e4d3@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy031b.png@f9941",
+    "value": {
+      "depends": [
+        "0faf5d58-f3d9-4796-8f3d-73db5556e4d3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2f19f230-129a-4647-9369-05aaae2dd4dd": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy033a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "78dcf051-e48b-42bf-a8bf-7621b3668d06@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy032a.png@6c48a",
+    "value": {
+      "depends": [
+        "78dcf051-e48b-42bf-a8bf-7621b3668d06"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6e0194cc-0fa3-4806-b008-0c5a093e7cb6@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy032.png@f9941",
+    "value": {
+      "depends": [
+        "6e0194cc-0fa3-4806-b008-0c5a093e7cb6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0ba0fd62-6959-4d87-8594-46b1beec5bec": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy033b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "434c979b-9f1a-43c7-93b3-31b46acfa436@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy032b.png@6c48a",
+    "value": {
+      "depends": [
+        "434c979b-9f1a-43c7-93b3-31b46acfa436"
+      ]
+    },
+    "versionCode": 1
+  },
+  "78dcf051-e48b-42bf-a8bf-7621b3668d06@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy032a.png@f9941",
+    "value": {
+      "depends": [
+        "78dcf051-e48b-42bf-a8bf-7621b3668d06@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ae2fb387-643a-453f-b3ea-4f3361c5c5f8": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy034.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "434c979b-9f1a-43c7-93b3-31b46acfa436@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy032b.png@f9941",
+    "value": {
+      "depends": [
+        "434c979b-9f1a-43c7-93b3-31b46acfa436@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7faeaa26-ca3b-4306-af32-5891d72f90e8": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy034a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2d1c6cd7-ec60-40d3-9e37-1459f0a0fda3@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy033.png@6c48a",
+    "value": {
+      "depends": [
+        "2d1c6cd7-ec60-40d3-9e37-1459f0a0fda3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2d1c6cd7-ec60-40d3-9e37-1459f0a0fda3@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy033.png@f9941",
+    "value": {
+      "depends": [
+        "2d1c6cd7-ec60-40d3-9e37-1459f0a0fda3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cd26f6ef-3836-47d8-ac2c-a58092469c5c": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy034b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2f19f230-129a-4647-9369-05aaae2dd4dd@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy033a.png@6c48a",
+    "value": {
+      "depends": [
+        "2f19f230-129a-4647-9369-05aaae2dd4dd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2f19f230-129a-4647-9369-05aaae2dd4dd@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy033a.png@f9941",
+    "value": {
+      "depends": [
+        "2f19f230-129a-4647-9369-05aaae2dd4dd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4bb830b9-7994-477c-9a3f-0edc042dccac": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy035.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0ba0fd62-6959-4d87-8594-46b1beec5bec@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy033b.png@6c48a",
+    "value": {
+      "depends": [
+        "0ba0fd62-6959-4d87-8594-46b1beec5bec"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ae2fb387-643a-453f-b3ea-4f3361c5c5f8@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy034.png@6c48a",
+    "value": {
+      "depends": [
+        "ae2fb387-643a-453f-b3ea-4f3361c5c5f8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7faeaa26-ca3b-4306-af32-5891d72f90e8@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy034a.png@6c48a",
+    "value": {
+      "depends": [
+        "7faeaa26-ca3b-4306-af32-5891d72f90e8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0ba0fd62-6959-4d87-8594-46b1beec5bec@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy033b.png@f9941",
+    "value": {
+      "depends": [
+        "0ba0fd62-6959-4d87-8594-46b1beec5bec@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e5d4ae74-be6c-42d4-85d6-8caa40ec12c4": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy035a.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ae2fb387-643a-453f-b3ea-4f3361c5c5f8@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy034.png@f9941",
+    "value": {
+      "depends": [
+        "ae2fb387-643a-453f-b3ea-4f3361c5c5f8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ee04e58a-47c0-4cf0-8058-7cb034350780": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy035b.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cd26f6ef-3836-47d8-ac2c-a58092469c5c@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy034b.png@6c48a",
+    "value": {
+      "depends": [
+        "cd26f6ef-3836-47d8-ac2c-a58092469c5c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7faeaa26-ca3b-4306-af32-5891d72f90e8@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy034a.png@f9941",
+    "value": {
+      "depends": [
+        "7faeaa26-ca3b-4306-af32-5891d72f90e8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f70a72e7-6515-449d-b007-b7711c3d0ce9": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy036.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4bb830b9-7994-477c-9a3f-0edc042dccac@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy035.png@6c48a",
+    "value": {
+      "depends": [
+        "4bb830b9-7994-477c-9a3f-0edc042dccac"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cd26f6ef-3836-47d8-ac2c-a58092469c5c@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy034b.png@f9941",
+    "value": {
+      "depends": [
+        "cd26f6ef-3836-47d8-ac2c-a58092469c5c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4bb830b9-7994-477c-9a3f-0edc042dccac@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy035.png@f9941",
+    "value": {
+      "depends": [
+        "4bb830b9-7994-477c-9a3f-0edc042dccac@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e5d4ae74-be6c-42d4-85d6-8caa40ec12c4@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy035a.png@6c48a",
+    "value": {
+      "depends": [
+        "e5d4ae74-be6c-42d4-85d6-8caa40ec12c4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ee04e58a-47c0-4cf0-8058-7cb034350780@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy035b.png@6c48a",
+    "value": {
+      "depends": [
+        "ee04e58a-47c0-4cf0-8058-7cb034350780"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e5d4ae74-be6c-42d4-85d6-8caa40ec12c4@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy035a.png@f9941",
+    "value": {
+      "depends": [
+        "e5d4ae74-be6c-42d4-85d6-8caa40ec12c4@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f70a72e7-6515-449d-b007-b7711c3d0ce9@6c48a": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy036.png@6c48a",
+    "value": {
+      "depends": [
+        "f70a72e7-6515-449d-b007-b7711c3d0ce9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ee04e58a-47c0-4cf0-8058-7cb034350780@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy035b.png@f9941",
+    "value": {
+      "depends": [
+        "ee04e58a-47c0-4cf0-8058-7cb034350780@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f70a72e7-6515-449d-b007-b7711c3d0ce9@f9941": {
+    "url": "db://assets/Textures/Monsters/pipo-enemy036.png@f9941",
+    "value": {
+      "depends": [
+        "f70a72e7-6515-449d-b007-b7711c3d0ce9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b6e060d1-c7b2-4d83-ac64-2e538ce5c519": {
+    "url": "db://assets/Textures/Monsters/Bosses",
+    "value": {},
+    "versionCode": 1
+  },
+  "a8dced5b-bf2c-40de-80e1-02e186749770": {
+    "url": "db://assets/Textures/Monsters/Stone",
+    "value": {},
+    "versionCode": 1
+  },
+  "1d39ed41-b6fb-4b1a-8f20-ff5af4baeb06": {
+    "url": "db://assets/Textures/Monsters/Onyx",
+    "value": {},
+    "versionCode": 1
+  },
+  "62c555f7-1bf9-44b9-bb53-368b8c1e2dd1": {
+    "url": "db://assets/Textures/Monsters/Amethyst",
+    "value": {},
+    "versionCode": 1
+  },
+  "67e09d40-24b1-4e27-adc6-ffa9696a98be": {
+    "url": "db://assets/Textures/Monsters/Gold",
+    "value": {},
+    "versionCode": 1
+  },
+  "5a1bb708-85bd-403a-b3ec-395a072166dd": {
+    "url": "db://assets/Textures/Monsters/Silver",
+    "value": {},
+    "versionCode": 1
+  },
+  "76d9af35-9630-4e2f-90e9-83a058b6e64f": {
+    "url": "db://assets/Textures/Monsters/Platinum",
+    "value": {},
+    "versionCode": 1
+  },
+  "af60ceda-ff5a-4ef0-83eb-6b930ee0d42a": {
+    "url": "db://assets/Textures/Monsters/Bronze",
+    "value": {},
+    "versionCode": 1
+  },
+  "689b3c80-12ca-4873-b118-0cb087f5775b": {
+    "url": "db://assets/Textures/Monsters/Wood",
+    "value": {},
     "versionCode": 1
   }
 }

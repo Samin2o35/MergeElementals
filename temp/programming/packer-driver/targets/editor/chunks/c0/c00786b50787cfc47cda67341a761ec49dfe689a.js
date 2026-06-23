@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Sprite, RigidBody2D, CircleCollider2D, Contact2DType, ERigidBody2DType, Vec2, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, Egg;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Sprite, RigidBody2D, CircleCollider2D, Contact2DType, ERigidBody2DType, Vec2, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, Egg;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -39,11 +39,19 @@ System.register(["cc"], function (_export, _context) {
        * Lives on the SHADOW root node of each egg prefab (shadow = parent, art = child).
        * Reports contacts to the controller, which decides merge vs egg-hit vs wall-hit.
        */
-      _export("Egg", Egg = (_dec = ccclass('Egg'), _dec2 = property(Sprite), _dec(_class = (_class2 = class Egg extends Component {
+      _export("Egg", Egg = (_dec = ccclass('Egg'), _dec2 = property(Sprite), _dec3 = property({
+        tooltip: 'Spin speed (deg/sec) for tier 1, the slowest tier.'
+      }), _dec4 = property({
+        tooltip: 'Extra deg/sec added per tier. tier spin = base + tierIndex * step.'
+      }), _dec(_class = (_class2 = class Egg extends Component {
         constructor(...args) {
           super(...args);
 
           _initializerDefineProperty(this, "eggArt", _descriptor, this);
+
+          _initializerDefineProperty(this, "spinBaseDeg", _descriptor2, this);
+
+          _initializerDefineProperty(this, "spinStepDeg", _descriptor3, this);
 
           this.tier = 0;
           this.mergeable = true;
@@ -67,6 +75,13 @@ System.register(["cc"], function (_export, _context) {
 
         onDestroy() {
           if (this._col) this._col.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+        }
+
+        update(dt) {
+          // Visual-only spin on the art child; body has Fixed Rotation so physics is untouched.
+          if (!this.eggArt) return;
+          const speed = this.spinBaseDeg + this.tier * this.spinStepDeg;
+          this.eggArt.node.angle = (this.eggArt.node.angle - speed * dt) % 360;
         }
         /** Swap the piece art (used on spawn and on theme change). Tier/physics unchanged. */
 
@@ -153,6 +168,20 @@ System.register(["cc"], function (_export, _context) {
         writable: true,
         initializer: function () {
           return null;
+        }
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "spinBaseDeg", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return 30;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "spinStepDeg", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return 30;
         }
       })), _class2)) || _class));
 
