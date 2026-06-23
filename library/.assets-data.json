@@ -247,7 +247,6 @@
         "33f2bff1-7720-490e-92d1-dec4124b58d2",
         "df9d692f-a33d-4869-ad03-0b59419c9cd6@f9941",
         "80ff214f-9437-4b7f-98ec-8f28fe4913fd@f9941",
-        "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f@f9941",
         "76e94333-0850-4d03-8b84-c211a0dae96e@f9941",
         "d6f65851-39c7-4038-bebf-cd86f1fff79e@f9941"
       ],
@@ -294,9 +293,7 @@
   },
   "df9d692f-a33d-4869-ad03-0b59419c9cd6": {
     "url": "db://assets/Textures/Evolution_Chart.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "b2eb6562-e7f0-4fe8-9b6d-0f28a07b1087@6c48a": {
@@ -1333,6 +1330,266 @@
         "904a3fc5-06e3-4d2f-a315-cf034cf0ca45@6c48a"
       ]
     },
+    "versionCode": 1
+  },
+  "e13b014b-8be2-421d-a019-cfa2cc53936c": {
+    "url": "db://assets/Textures/Custom",
+    "value": {},
+    "versionCode": 1
+  },
+  "a246d2a6-eb67-4ba8-9163-d01109800b75": {
+    "url": "db://assets/Textures/Custom/Amethyst Room.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c9df6aa3-4c82-41db-87b3-3aaafe04d83c": {
+    "url": "db://assets/Textures/Custom/Bronze Room.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "480bcb54-452c-4f36-9d90-66bf94270548": {
+    "url": "db://assets/Textures/Custom/Gold Room.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8fab3ab0-4767-4361-99f1-81ec2309c02d": {
+    "url": "db://assets/Textures/Custom/IceRoom.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ed3d12b8-67ff-4b2e-87fd-c0b55068d678": {
+    "url": "db://assets/Textures/Custom/NatureRoom.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "480bcb54-452c-4f36-9d90-66bf94270548@6c48a": {
+    "url": "db://assets/Textures/Custom/Gold Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "480bcb54-452c-4f36-9d90-66bf94270548"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c9df6aa3-4c82-41db-87b3-3aaafe04d83c@6c48a": {
+    "url": "db://assets/Textures/Custom/Bronze Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "c9df6aa3-4c82-41db-87b3-3aaafe04d83c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8fab3ab0-4767-4361-99f1-81ec2309c02d@6c48a": {
+    "url": "db://assets/Textures/Custom/IceRoom.webp@6c48a",
+    "value": {
+      "depends": [
+        "8fab3ab0-4767-4361-99f1-81ec2309c02d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a246d2a6-eb67-4ba8-9163-d01109800b75@6c48a": {
+    "url": "db://assets/Textures/Custom/Amethyst Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "a246d2a6-eb67-4ba8-9163-d01109800b75"
+      ]
+    },
+    "versionCode": 1
+  },
+  "480bcb54-452c-4f36-9d90-66bf94270548@f9941": {
+    "url": "db://assets/Textures/Custom/Gold Room.webp@f9941",
+    "value": {
+      "depends": [
+        "480bcb54-452c-4f36-9d90-66bf94270548@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0799dc87-97e3-4e16-a858-289673e259e7": {
+    "url": "db://assets/Textures/Custom/Onyx Room.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c9df6aa3-4c82-41db-87b3-3aaafe04d83c@f9941": {
+    "url": "db://assets/Textures/Custom/Bronze Room.webp@f9941",
+    "value": {
+      "depends": [
+        "c9df6aa3-4c82-41db-87b3-3aaafe04d83c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8fab3ab0-4767-4361-99f1-81ec2309c02d@f9941": {
+    "url": "db://assets/Textures/Custom/IceRoom.webp@f9941",
+    "value": {
+      "depends": [
+        "8fab3ab0-4767-4361-99f1-81ec2309c02d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a246d2a6-eb67-4ba8-9163-d01109800b75@f9941": {
+    "url": "db://assets/Textures/Custom/Amethyst Room.webp@f9941",
+    "value": {
+      "depends": [
+        "a246d2a6-eb67-4ba8-9163-d01109800b75@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3": {
+    "url": "db://assets/Textures/Custom/Platinum Room.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "75d0a50b-d96a-41c8-b4e4-1be7d240638a": {
+    "url": "db://assets/Textures/Custom/Silver Room.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0a9d293f-da80-4420-88ff-d87d9c1bcfa2": {
+    "url": "db://assets/Textures/Custom/Stone Room.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ed3d12b8-67ff-4b2e-87fd-c0b55068d678@6c48a": {
+    "url": "db://assets/Textures/Custom/NatureRoom.webp@6c48a",
+    "value": {
+      "depends": [
+        "ed3d12b8-67ff-4b2e-87fd-c0b55068d678"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3@6c48a": {
+    "url": "db://assets/Textures/Custom/Platinum Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "75d0a50b-d96a-41c8-b4e4-1be7d240638a@6c48a": {
+    "url": "db://assets/Textures/Custom/Silver Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "75d0a50b-d96a-41c8-b4e4-1be7d240638a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0799dc87-97e3-4e16-a858-289673e259e7@6c48a": {
+    "url": "db://assets/Textures/Custom/Onyx Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "0799dc87-97e3-4e16-a858-289673e259e7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ed3d12b8-67ff-4b2e-87fd-c0b55068d678@f9941": {
+    "url": "db://assets/Textures/Custom/NatureRoom.webp@f9941",
+    "value": {
+      "depends": [
+        "ed3d12b8-67ff-4b2e-87fd-c0b55068d678@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f037c40c-86cd-4299-8c17-91188385e4d2": {
+    "url": "db://assets/Textures/Custom/Wood Room.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0a9d293f-da80-4420-88ff-d87d9c1bcfa2@6c48a": {
+    "url": "db://assets/Textures/Custom/Stone Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "0a9d293f-da80-4420-88ff-d87d9c1bcfa2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0799dc87-97e3-4e16-a858-289673e259e7@f9941": {
+    "url": "db://assets/Textures/Custom/Onyx Room.webp@f9941",
+    "value": {
+      "depends": [
+        "0799dc87-97e3-4e16-a858-289673e259e7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "75d0a50b-d96a-41c8-b4e4-1be7d240638a@f9941": {
+    "url": "db://assets/Textures/Custom/Silver Room.webp@f9941",
+    "value": {
+      "depends": [
+        "75d0a50b-d96a-41c8-b4e4-1be7d240638a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3@f9941": {
+    "url": "db://assets/Textures/Custom/Platinum Room.webp@f9941",
+    "value": {
+      "depends": [
+        "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f037c40c-86cd-4299-8c17-91188385e4d2@6c48a": {
+    "url": "db://assets/Textures/Custom/Wood Room.webp@6c48a",
+    "value": {
+      "depends": [
+        "f037c40c-86cd-4299-8c17-91188385e4d2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0a9d293f-da80-4420-88ff-d87d9c1bcfa2@f9941": {
+    "url": "db://assets/Textures/Custom/Stone Room.webp@f9941",
+    "value": {
+      "depends": [
+        "0a9d293f-da80-4420-88ff-d87d9c1bcfa2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f037c40c-86cd-4299-8c17-91188385e4d2@f9941": {
+    "url": "db://assets/Textures/Custom/Wood Room.webp@f9941",
+    "value": {
+      "depends": [
+        "f037c40c-86cd-4299-8c17-91188385e4d2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5b82e634-2850-4f6d-8c74-63614b136776": {
+    "url": "db://assets/Scripts/CameraShake.ts",
+    "value": {},
     "versionCode": 1
   }
 }

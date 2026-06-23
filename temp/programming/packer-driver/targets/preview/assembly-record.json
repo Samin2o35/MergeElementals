@@ -954,70 +954,70 @@
         "__unresolved_10": {
           "resolved": {
             "type": "chunk",
-            "id": "6bf23be8364406e8ba592878f150e4f3a6ab3d95"
+            "id": "c00786b50787cfc47cda67341a761ec49dfe689a"
           },
           "messages": []
         },
         "__unresolved_11": {
           "resolved": {
             "type": "chunk",
-            "id": "742f7b9b318677dcbcef8c88f272a69c5a654fb7"
+            "id": "6bf23be8364406e8ba592878f150e4f3a6ab3d95"
           },
           "messages": []
         },
         "__unresolved_12": {
           "resolved": {
             "type": "chunk",
-            "id": "1351d80a087bfc40b6709970b158f486ffd3c55d"
+            "id": "742f7b9b318677dcbcef8c88f272a69c5a654fb7"
           },
           "messages": []
         },
         "__unresolved_13": {
           "resolved": {
             "type": "chunk",
-            "id": "b4d029943fd305c2cfee43c4d47326831cd0316e"
+            "id": "1351d80a087bfc40b6709970b158f486ffd3c55d"
           },
           "messages": []
         },
         "__unresolved_14": {
           "resolved": {
             "type": "chunk",
-            "id": "bcf70b6d52975e783373e663c7db706abd4b5613"
+            "id": "b4d029943fd305c2cfee43c4d47326831cd0316e"
           },
           "messages": []
         },
         "__unresolved_15": {
           "resolved": {
             "type": "chunk",
-            "id": "c07111534414dccd2d7984a75d38eceb8e4484e2"
+            "id": "bcf70b6d52975e783373e663c7db706abd4b5613"
           },
           "messages": []
         },
         "__unresolved_16": {
           "resolved": {
             "type": "chunk",
-            "id": "ba5481409aa3850b5a6918ebaacdb78219d063ca"
+            "id": "c07111534414dccd2d7984a75d38eceb8e4484e2"
           },
           "messages": []
         },
         "__unresolved_17": {
           "resolved": {
             "type": "chunk",
-            "id": "14ad2ac7c883cd86b2adacfdf70945b50a6d3788"
+            "id": "ba5481409aa3850b5a6918ebaacdb78219d063ca"
           },
           "messages": []
         },
         "__unresolved_18": {
           "resolved": {
             "type": "chunk",
-            "id": "76e1aa90b4f4be8648777a104504e002eaf73d06"
+            "id": "14ad2ac7c883cd86b2adacfdf70945b50a6d3788"
           },
           "messages": []
         },
         "__unresolved_19": {
           "resolved": {
             "type": "chunk",
-            "id": "72a40eaa15de2d1fc1aec2acc75ca238396b08d6"
+            "id": "76e1aa90b4f4be8648777a104504e002eaf73d06"
           },
           "messages": []
         },
@@ -1025,6 +1025,13 @@
           "resolved": {
             "type": "chunk",
             "id": "36278e5c964e5e2f737bca1654894a5a7b2a7063"
+          },
+          "messages": []
+        },
+        "__unresolved_20": {
+          "resolved": {
+            "type": "chunk",
+            "id": "72a40eaa15de2d1fc1aec2acc75ca238396b08d6"
           },
           "messages": []
         },
@@ -1066,19 +1073,31 @@
         "__unresolved_8": {
           "resolved": {
             "type": "chunk",
-            "id": "d462213887cf5fa00c90348cc8d74beb3f0ed029"
+            "id": "1fbe2dabe052153bbca10bb84d1eec562408b2e8"
           },
           "messages": []
         },
         "__unresolved_9": {
           "resolved": {
             "type": "chunk",
-            "id": "c00786b50787cfc47cda67341a761ec49dfe689a"
+            "id": "d462213887cf5fa00c90348cc8d74beb3f0ed029"
           },
           "messages": []
         }
       },
-      "timestamp": 1782161611651
+      "timestamp": 1782163510214
+    },
+    "1fbe2dabe052153bbca10bb84d1eec562408b2e8": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1782163510306
     }
   },
   "entries": {
@@ -1092,6 +1111,7 @@
     "file:///C:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "49c387c7d23ec5c771c1bd713cdd20f77551061d",
     "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/AdManager.ts": "3b766d6ba6b386451fa17bada89510a149cd9b98",
     "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/AudioContent.ts": "14c7749f58f6c3e65c8e816b54c5077fd49966aa",
+    "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/CameraShake.ts": "1fbe2dabe052153bbca10bb84d1eec562408b2e8",
     "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ClickRedirect.ts": "d462213887cf5fa00c90348cc8d74beb3f0ed029",
     "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Egg.ts": "c00786b50787cfc47cda67341a761ec49dfe689a",
     "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/EggDatabase.ts": "6bf23be8364406e8ba592878f150e4f3a6ab3d95",

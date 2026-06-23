@@ -514,7 +514,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 24360.9357,
+      "mTimestamp": 1922938.0645,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -630,7 +630,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ClickRedirect.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/CameraShake.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -639,12 +639,12 @@
             },
             "end": {
               "line": 12,
-              "column": 96
+              "column": 94
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Egg.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ClickRedirect.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
@@ -653,12 +653,12 @@
             },
             "end": {
               "line": 13,
-              "column": 86
+              "column": 96
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/EggDatabase.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Egg.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -667,12 +667,12 @@
             },
             "end": {
               "line": 14,
-              "column": 94
+              "column": 86
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/EndCard.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/EggDatabase.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -681,12 +681,12 @@
             },
             "end": {
               "line": 15,
-              "column": 90
+              "column": 94
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/GameManager.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/EndCard.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
@@ -695,12 +695,12 @@
             },
             "end": {
               "line": 16,
-              "column": 94
+              "column": 90
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/GlobalAudioManager.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/GameManager.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
@@ -709,12 +709,12 @@
             },
             "end": {
               "line": 17,
-              "column": 101
+              "column": 94
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Helper.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/GlobalAudioManager.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
@@ -723,12 +723,12 @@
             },
             "end": {
               "line": 18,
-              "column": 89
+              "column": 101
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Launcher.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Helper.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
@@ -737,12 +737,12 @@
             },
             "end": {
               "line": 19,
-              "column": 91
+              "column": 89
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/LayoutResponsive.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Launcher.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -751,12 +751,12 @@
             },
             "end": {
               "line": 20,
-              "column": 99
+              "column": 91
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/MergeEffect.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/LayoutResponsive.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -765,12 +765,12 @@
             },
             "end": {
               "line": 21,
-              "column": 94
+              "column": 99
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/PlayableUiCanvasFix.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/MergeEffect.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -779,12 +779,12 @@
             },
             "end": {
               "line": 22,
-              "column": 102
+              "column": 94
             }
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ThrowMergeGame.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/PlayableUiCanvasFix.ts",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
@@ -793,6 +793,20 @@
             },
             "end": {
               "line": 23,
+              "column": 102
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ThrowMergeGame.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 7
+            },
+            "end": {
+              "line": 24,
               "column": 97
             }
           }
@@ -853,6 +867,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/AudioContent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/CameraShake.ts"
           },
           "messages": []
         },
@@ -3622,6 +3643,58 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/MergeEffect.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/CameraShake.ts": {
+      "mTimestamp": {
+        "mtime": 1782163508214.327,
+        "uuid": "5b82e634-2850-4f6d-8c74-63614b136776"
+      },
+      "chunkId": "1fbe2dabe052153bbca10bb84d1eec562408b2e8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 58
+            },
+            "end": {
+              "line": 1,
+              "column": 62
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }
