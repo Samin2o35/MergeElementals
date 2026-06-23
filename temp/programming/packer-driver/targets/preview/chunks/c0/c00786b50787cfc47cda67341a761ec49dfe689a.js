@@ -28,7 +28,7 @@ System.register(["cc"], function (_export, _context) {
 
       _cclegacy._RF.push({}, "62805YO3sNEjrVdkQk70rOd", "Egg", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Sprite', 'RigidBody2D', 'CircleCollider2D', 'Collider2D', 'Contact2DType', 'ERigidBody2DType', 'Vec2']);
+      __checkObsolete__(['_decorator', 'Component', 'Sprite', 'SpriteFrame', 'RigidBody2D', 'CircleCollider2D', 'Collider2D', 'Contact2DType', 'ERigidBody2DType', 'Vec2']);
 
       ({
         ccclass,
@@ -67,6 +67,12 @@ System.register(["cc"], function (_export, _context) {
 
         onDestroy() {
           if (this._col) this._col.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+        }
+        /** Swap the piece art (used on spawn and on theme change). Tier/physics unchanged. */
+
+
+        setArt(frame) {
+          if (frame && this.eggArt) this.eggArt.spriteFrame = frame;
         }
         /** Call BEFORE addChild — sets serialized physics values read on fixture creation. */
 

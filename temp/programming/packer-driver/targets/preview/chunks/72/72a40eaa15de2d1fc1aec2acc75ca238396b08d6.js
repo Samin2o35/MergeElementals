@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7", "__unresolved_8", "__unresolved_9", "__unresolved_10"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Prefab, instantiate, Sprite, Label, Vec2, Vec3, PhysicsSystem2D, tween, Tween, Egg, EggDatabase, Launcher, GameManager, GlobalAudioManager, AudioContent, MergeEffect, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _dec21, _dec22, _dec23, _dec24, _dec25, _dec26, _dec27, _dec28, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _descriptor30, _crd, ccclass, property, ThrowMergeGame;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Prefab, instantiate, Sprite, Vec2, Vec3, PhysicsSystem2D, tween, Tween, director, Egg, EggDatabase, Launcher, GameManager, GlobalAudioManager, AudioContent, MergeEffect, ThemeManager, THEME_CHANGED, RoundManager, DESTROY_PIECES, CameraShake, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _dec21, _dec22, _dec23, _dec24, _dec25, _dec26, _dec27, _dec28, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _descriptor30, _crd, ccclass, property, ThrowMergeGame;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -37,6 +37,26 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     _reporterNs.report("MergeEffect", "./MergeEffect", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfThemeManager(extras) {
+    _reporterNs.report("ThemeManager", "./ThemeManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfTHEME_CHANGED(extras) {
+    _reporterNs.report("THEME_CHANGED", "./ThemeManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfRoundManager(extras) {
+    _reporterNs.report("RoundManager", "./RoundManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfDESTROY_PIECES(extras) {
+    _reporterNs.report("DESTROY_PIECES", "./RoundManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfCameraShake(extras) {
+    _reporterNs.report("CameraShake", "./CameraShake", _context.meta, extras);
+  }
+
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;
@@ -50,12 +70,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       Prefab = _cc.Prefab;
       instantiate = _cc.instantiate;
       Sprite = _cc.Sprite;
-      Label = _cc.Label;
       Vec2 = _cc.Vec2;
       Vec3 = _cc.Vec3;
       PhysicsSystem2D = _cc.PhysicsSystem2D;
       tween = _cc.tween;
       Tween = _cc.Tween;
+      director = _cc.director;
     }, function (_unresolved_2) {
       Egg = _unresolved_2.Egg;
     }, function (_unresolved_3) {
@@ -70,13 +90,21 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       AudioContent = _unresolved_7.AudioContent;
     }, function (_unresolved_8) {
       MergeEffect = _unresolved_8.MergeEffect;
+    }, function (_unresolved_9) {
+      ThemeManager = _unresolved_9.ThemeManager;
+      THEME_CHANGED = _unresolved_9.THEME_CHANGED;
+    }, function (_unresolved_10) {
+      RoundManager = _unresolved_10.RoundManager;
+      DESTROY_PIECES = _unresolved_10.DESTROY_PIECES;
+    }, function (_unresolved_11) {
+      CameraShake = _unresolved_11.CameraShake;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "8e385yFbxpKDogFzgF49gTA", "ThrowMergeGame", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'Prefab', 'instantiate', 'Sprite', 'Label', 'Vec2', 'Vec3', 'PhysicsSystem2D', 'tween', 'Tween']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'Prefab', 'instantiate', 'Sprite', 'SpriteFrame', 'Vec2', 'Vec3', 'PhysicsSystem2D', 'tween', 'Tween', 'director']);
 
       ({
         ccclass,
@@ -89,7 +117,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         error: Error()
       }), Launcher) : Launcher), _dec4 = property(Node), _dec5 = property(_crd && GameManager === void 0 ? (_reportPossibleCrUseOfGameManager({
         error: Error()
-      }), GameManager) : GameManager), _dec6 = property(Sprite), _dec7 = property(Sprite), _dec8 = property(Label), _dec9 = property(Prefab), _dec10 = property({
+      }), GameManager) : GameManager), _dec6 = property(_crd && ThemeManager === void 0 ? (_reportPossibleCrUseOfThemeManager({
+        error: Error()
+      }), ThemeManager) : ThemeManager), _dec7 = property(_crd && RoundManager === void 0 ? (_reportPossibleCrUseOfRoundManager({
+        error: Error()
+      }), RoundManager) : RoundManager), _dec8 = property(Sprite), _dec9 = property(Prefab), _dec10 = property({
         type: Node,
         tooltip: 'Layer for merge FX, rendered above the eggs. Falls back to Eggs container.'
       }), _dec11 = property(Node), _dec12 = property({
@@ -126,12 +158,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           _initializerDefineProperty(this, "gameManager", _descriptor4, this);
 
+          _initializerDefineProperty(this, "themeManager", _descriptor5, this);
+
+          _initializerDefineProperty(this, "roundManager", _descriptor6, this);
+
           /** The single Next Up egg (the one that will spawn next). Pulses + sits larger. */
-          _initializerDefineProperty(this, "nextEggSprite", _descriptor5, this);
-
-          _initializerDefineProperty(this, "targetEggSprite", _descriptor6, this);
-
-          _initializerDefineProperty(this, "targetStarLabel", _descriptor7, this);
+          _initializerDefineProperty(this, "nextEggSprite", _descriptor7, this);
 
           // ── Merge effect ─────────────────────────────────────────────────────
           _initializerDefineProperty(this, "mergeEffectPrefab", _descriptor8, this);
@@ -199,10 +231,25 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         onLoad() {
           PhysicsSystem2D.instance.enable = true;
           PhysicsSystem2D.instance.gravity = new Vec2(0, 0); // top-down table
+
+          director.on(_crd && THEME_CHANGED === void 0 ? (_reportPossibleCrUseOfTHEME_CHANGED({
+            error: Error()
+          }), THEME_CHANGED) : THEME_CHANGED, this.reskinAll, this);
+          director.on(_crd && DESTROY_PIECES === void 0 ? (_reportPossibleCrUseOfDESTROY_PIECES({
+            error: Error()
+          }), DESTROY_PIECES) : DESTROY_PIECES, this.onDestroyPieces, this);
+        }
+
+        onDestroy() {
+          director.off(_crd && THEME_CHANGED === void 0 ? (_reportPossibleCrUseOfTHEME_CHANGED({
+            error: Error()
+          }), THEME_CHANGED) : THEME_CHANGED, this.reskinAll, this);
+          director.off(_crd && DESTROY_PIECES === void 0 ? (_reportPossibleCrUseOfDESTROY_PIECES({
+            error: Error()
+          }), DESTROY_PIECES) : DESTROY_PIECES, this.onDestroyPieces, this);
         }
 
         start() {
-          this.refreshTarget();
           this._nextBaseScale = this.nextEggSprite ? this.nextEggSprite.node.scale.x : 1;
           this._nextTier = this.randomStartTier();
           this.updateNextDisplay();
@@ -253,15 +300,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           return Math.floor(Math.random() * (max + 1));
         }
 
-        refreshTarget() {
-          var t = this.db.getTier(this.db.effectiveTarget);
-          if (t && this.targetEggSprite) this.targetEggSprite.spriteFrame = t.icon;
-        }
-
         updateNextDisplay() {
-          var t = this.db.getTier(this._nextTier);
-          if (!t || !this.nextEggSprite) return;
-          this.nextEggSprite.spriteFrame = t.icon;
+          if (!this.nextEggSprite) return;
+          var f = this.themeManager ? this.themeManager.tierIcon(this._nextTier) : null;
+          if (f) this.nextEggSprite.spriteFrame = f;
           this.popNextEgg();
         }
         /** One-shot pop when the next egg changes — appears with a little punch. */
@@ -322,6 +364,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           });
           this.eggsContainer.addChild(node);
           node.setWorldPosition(worldPos.x, worldPos.y, worldPos.z);
+          if (this.themeManager) egg.setArt(this.themeManager.tierSprite(tier));
           return egg;
         }
         /** Runs inside the contact callback. Queue merges; play hit/wall SFX (gated). */
@@ -363,23 +406,36 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         processMerges() {
+          var _this = this;
+
           var list = this._pending;
           this._pending = [];
 
-          for (var m of list) {
+          var _loop = function _loop() {
             if (m.a && m.a.node && m.a.node.isValid) m.a.node.destroy();
             if (m.b && m.b.node && m.b.node.isValid) m.b.node.destroy();
-            this.playAudio(this.mergeAudio);
-            var resultTier = Math.min(m.tier + 1, this.db.count - 1);
-            this.spawnMergeFx(m.x, m.y, resultTier);
-            if (m.tier >= this.db.count - 1) continue; // already top of ladder
+
+            _this.playAudio(_this.mergeAudio);
+
+            var resultTier = Math.min(m.tier + 1, _this.db.count - 1);
+
+            _this.spawnMergeFx(m.x, m.y, resultTier);
+
+            if (m.tier >= _this.db.count - 1) {
+              var _this$roundManager;
+
+              // two top-tier pieces collided — just burst again, nothing to spawn
+              (_this$roundManager = _this.roundManager) == null || _this$roundManager.dealBurst();
+              return 1; // continue
+            }
 
             var nextTier = m.tier + 1;
-            var merged = this.spawnEgg(nextTier, new Vec3(m.x, m.y, 0));
+
+            var merged = _this.spawnEgg(nextTier, new Vec3(m.x, m.y, 0));
 
             if (merged) {
-              merged.setVelocity(new Vec2(m.vx * this.mergeInertia, m.vy * this.mergeInertia));
-              merged.setMergeGrace(this.mergeGrace);
+              merged.setVelocity(new Vec2(m.vx * _this.mergeInertia, m.vy * _this.mergeInertia));
+              merged.setMergeGrace(_this.mergeGrace);
               var authored = merged.node.scale.clone();
               merged.node.setScale(authored.x * 0.2, authored.y * 0.2, authored.z);
               tween(merged.node).to(0.18, {
@@ -389,10 +445,28 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
               }).start();
             }
 
-            if (nextTier >= this.db.effectiveTarget) {
-              this.triggerWin();
-              break;
+            if (nextTier >= _this.db.count - 1) {
+              var _this$roundManager2;
+
+              // created the top tier: big burst to all monsters, then remove the piece
+              (_this$roundManager2 = _this.roundManager) == null || _this$roundManager2.dealBurst();
+
+              if (merged) {
+                var mn = merged;
+
+                _this.scheduleOnce(() => {
+                  if (mn.node && mn.node.isValid) mn.node.destroy();
+                }, 0.15);
+              }
+            } else {
+              var _this$roundManager3;
+
+              (_this$roundManager3 = _this.roundManager) == null || _this$roundManager3.dealMergeDamage(nextTier);
             }
+          };
+
+          for (var m of list) {
+            if (_loop()) continue;
           }
         }
 
@@ -414,20 +488,72 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           }), MergeEffect) : MergeEffect).DEFAULT_COLORS);
         }
 
-        triggerWin() {
-          if (this._gameOver) return;
-          this._gameOver = true;
-          this.launcher.disable();
-          this.playAudio(this.winAudio);
-          this.scheduleOnce(() => this.gameManager.showEndCard(true), 0.6);
-        }
-
         triggerLose() {
+          var _this$roundManager4;
+
           if (this._gameOver) return;
           this._gameOver = true;
           this.launcher.disable();
+          (_this$roundManager4 = this.roundManager) == null || _this$roundManager4.stop();
           this.playAudio(this.loseAudio);
           this.scheduleOnce(() => this.gameManager.showEndCard(false), 0.6);
+        }
+        /** THEME_CHANGED handler: re-skin every piece in play (and the next preview) to the new theme. */
+
+
+        reskinAll() {
+          if (!this.themeManager) return;
+          var kids = this.eggsContainer.children;
+
+          for (var i = 0; i < kids.length; i++) {
+            var egg = kids[i].getComponent(_crd && Egg === void 0 ? (_reportPossibleCrUseOfEgg({
+              error: Error()
+            }), Egg) : Egg);
+            if (egg) egg.setArt(this.themeManager.tierSprite(egg.tier));
+          }
+
+          if (this._dockedEgg) this._dockedEgg.setArt(this.themeManager.tierSprite(this._dockedEgg.tier));
+          var f = this.themeManager.tierIcon(this._nextTier);
+          if (f && this.nextEggSprite) this.nextEggSprite.spriteFrame = f; // no pop on reskin
+        }
+        /** DESTROY_PIECES handler: a monster attacked — wipe `count` random in-play pieces. */
+
+
+        onDestroyPieces(count) {
+          var _instance;
+
+          var pool = [];
+          var kids = this.eggsContainer.children;
+
+          for (var i = 0; i < kids.length; i++) {
+            var e = kids[i].getComponent(_crd && Egg === void 0 ? (_reportPossibleCrUseOfEgg({
+              error: Error()
+            }), Egg) : Egg);
+            if (e && !e.consumed && e !== this._dockedEgg) pool.push(kids[i]);
+          }
+
+          var destroyed = 0;
+
+          for (var k = 0; k < count && pool.length > 0; k++) {
+            var idx = Math.floor(Math.random() * pool.length);
+            var n = pool.splice(idx, 1)[0];
+
+            if (n && n.isValid) {
+              var _e = n.getComponent(_crd && Egg === void 0 ? (_reportPossibleCrUseOfEgg({
+                error: Error()
+              }), Egg) : Egg);
+
+              if (_e) _e.consumed = true; // keep it out of merge checks before it dies
+
+              this.spawnMergeFx(n.worldPosition.x, n.worldPosition.y, 0);
+              n.destroy();
+              destroyed++;
+            }
+          }
+
+          if (destroyed > 0) (_instance = (_crd && CameraShake === void 0 ? (_reportPossibleCrUseOfCameraShake({
+            error: Error()
+          }), CameraShake) : CameraShake).instance) == null || _instance.shake(12, 0.18);
         }
         /** Cooldown-gated one-shot to avoid duplicate/rapid-fire contact sounds. */
 
@@ -482,21 +608,21 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "nextEggSprite", [_dec6], {
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "themeManager", [_dec6], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "targetEggSprite", [_dec7], {
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "roundManager", [_dec7], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "targetStarLabel", [_dec8], {
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "nextEggSprite", [_dec8], {
         configurable: true,
         enumerable: true,
         writable: true,

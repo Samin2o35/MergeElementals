@@ -1,6 +1,6 @@
 import {
-    _decorator, Component, Node, Prefab, instantiate, Sprite, Label,
-    Vec2, Vec3, PhysicsSystem2D, tween, Tween,
+    _decorator, Component, Node, Prefab, instantiate, Sprite, SpriteFrame,
+    Vec2, Vec3, PhysicsSystem2D, tween, Tween, director,
 } from 'cc';
 import { Egg } from './Egg';
 import { EggDatabase } from './EggDatabase';
@@ -9,6 +9,9 @@ import { GameManager } from './GameManager';
 import { GlobalAudioManager } from './GlobalAudioManager';
 import { AudioContent } from './AudioContent';
 import { MergeEffect } from './MergeEffect';
+import { ThemeManager, THEME_CHANGED } from './ThemeManager';
+import { RoundManager, DESTROY_PIECES } from './RoundManager';
+import { CameraShake } from './CameraShake';
 
 const { ccclass, property } = _decorator;
 
@@ -22,11 +25,11 @@ export class ThrowMergeGame extends Component {
     @property(Node)        eggsContainer: Node = null!;
     @property(GameManager) gameManager: GameManager = null!;
 
+    @property(ThemeManager) themeManager: ThemeManager = null!;
+    @property(RoundManager) roundManager: RoundManager = null!;
+
     /** The single Next Up egg (the one that will spawn next). Pulses + sits larger. */
     @property(Sprite) nextEggSprite: Sprite = null!;
-
-    @property(Sprite) targetEggSprite: Sprite = null!;
-    @property(Label)  targetStarLabel: Label = null!;
 
     // ── Merge effect ─────────────────────────────────────────────────────
     @property(Prefab) mergeEffectPrefab: Prefab = null!;
@@ -85,10 +88,17 @@ export class ThrowMergeGame extends Component {
     onLoad() {
         PhysicsSystem2D.instance.enable = true;
         PhysicsSystem2D.instance.gravity = new Vec2(0, 0); // top-down table
+
+        director.on(THEME_CHANGED, this.reskinAll, this);
+        director.on(DESTROY_PIECES, this.onDestroyPieces, this);
+    }
+
+    onDestroy() {
+        director.off(THEME_CHANGED, this.reskinAll, this);
+        director.off(DESTROY_PIECES, this.onDestroyPieces, this);
     }
 
     start() {
-        this.refreshTarget();
         this._nextBaseScale = this.nextEggSprite ? this.nextEggSprite.node.scale.x : 1;
         this._nextTier = this.randomStartTier();
         this.updateNextDisplay();
@@ -137,15 +147,10 @@ export class ThrowMergeGame extends Component {
         return Math.floor(Math.random() * (max + 1));
     }
 
-    private refreshTarget() {
-        const t = this.db.getTier(this.db.effectiveTarget);
-        if (t && this.targetEggSprite) this.targetEggSprite.spriteFrame = t.icon;
-    }
-
     private updateNextDisplay() {
-        const t = this.db.getTier(this._nextTier);
-        if (!t || !this.nextEggSprite) return;
-        this.nextEggSprite.spriteFrame = t.icon;
+        if (!this.nextEggSprite) return;
+        const f = this.themeManager ? this.themeManager.tierIcon(this._nextTier) : null;
+        if (f) this.nextEggSprite.spriteFrame = f;
         this.popNextEgg();
     }
 
@@ -197,6 +202,7 @@ export class ThrowMergeGame extends Component {
 
         this.eggsContainer.addChild(node);
         node.setWorldPosition(worldPos.x, worldPos.y, worldPos.z);
+        if (this.themeManager) egg.setArt(this.themeManager.tierSprite(tier));
         return egg;
     }
 
@@ -240,7 +246,11 @@ export class ThrowMergeGame extends Component {
             const resultTier = Math.min(m.tier + 1, this.db.count - 1);
             this.spawnMergeFx(m.x, m.y, resultTier);
 
-            if (m.tier >= this.db.count - 1) continue; // already top of ladder
+            if (m.tier >= this.db.count - 1) {
+                // two top-tier pieces collided — just burst again, nothing to spawn
+                this.roundManager?.dealBurst();
+                continue;
+            }
 
             const nextTier = m.tier + 1;
             const merged = this.spawnEgg(nextTier, new Vec3(m.x, m.y, 0));
@@ -252,7 +262,16 @@ export class ThrowMergeGame extends Component {
                 tween(merged.node).to(0.18, { scale: authored }, { easing: 'backOut' }).start();
             }
 
-            if (nextTier >= this.db.effectiveTarget) { this.triggerWin(); break; }
+            if (nextTier >= this.db.count - 1) {
+                // created the top tier: big burst to all monsters, then remove the piece
+                this.roundManager?.dealBurst();
+                if (merged) {
+                    const mn = merged;
+                    this.scheduleOnce(() => { if (mn.node && mn.node.isValid) mn.node.destroy(); }, 0.15);
+                }
+            } else {
+                this.roundManager?.dealMergeDamage(nextTier);
+            }
         }
     }
 
@@ -266,20 +285,49 @@ export class ThrowMergeGame extends Component {
         if (fx) fx.play(MergeEffect.TIER_COLORS[resultTier] ?? MergeEffect.DEFAULT_COLORS);
     }
 
-    private triggerWin() {
-        if (this._gameOver) return;
-        this._gameOver = true;
-        this.launcher.disable();
-        this.playAudio(this.winAudio);
-        this.scheduleOnce(() => this.gameManager.showEndCard(true), 0.6);
-    }
-
     private triggerLose() {
         if (this._gameOver) return;
         this._gameOver = true;
         this.launcher.disable();
+        this.roundManager?.stop();
         this.playAudio(this.loseAudio);
         this.scheduleOnce(() => this.gameManager.showEndCard(false), 0.6);
+    }
+
+    /** THEME_CHANGED handler: re-skin every piece in play (and the next preview) to the new theme. */
+    private reskinAll() {
+        if (!this.themeManager) return;
+        const kids = this.eggsContainer.children;
+        for (let i = 0; i < kids.length; i++) {
+            const egg = kids[i].getComponent(Egg);
+            if (egg) egg.setArt(this.themeManager.tierSprite(egg.tier));
+        }
+        if (this._dockedEgg) this._dockedEgg.setArt(this.themeManager.tierSprite(this._dockedEgg.tier));
+        const f = this.themeManager.tierIcon(this._nextTier);
+        if (f && this.nextEggSprite) this.nextEggSprite.spriteFrame = f; // no pop on reskin
+    }
+
+    /** DESTROY_PIECES handler: a monster attacked — wipe `count` random in-play pieces. */
+    private onDestroyPieces(count: number) {
+        const pool: Node[] = [];
+        const kids = this.eggsContainer.children;
+        for (let i = 0; i < kids.length; i++) {
+            const e = kids[i].getComponent(Egg);
+            if (e && !e.consumed && e !== this._dockedEgg) pool.push(kids[i]);
+        }
+        let destroyed = 0;
+        for (let k = 0; k < count && pool.length > 0; k++) {
+            const idx = Math.floor(Math.random() * pool.length);
+            const n = pool.splice(idx, 1)[0];
+            if (n && n.isValid) {
+                const e = n.getComponent(Egg);
+                if (e) e.consumed = true; // keep it out of merge checks before it dies
+                this.spawnMergeFx(n.worldPosition.x, n.worldPosition.y, 0);
+                n.destroy();
+                destroyed++;
+            }
+        }
+        if (destroyed > 0) CameraShake.instance?.shake(12, 0.18);
     }
 
     /** Cooldown-gated one-shot to avoid duplicate/rapid-fire contact sounds. */

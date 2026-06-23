@@ -93,8 +93,7 @@
     "url": "db://assets/Prefabs/Egg1.prefab",
     "value": {
       "depends": [
-        "e7ce0687-eb9d-48b9-959b-136b71cab16b@f9941",
-        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
+        "5a2a516f-30c4-43d1-976d-ad30938fa692@f9941"
       ],
       "dependScripts": [
         "6280560e-dec3-448e-b55d-91093bd2b39d"
@@ -104,106 +103,42 @@
   },
   "7afcc593-c01f-4396-b1ae-786b1de291ea": {
     "url": "db://assets/Prefabs/Egg2.prefab",
-    "value": {
-      "depends": [
-        "e4b04ae5-1030-4f2f-99ee-99760fb2c650@f9941",
-        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
-      ],
-      "dependScripts": [
-        "6280560e-dec3-448e-b55d-91093bd2b39d"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "2f5fa609-e238-47f1-9323-15185010eaf2": {
     "url": "db://assets/Prefabs/Egg3.prefab",
-    "value": {
-      "depends": [
-        "e9bcd66d-5b72-4234-a9e1-38fb26704b81@f9941",
-        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
-      ],
-      "dependScripts": [
-        "6280560e-dec3-448e-b55d-91093bd2b39d"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "430062fd-187a-44eb-b1c8-df3cb4824df2": {
     "url": "db://assets/Prefabs/Egg4.prefab",
-    "value": {
-      "depends": [
-        "3af1fa35-1771-4a06-811f-bb046199ba29@f9941",
-        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
-      ],
-      "dependScripts": [
-        "6280560e-dec3-448e-b55d-91093bd2b39d"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "5fe6aa88-a263-4486-9b97-2f4cfc994a3b": {
     "url": "db://assets/Prefabs/Egg5.prefab",
-    "value": {
-      "depends": [
-        "2471cdae-aff1-4bd1-b2a3-70c95392f31a@f9941",
-        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
-      ],
-      "dependScripts": [
-        "6280560e-dec3-448e-b55d-91093bd2b39d"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "9a0326ee-b725-41db-bae5-433f726da9c5": {
     "url": "db://assets/Prefabs/Egg6.prefab",
-    "value": {
-      "depends": [
-        "267bafd8-788c-4bce-9bd9-716059eedab3@f9941",
-        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
-      ],
-      "dependScripts": [
-        "6280560e-dec3-448e-b55d-91093bd2b39d"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "fa3422e1-dede-4857-93f4-b655a89c2d61": {
     "url": "db://assets/Prefabs/Egg7.prefab",
-    "value": {
-      "depends": [
-        "4647fa79-d40e-4646-855c-bed4c09edd33@f9941",
-        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
-      ],
-      "dependScripts": [
-        "6280560e-dec3-448e-b55d-91093bd2b39d"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "636b0f73-7c2d-450e-b9e0-696bf9c3d606": {
     "url": "db://assets/Prefabs/Egg8.prefab",
-    "value": {
-      "depends": [
-        "cacb4b3d-7918-4652-b8d4-01f8b4522ff3@f9941",
-        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
-      ],
-      "dependScripts": [
-        "6280560e-dec3-448e-b55d-91093bd2b39d"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "5a06ef2a-4d68-4de7-9582-eec329720de0": {
     "url": "db://assets/Prefabs/Egg9.prefab",
-    "value": {
-      "depends": [
-        "b6ad940a-1313-4fae-9456-c77a889507c6@f9941",
-        "fd70d8ae-690d-450c-a347-86ce453d5870@f9941"
-      ],
-      "dependScripts": [
-        "6280560e-dec3-448e-b55d-91093bd2b39d"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "e4599460-c72f-4397-ad20-79bfa04e3add": {
@@ -223,32 +158,84 @@
         "ec695995-cf55-4903-ac6d-a7878a3756a9@f9941",
         "deccc226-f721-4bdc-a408-d1999097e447",
         "7ccee78d-4830-483d-861e-96c7a9ffa16c",
-        "e7ce0687-eb9d-48b9-959b-136b71cab16b@f9941",
-        "7afcc593-c01f-4396-b1ae-786b1de291ea",
-        "e4b04ae5-1030-4f2f-99ee-99760fb2c650@f9941",
-        "2f5fa609-e238-47f1-9323-15185010eaf2",
-        "e9bcd66d-5b72-4234-a9e1-38fb26704b81@f9941",
-        "430062fd-187a-44eb-b1c8-df3cb4824df2",
-        "3af1fa35-1771-4a06-811f-bb046199ba29@f9941",
-        "5fe6aa88-a263-4486-9b97-2f4cfc994a3b",
-        "2471cdae-aff1-4bd1-b2a3-70c95392f31a@f9941",
-        "9a0326ee-b725-41db-bae5-433f726da9c5",
-        "267bafd8-788c-4bce-9bd9-716059eedab3@f9941",
-        "fa3422e1-dede-4857-93f4-b655a89c2d61",
-        "4647fa79-d40e-4646-855c-bed4c09edd33@f9941",
-        "636b0f73-7c2d-450e-b9e0-696bf9c3d606",
-        "cacb4b3d-7918-4652-b8d4-01f8b4522ff3@f9941",
-        "5a06ef2a-4d68-4de7-9582-eec329720de0",
-        "b6ad940a-1313-4fae-9456-c77a889507c6@f9941",
+        "882a5efb-bca8-4869-b63e-8b63c88999eb",
+        "d8387840-d816-48f3-873e-2d791f2e52cd",
+        "91359ca0-071b-4524-ab84-cf20cd7f6aa3",
+        "c16f6fd8-5160-4e7d-96dd-18918972ad6d",
+        "b2739bea-84d1-400e-bd12-49812db40b3f",
+        "b4d9b1c9-8977-4297-9284-bd30e2df211c",
         "46a0e931-8587-42e8-ad74-44274b5da07d@f9941",
-        "061927ad-2681-445f-b286-9019446074c6@f9941",
-        "7f2f3031-2363-462a-b9df-337868210f07@f9941",
-        "33f2bff1-7720-490e-92d1-dec4124b58d2",
-        "f83a5422-eeba-45b3-a6a0-a6c0ca224e55@f9941",
+        "0799dc87-97e3-4e16-a858-289673e259e7@f9941",
+        "873375f2-e80f-423b-bfdb-3d6a0a613857@f9941",
+        "62fe6124-3ed3-4755-a674-e39b7ab87ab1@f9941",
+        "fb9503cf-d6e6-4233-a032-2f630540a629@f9941",
+        "beeb3523-66d4-4a39-a2d8-6cb37efabe8a@f9941",
+        "a12f36cd-e36a-40d3-a4d7-9d0c31f91a0d@f9941",
+        "981d4805-4e47-4651-86a6-20b2227bae9f@f9941",
+        "66ec076f-f947-403e-b27e-7058c2ffa53a@f9941",
+        "a246d2a6-eb67-4ba8-9163-d01109800b75@f9941",
+        "5a2a516f-30c4-43d1-976d-ad30938fa692@f9941",
+        "41640a7a-fdb5-426c-a8ec-6432bd7d5514@f9941",
+        "b5d7aaf5-cdcc-4e4b-bc72-889bf268a8bc@f9941",
+        "516f687e-e1e1-4773-a98d-6b905f0a490f@f9941",
+        "d13b95a1-af5c-4e0f-9881-9154cc625354@f9941",
+        "7fa2802a-45f9-4a09-be06-bede5d844617@f9941",
+        "e9091a55-ab64-4365-9dca-3b8f8b424898@f9941",
+        "0a9d293f-da80-4420-88ff-d87d9c1bcfa2@f9941",
+        "b0547daa-393d-4208-b45b-5b5bad352961@f9941",
+        "08f3a171-1187-4be8-b594-1e9c121cc949@f9941",
+        "7681ce95-9872-4b3c-bcaa-b3f45dbaacbd@f9941",
+        "e2094617-b6b3-4f0d-b7a4-c2a63ed64a44@f9941",
+        "d955b23d-6d37-48b0-a7b6-f3f97e87917e@f9941",
+        "614fed6d-aa58-4960-9312-50577e3de8aa@f9941",
+        "5f87f581-6189-4670-8fe8-b32431a9404b@f9941",
+        "480bcb54-452c-4f36-9d90-66bf94270548@f9941",
+        "13cc4204-4684-4fe3-8115-e5f6db4e7863@f9941",
+        "687bc0d2-7f1c-4af6-9a0d-5b7e2fef64cd@f9941",
+        "e07e2871-0a3c-4fc2-8225-d5f0199c00db@f9941",
+        "b50f460d-e88e-4a23-895d-ea36777af8a3@f9941",
+        "dcbef853-bcb6-4322-bf59-2429a2d50f7b@f9941",
+        "b1ed3562-03f8-4389-a41c-8716706a4a2e@f9941",
+        "b0207fa2-2cf7-4793-a6d0-f547df278eff@f9941",
+        "75d0a50b-d96a-41c8-b4e4-1be7d240638a@f9941",
+        "413f04de-5656-4a1a-8650-31cc40a2afda@f9941",
+        "1072863a-aae8-4a7f-ac73-506af3263155@f9941",
+        "fb595797-74e6-43de-b42d-167df5e631a1@f9941",
+        "704e3527-b838-4095-8166-a2a1b7a773c1@f9941",
+        "101d4751-ac5e-4d91-8110-86be717a5b58@f9941",
+        "23c0e61e-29ec-4e1e-8de2-a5a2f6b4cf14@f9941",
+        "e1560a71-e9c3-418d-805b-f9cd3a93263c@f9941",
+        "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3@f9941",
+        "8f42a1b7-9d22-4a5f-8ae1-1250e7cb8384@f9941",
+        "5c327a43-546a-4a8a-b42f-5ee54444170a@f9941",
+        "532d0d93-380c-47d1-b521-2055377ddbb4@f9941",
+        "7b746bb3-3107-4f44-9b0a-2a2e9723ac4d@f9941",
+        "3c8f56d4-f11d-4db4-94dd-1d7398407c18@f9941",
+        "471d43ac-6611-423c-bb25-f36534854a59@f9941",
+        "c0d1fa8c-3023-473a-ae48-b9cdeeccd195@f9941",
+        "c9df6aa3-4c82-41db-87b3-3aaafe04d83c@f9941",
+        "1ff307df-7ac5-4eda-9007-3ca5c8a2ac4d@f9941",
+        "c3107b69-c9dd-433c-9e5a-cd53c03cb20c@f9941",
+        "e0031786-d267-48b3-bc71-c15839d8fcad@f9941",
+        "e7f19fc5-e608-4a35-8b66-ada0e2513f81@f9941",
+        "24fe0fb9-9d61-4ee1-b96a-827ba246167d@f9941",
+        "b36a99f5-a783-4c97-81ae-27e07d672e06@f9941",
+        "faca758a-c770-4e65-b03b-377b10e3638d@f9941",
+        "ed3d12b8-67ff-4b2e-87fd-c0b55068d678@f9941",
+        "2ea95027-4532-47eb-836c-61dfc1823b28@f9941",
+        "f3216c2c-6264-4136-b193-137e8881c7ba@f9941",
+        "a6ff5e30-49f0-4360-a424-e4ec296e4f88@f9941",
+        "4a993327-1613-461d-b332-921cde911bb7@f9941",
+        "d8ecd999-4884-4f5c-b3ec-3f6c1167fdac@f9941",
+        "e9ffd143-e22d-47e1-ad14-894a1e51888c@f9941",
+        "1e16f461-7ed5-473b-84ca-839a887363c3@f9941",
         "e93942f9-572c-431b-9ac1-5c65a796d6da@f9941",
         "80ff214f-9437-4b7f-98ec-8f28fe4913fd@f9941",
-        "76e94333-0850-4d03-8b84-c211a0dae96e@f9941",
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "33f2bff1-7720-490e-92d1-dec4124b58d2",
+        "1d8ab62a-6545-4bf8-a5bd-d72af80941c3@f9941",
+        "f83a5422-eeba-45b3-a6a0-a6c0ca224e55@f9941",
+        "9a0070f2-8eb8-4eb5-ae82-ede1cd972c1a",
+        "91fb315c-5fd5-44a7-86a3-7d5e8a558bac",
         "d6f65851-39c7-4038-bebf-cd86f1fff79e@f9941"
       ],
       "dependScripts": [
@@ -259,8 +246,11 @@
         "8e385c85-6f1a-4a0e-8805-ce0178f604c0",
         "bb2b77ec-7f0c-4c34-b148-8a9e35bc5504",
         "d747a727-65d2-4ac7-992c-34a8030a9ceb",
-        "64ea437d-cac2-496e-8dd6-311dd3f15b9a",
         "e8aef76c-715a-4c9d-a193-393881ac6b2d",
+        "64ea437d-cac2-496e-8dd6-311dd3f15b9a",
+        "528d5edf-cda9-47cc-8899-8828a041dce0",
+        "f210455b-cdbe-49a2-866d-9adcb08f9bbb",
+        "716a24c4-7b04-439f-abdf-03d4efd4b8bb",
         "5a1b866f-7c1b-4dab-92be-549b64b664df",
         "7496fb00-a349-40fc-8ca7-49126bfe7103",
         "2ba60a15-def9-4db2-8a99-7a2eb3cbcd1e"
@@ -367,9 +357,7 @@
   },
   "4c211fd6-9152-4a81-a703-5d08d84baa70": {
     "url": "db://assets/Textures/Main_UI_Final_UI.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "061927ad-2681-445f-b286-9019446074c6@f9941": {
@@ -426,9 +414,7 @@
   },
   "fd70d8ae-690d-450c-a347-86ce453d5870": {
     "url": "db://assets/Textures/Shadow.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "6cbfb3ea-d869-453a-92ae-14a4b459833b@6c48a": {
@@ -451,9 +437,7 @@
   },
   "7f2f3031-2363-462a-b9df-337868210f07": {
     "url": "db://assets/Textures/Star.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "6cbfb3ea-d869-453a-92ae-14a4b459833b@f9941": {
@@ -467,9 +451,7 @@
   },
   "e7ce0687-eb9d-48b9-959b-136b71cab16b": {
     "url": "db://assets/Textures/Eggs/Blackfeather.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "fd70d8ae-690d-450c-a347-86ce453d5870@6c48a": {
@@ -510,9 +492,7 @@
   },
   "4647fa79-d40e-4646-855c-bed4c09edd33": {
     "url": "db://assets/Textures/Eggs/fampirastral.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "7f2f3031-2363-462a-b9df-337868210f07@f9941": {
@@ -526,9 +506,7 @@
   },
   "e4b04ae5-1030-4f2f-99ee-99760fb2c650": {
     "url": "db://assets/Textures/Eggs/Firekong.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "4647fa79-d40e-4646-855c-bed4c09edd33@6c48a": {
@@ -560,9 +538,7 @@
   },
   "e9bcd66d-5b72-4234-a9e1-38fb26704b81": {
     "url": "db://assets/Textures/Eggs/Lady_Meow.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "4647fa79-d40e-4646-855c-bed4c09edd33@f9941": {
@@ -576,9 +552,7 @@
   },
   "2471cdae-aff1-4bd1-b2a3-70c95392f31a": {
     "url": "db://assets/Textures/Eggs/oliphanatic.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "e4b04ae5-1030-4f2f-99ee-99760fb2c650@f9941": {
@@ -592,9 +566,7 @@
   },
   "267bafd8-788c-4bce-9bd9-716059eedab3": {
     "url": "db://assets/Textures/Eggs/Pandaken.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "3c984007-6cd7-4961-b685-17dc011cd43a@f9941": {
@@ -608,9 +580,7 @@
   },
   "3af1fa35-1771-4a06-811f-bb046199ba29": {
     "url": "db://assets/Textures/Eggs/Pandalf.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "e9bcd66d-5b72-4234-a9e1-38fb26704b81@6c48a": {
@@ -642,9 +612,7 @@
   },
   "cacb4b3d-7918-4652-b8d4-01f8b4522ff3": {
     "url": "db://assets/Textures/Eggs/Treezard.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "267bafd8-788c-4bce-9bd9-716059eedab3@6c48a": {
@@ -676,9 +644,7 @@
   },
   "b6ad940a-1313-4fae-9456-c77a889507c6": {
     "url": "db://assets/Textures/Eggs/Ursus.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "3af1fa35-1771-4a06-811f-bb046199ba29@6c48a": {
@@ -771,9 +737,7 @@
   },
   "76e94333-0850-4d03-8b84-c211a0dae96e": {
     "url": "db://assets/Textures/BG.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "76e94333-0850-4d03-8b84-c211a0dae96e@6c48a": {
@@ -1054,9 +1018,7 @@
   },
   "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f": {
     "url": "db://assets/Textures/image.webp",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f@6c48a": {
@@ -1336,47 +1298,45 @@
     "versionCode": 1
   },
   "e13b014b-8be2-421d-a019-cfa2cc53936c": {
-    "url": "db://assets/Textures/Custom",
+    "url": "db://assets/Textures/ThemedRooms",
     "value": {},
     "versionCode": 1
   },
   "a246d2a6-eb67-4ba8-9163-d01109800b75": {
-    "url": "db://assets/Textures/Custom/Amethyst Room.webp",
+    "url": "db://assets/Textures/ThemedRooms/Amethyst Room.webp",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "c9df6aa3-4c82-41db-87b3-3aaafe04d83c": {
-    "url": "db://assets/Textures/Custom/Bronze Room.webp",
+    "url": "db://assets/Textures/ThemedRooms/Bronze Room.webp",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "480bcb54-452c-4f36-9d90-66bf94270548": {
-    "url": "db://assets/Textures/Custom/Gold Room.webp",
+    "url": "db://assets/Textures/ThemedRooms/Gold Room.webp",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "8fab3ab0-4767-4361-99f1-81ec2309c02d": {
-    "url": "db://assets/Textures/Custom/IceRoom.webp",
-    "value": {
-      "depends": []
-    },
+    "url": "db://assets/Textures/ThemedRooms/IceRoom.webp",
+    "value": {},
     "versionCode": 1
   },
   "ed3d12b8-67ff-4b2e-87fd-c0b55068d678": {
-    "url": "db://assets/Textures/Custom/NatureRoom.webp",
+    "url": "db://assets/Textures/ThemedRooms/WoodRoom.webp",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "480bcb54-452c-4f36-9d90-66bf94270548@6c48a": {
-    "url": "db://assets/Textures/Custom/Gold Room.webp@6c48a",
+    "url": "db://assets/Textures/ThemedRooms/Gold Room.webp@6c48a",
     "value": {
       "depends": [
         "480bcb54-452c-4f36-9d90-66bf94270548"
@@ -1385,7 +1345,7 @@
     "versionCode": 1
   },
   "c9df6aa3-4c82-41db-87b3-3aaafe04d83c@6c48a": {
-    "url": "db://assets/Textures/Custom/Bronze Room.webp@6c48a",
+    "url": "db://assets/Textures/ThemedRooms/Bronze Room.webp@6c48a",
     "value": {
       "depends": [
         "c9df6aa3-4c82-41db-87b3-3aaafe04d83c"
@@ -1394,7 +1354,7 @@
     "versionCode": 1
   },
   "8fab3ab0-4767-4361-99f1-81ec2309c02d@6c48a": {
-    "url": "db://assets/Textures/Custom/IceRoom.webp@6c48a",
+    "url": "db://assets/Textures/ThemedRooms/IceRoom.webp@6c48a",
     "value": {
       "depends": [
         "8fab3ab0-4767-4361-99f1-81ec2309c02d"
@@ -1403,7 +1363,7 @@
     "versionCode": 1
   },
   "a246d2a6-eb67-4ba8-9163-d01109800b75@6c48a": {
-    "url": "db://assets/Textures/Custom/Amethyst Room.webp@6c48a",
+    "url": "db://assets/Textures/ThemedRooms/Amethyst Room.webp@6c48a",
     "value": {
       "depends": [
         "a246d2a6-eb67-4ba8-9163-d01109800b75"
@@ -1412,7 +1372,7 @@
     "versionCode": 1
   },
   "480bcb54-452c-4f36-9d90-66bf94270548@f9941": {
-    "url": "db://assets/Textures/Custom/Gold Room.webp@f9941",
+    "url": "db://assets/Textures/ThemedRooms/Gold Room.webp@f9941",
     "value": {
       "depends": [
         "480bcb54-452c-4f36-9d90-66bf94270548@6c48a"
@@ -1421,14 +1381,14 @@
     "versionCode": 1
   },
   "0799dc87-97e3-4e16-a858-289673e259e7": {
-    "url": "db://assets/Textures/Custom/Onyx Room.webp",
+    "url": "db://assets/Textures/ThemedRooms/Onyx Room.webp",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "c9df6aa3-4c82-41db-87b3-3aaafe04d83c@f9941": {
-    "url": "db://assets/Textures/Custom/Bronze Room.webp@f9941",
+    "url": "db://assets/Textures/ThemedRooms/Bronze Room.webp@f9941",
     "value": {
       "depends": [
         "c9df6aa3-4c82-41db-87b3-3aaafe04d83c@6c48a"
@@ -1437,7 +1397,7 @@
     "versionCode": 1
   },
   "8fab3ab0-4767-4361-99f1-81ec2309c02d@f9941": {
-    "url": "db://assets/Textures/Custom/IceRoom.webp@f9941",
+    "url": "db://assets/Textures/ThemedRooms/IceRoom.webp@f9941",
     "value": {
       "depends": [
         "8fab3ab0-4767-4361-99f1-81ec2309c02d@6c48a"
@@ -1446,7 +1406,7 @@
     "versionCode": 1
   },
   "a246d2a6-eb67-4ba8-9163-d01109800b75@f9941": {
-    "url": "db://assets/Textures/Custom/Amethyst Room.webp@f9941",
+    "url": "db://assets/Textures/ThemedRooms/Amethyst Room.webp@f9941",
     "value": {
       "depends": [
         "a246d2a6-eb67-4ba8-9163-d01109800b75@6c48a"
@@ -1455,28 +1415,28 @@
     "versionCode": 1
   },
   "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3": {
-    "url": "db://assets/Textures/Custom/Platinum Room.webp",
+    "url": "db://assets/Textures/ThemedRooms/Platinum Room.webp",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "75d0a50b-d96a-41c8-b4e4-1be7d240638a": {
-    "url": "db://assets/Textures/Custom/Silver Room.webp",
+    "url": "db://assets/Textures/ThemedRooms/Silver Room.webp",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "0a9d293f-da80-4420-88ff-d87d9c1bcfa2": {
-    "url": "db://assets/Textures/Custom/Stone Room.webp",
+    "url": "db://assets/Textures/ThemedRooms/Stone Room.webp",
     "value": {
       "depends": []
     },
     "versionCode": 1
   },
   "ed3d12b8-67ff-4b2e-87fd-c0b55068d678@6c48a": {
-    "url": "db://assets/Textures/Custom/NatureRoom.webp@6c48a",
+    "url": "db://assets/Textures/ThemedRooms/WoodRoom.webp@6c48a",
     "value": {
       "depends": [
         "ed3d12b8-67ff-4b2e-87fd-c0b55068d678"
@@ -1485,7 +1445,7 @@
     "versionCode": 1
   },
   "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3@6c48a": {
-    "url": "db://assets/Textures/Custom/Platinum Room.webp@6c48a",
+    "url": "db://assets/Textures/ThemedRooms/Platinum Room.webp@6c48a",
     "value": {
       "depends": [
         "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3"
@@ -1494,7 +1454,7 @@
     "versionCode": 1
   },
   "75d0a50b-d96a-41c8-b4e4-1be7d240638a@6c48a": {
-    "url": "db://assets/Textures/Custom/Silver Room.webp@6c48a",
+    "url": "db://assets/Textures/ThemedRooms/Silver Room.webp@6c48a",
     "value": {
       "depends": [
         "75d0a50b-d96a-41c8-b4e4-1be7d240638a"
@@ -1503,7 +1463,7 @@
     "versionCode": 1
   },
   "0799dc87-97e3-4e16-a858-289673e259e7@6c48a": {
-    "url": "db://assets/Textures/Custom/Onyx Room.webp@6c48a",
+    "url": "db://assets/Textures/ThemedRooms/Onyx Room.webp@6c48a",
     "value": {
       "depends": [
         "0799dc87-97e3-4e16-a858-289673e259e7"
@@ -1512,7 +1472,7 @@
     "versionCode": 1
   },
   "ed3d12b8-67ff-4b2e-87fd-c0b55068d678@f9941": {
-    "url": "db://assets/Textures/Custom/NatureRoom.webp@f9941",
+    "url": "db://assets/Textures/ThemedRooms/WoodRoom.webp@f9941",
     "value": {
       "depends": [
         "ed3d12b8-67ff-4b2e-87fd-c0b55068d678@6c48a"
@@ -1521,14 +1481,12 @@
     "versionCode": 1
   },
   "f037c40c-86cd-4299-8c17-91188385e4d2": {
-    "url": "db://assets/Textures/Custom/Wood Room.webp",
-    "value": {
-      "depends": []
-    },
+    "url": "db://assets/Textures/ThemedRooms/Wood Room.webp",
+    "value": {},
     "versionCode": 1
   },
   "0a9d293f-da80-4420-88ff-d87d9c1bcfa2@6c48a": {
-    "url": "db://assets/Textures/Custom/Stone Room.webp@6c48a",
+    "url": "db://assets/Textures/ThemedRooms/Stone Room.webp@6c48a",
     "value": {
       "depends": [
         "0a9d293f-da80-4420-88ff-d87d9c1bcfa2"
@@ -1537,7 +1495,7 @@
     "versionCode": 1
   },
   "0799dc87-97e3-4e16-a858-289673e259e7@f9941": {
-    "url": "db://assets/Textures/Custom/Onyx Room.webp@f9941",
+    "url": "db://assets/Textures/ThemedRooms/Onyx Room.webp@f9941",
     "value": {
       "depends": [
         "0799dc87-97e3-4e16-a858-289673e259e7@6c48a"
@@ -1546,7 +1504,7 @@
     "versionCode": 1
   },
   "75d0a50b-d96a-41c8-b4e4-1be7d240638a@f9941": {
-    "url": "db://assets/Textures/Custom/Silver Room.webp@f9941",
+    "url": "db://assets/Textures/ThemedRooms/Silver Room.webp@f9941",
     "value": {
       "depends": [
         "75d0a50b-d96a-41c8-b4e4-1be7d240638a@6c48a"
@@ -1555,7 +1513,7 @@
     "versionCode": 1
   },
   "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3@f9941": {
-    "url": "db://assets/Textures/Custom/Platinum Room.webp@f9941",
+    "url": "db://assets/Textures/ThemedRooms/Platinum Room.webp@f9941",
     "value": {
       "depends": [
         "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3@6c48a"
@@ -1564,7 +1522,7 @@
     "versionCode": 1
   },
   "f037c40c-86cd-4299-8c17-91188385e4d2@6c48a": {
-    "url": "db://assets/Textures/Custom/Wood Room.webp@6c48a",
+    "url": "db://assets/Textures/ThemedRooms/Wood Room.webp@6c48a",
     "value": {
       "depends": [
         "f037c40c-86cd-4299-8c17-91188385e4d2"
@@ -1573,7 +1531,7 @@
     "versionCode": 1
   },
   "0a9d293f-da80-4420-88ff-d87d9c1bcfa2@f9941": {
-    "url": "db://assets/Textures/Custom/Stone Room.webp@f9941",
+    "url": "db://assets/Textures/ThemedRooms/Stone Room.webp@f9941",
     "value": {
       "depends": [
         "0a9d293f-da80-4420-88ff-d87d9c1bcfa2@6c48a"
@@ -1582,7 +1540,7 @@
     "versionCode": 1
   },
   "f037c40c-86cd-4299-8c17-91188385e4d2@f9941": {
-    "url": "db://assets/Textures/Custom/Wood Room.webp@f9941",
+    "url": "db://assets/Textures/ThemedRooms/Wood Room.webp@f9941",
     "value": {
       "depends": [
         "f037c40c-86cd-4299-8c17-91188385e4d2@6c48a"
@@ -1668,7 +1626,9 @@
       "depends": [
         "33f2bff1-7720-490e-92d1-dec4124b58d2"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "944b7a62-458d-41dd-87bd-b350560fbb84"
+      ]
     },
     "versionCode": 1
   },
@@ -1695,6 +1655,1531 @@
   "528d5edf-cda9-47cc-8899-8828a041dce0": {
     "url": "db://assets/Scripts/ThemeButton.ts",
     "value": {},
+    "versionCode": 1
+  },
+  "d44bd91d-75f6-4b44-b0ea-880db5d96356": {
+    "url": "db://assets/Textures/ThemedRooms/ThemeWheel.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "d44bd91d-75f6-4b44-b0ea-880db5d96356@6c48a": {
+    "url": "db://assets/Textures/ThemedRooms/ThemeWheel.webp@6c48a",
+    "value": {
+      "depends": [
+        "d44bd91d-75f6-4b44-b0ea-880db5d96356"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d44bd91d-75f6-4b44-b0ea-880db5d96356@f9941": {
+    "url": "db://assets/Textures/ThemedRooms/ThemeWheel.webp@f9941",
+    "value": {
+      "depends": [
+        "d44bd91d-75f6-4b44-b0ea-880db5d96356@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d8ab62a-6545-4bf8-a5bd-d72af80941c3": {
+    "url": "db://assets/Textures/ThemedRooms/ThemeWheel.webp",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1d8ab62a-6545-4bf8-a5bd-d72af80941c3@6c48a": {
+    "url": "db://assets/Textures/ThemedRooms/ThemeWheel.webp@6c48a",
+    "value": {
+      "depends": [
+        "1d8ab62a-6545-4bf8-a5bd-d72af80941c3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d8ab62a-6545-4bf8-a5bd-d72af80941c3@f9941": {
+    "url": "db://assets/Textures/ThemedRooms/ThemeWheel.webp@f9941",
+    "value": {
+      "depends": [
+        "1d8ab62a-6545-4bf8-a5bd-d72af80941c3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a23557c3-311e-48c7-81d3-17e99560610f": {
+    "url": "db://assets/Textures/Vectors",
+    "value": {},
+    "versionCode": 1
+  },
+  "41640a7a-fdb5-426c-a8ec-6432bd7d5514": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-2_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "41640a7a-fdb5-426c-a8ec-6432bd7d5514@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-2_large.png@6c48a",
+    "value": {
+      "depends": [
+        "41640a7a-fdb5-426c-a8ec-6432bd7d5514"
+      ]
+    },
+    "versionCode": 1
+  },
+  "41640a7a-fdb5-426c-a8ec-6432bd7d5514@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-2_large.png@f9941",
+    "value": {
+      "depends": [
+        "41640a7a-fdb5-426c-a8ec-6432bd7d5514@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "516f687e-e1e1-4773-a98d-6b905f0a490f": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-4_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "516f687e-e1e1-4773-a98d-6b905f0a490f@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-4_large.png@6c48a",
+    "value": {
+      "depends": [
+        "516f687e-e1e1-4773-a98d-6b905f0a490f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "516f687e-e1e1-4773-a98d-6b905f0a490f@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-4_large.png@f9941",
+    "value": {
+      "depends": [
+        "516f687e-e1e1-4773-a98d-6b905f0a490f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5a2a516f-30c4-43d1-976d-ad30938fa692": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-1_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5a2a516f-30c4-43d1-976d-ad30938fa692@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-1_large.png@6c48a",
+    "value": {
+      "depends": [
+        "5a2a516f-30c4-43d1-976d-ad30938fa692"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5a2a516f-30c4-43d1-976d-ad30938fa692@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-1_large.png@f9941",
+    "value": {
+      "depends": [
+        "5a2a516f-30c4-43d1-976d-ad30938fa692@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b5d7aaf5-cdcc-4e4b-bc72-889bf268a8bc": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-3_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b5d7aaf5-cdcc-4e4b-bc72-889bf268a8bc@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-3_large.png@6c48a",
+    "value": {
+      "depends": [
+        "b5d7aaf5-cdcc-4e4b-bc72-889bf268a8bc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b5d7aaf5-cdcc-4e4b-bc72-889bf268a8bc@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-3_large.png@f9941",
+    "value": {
+      "depends": [
+        "b5d7aaf5-cdcc-4e4b-bc72-889bf268a8bc@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7fa2802a-45f9-4a09-be06-bede5d844617": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-6_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7fa2802a-45f9-4a09-be06-bede5d844617@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-6_large.png@6c48a",
+    "value": {
+      "depends": [
+        "7fa2802a-45f9-4a09-be06-bede5d844617"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7fa2802a-45f9-4a09-be06-bede5d844617@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-6_large.png@f9941",
+    "value": {
+      "depends": [
+        "7fa2802a-45f9-4a09-be06-bede5d844617@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d13b95a1-af5c-4e0f-9881-9154cc625354": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-5_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d13b95a1-af5c-4e0f-9881-9154cc625354@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-5_large.png@6c48a",
+    "value": {
+      "depends": [
+        "d13b95a1-af5c-4e0f-9881-9154cc625354"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d13b95a1-af5c-4e0f-9881-9154cc625354@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-5_large.png@f9941",
+    "value": {
+      "depends": [
+        "d13b95a1-af5c-4e0f-9881-9154cc625354@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c3107b69-c9dd-433c-9e5a-cd53c03cb20c": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-2_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c3107b69-c9dd-433c-9e5a-cd53c03cb20c@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-2_large.png@6c48a",
+    "value": {
+      "depends": [
+        "c3107b69-c9dd-433c-9e5a-cd53c03cb20c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c3107b69-c9dd-433c-9e5a-cd53c03cb20c@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-2_large.png@f9941",
+    "value": {
+      "depends": [
+        "c3107b69-c9dd-433c-9e5a-cd53c03cb20c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e0031786-d267-48b3-bc71-c15839d8fcad": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-3_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e0031786-d267-48b3-bc71-c15839d8fcad@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-3_large.png@6c48a",
+    "value": {
+      "depends": [
+        "e0031786-d267-48b3-bc71-c15839d8fcad"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e0031786-d267-48b3-bc71-c15839d8fcad@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-3_large.png@f9941",
+    "value": {
+      "depends": [
+        "e0031786-d267-48b3-bc71-c15839d8fcad@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1ff307df-7ac5-4eda-9007-3ca5c8a2ac4d": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-1_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1ff307df-7ac5-4eda-9007-3ca5c8a2ac4d@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-1_large.png@6c48a",
+    "value": {
+      "depends": [
+        "1ff307df-7ac5-4eda-9007-3ca5c8a2ac4d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1ff307df-7ac5-4eda-9007-3ca5c8a2ac4d@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-1_large.png@f9941",
+    "value": {
+      "depends": [
+        "1ff307df-7ac5-4eda-9007-3ca5c8a2ac4d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e9091a55-ab64-4365-9dca-3b8f8b424898": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-7_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e9091a55-ab64-4365-9dca-3b8f8b424898@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-7_large.png@6c48a",
+    "value": {
+      "depends": [
+        "e9091a55-ab64-4365-9dca-3b8f8b424898"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e9091a55-ab64-4365-9dca-3b8f8b424898@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-amethyst-7_large.png@f9941",
+    "value": {
+      "depends": [
+        "e9091a55-ab64-4365-9dca-3b8f8b424898@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "24fe0fb9-9d61-4ee1-b96a-827ba246167d": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-5_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "24fe0fb9-9d61-4ee1-b96a-827ba246167d@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-5_large.png@6c48a",
+    "value": {
+      "depends": [
+        "24fe0fb9-9d61-4ee1-b96a-827ba246167d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "24fe0fb9-9d61-4ee1-b96a-827ba246167d@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-5_large.png@f9941",
+    "value": {
+      "depends": [
+        "24fe0fb9-9d61-4ee1-b96a-827ba246167d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b36a99f5-a783-4c97-81ae-27e07d672e06": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-6_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b36a99f5-a783-4c97-81ae-27e07d672e06@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-6_large.png@6c48a",
+    "value": {
+      "depends": [
+        "b36a99f5-a783-4c97-81ae-27e07d672e06"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b36a99f5-a783-4c97-81ae-27e07d672e06@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-6_large.png@f9941",
+    "value": {
+      "depends": [
+        "b36a99f5-a783-4c97-81ae-27e07d672e06@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e07e2871-0a3c-4fc2-8225-d5f0199c00db": {
+    "url": "db://assets/Textures/Vectors/rank-gold-3_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e07e2871-0a3c-4fc2-8225-d5f0199c00db@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-gold-3_large.png@6c48a",
+    "value": {
+      "depends": [
+        "e07e2871-0a3c-4fc2-8225-d5f0199c00db"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e07e2871-0a3c-4fc2-8225-d5f0199c00db@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-gold-3_large.png@f9941",
+    "value": {
+      "depends": [
+        "e07e2871-0a3c-4fc2-8225-d5f0199c00db@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e7f19fc5-e608-4a35-8b66-ada0e2513f81": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-4_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e7f19fc5-e608-4a35-8b66-ada0e2513f81@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-4_large.png@6c48a",
+    "value": {
+      "depends": [
+        "e7f19fc5-e608-4a35-8b66-ada0e2513f81"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e7f19fc5-e608-4a35-8b66-ada0e2513f81@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-4_large.png@f9941",
+    "value": {
+      "depends": [
+        "e7f19fc5-e608-4a35-8b66-ada0e2513f81@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "13cc4204-4684-4fe3-8115-e5f6db4e7863": {
+    "url": "db://assets/Textures/Vectors/rank-gold-1_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "13cc4204-4684-4fe3-8115-e5f6db4e7863@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-gold-1_large.png@6c48a",
+    "value": {
+      "depends": [
+        "13cc4204-4684-4fe3-8115-e5f6db4e7863"
+      ]
+    },
+    "versionCode": 1
+  },
+  "13cc4204-4684-4fe3-8115-e5f6db4e7863@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-gold-1_large.png@f9941",
+    "value": {
+      "depends": [
+        "13cc4204-4684-4fe3-8115-e5f6db4e7863@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "faca758a-c770-4e65-b03b-377b10e3638d": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-7_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "faca758a-c770-4e65-b03b-377b10e3638d@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-7_large.png@6c48a",
+    "value": {
+      "depends": [
+        "faca758a-c770-4e65-b03b-377b10e3638d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "faca758a-c770-4e65-b03b-377b10e3638d@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-bronze-7_large.png@f9941",
+    "value": {
+      "depends": [
+        "faca758a-c770-4e65-b03b-377b10e3638d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "687bc0d2-7f1c-4af6-9a0d-5b7e2fef64cd": {
+    "url": "db://assets/Textures/Vectors/rank-gold-2_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "687bc0d2-7f1c-4af6-9a0d-5b7e2fef64cd@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-gold-2_large.png@6c48a",
+    "value": {
+      "depends": [
+        "687bc0d2-7f1c-4af6-9a0d-5b7e2fef64cd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "687bc0d2-7f1c-4af6-9a0d-5b7e2fef64cd@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-gold-2_large.png@f9941",
+    "value": {
+      "depends": [
+        "687bc0d2-7f1c-4af6-9a0d-5b7e2fef64cd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b0207fa2-2cf7-4793-a6d0-f547df278eff": {
+    "url": "db://assets/Textures/Vectors/rank-gold-7_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b0207fa2-2cf7-4793-a6d0-f547df278eff@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-gold-7_large.png@6c48a",
+    "value": {
+      "depends": [
+        "b0207fa2-2cf7-4793-a6d0-f547df278eff"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b0207fa2-2cf7-4793-a6d0-f547df278eff@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-gold-7_large.png@f9941",
+    "value": {
+      "depends": [
+        "b0207fa2-2cf7-4793-a6d0-f547df278eff@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b50f460d-e88e-4a23-895d-ea36777af8a3": {
+    "url": "db://assets/Textures/Vectors/rank-gold-4_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b50f460d-e88e-4a23-895d-ea36777af8a3@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-gold-4_large.png@6c48a",
+    "value": {
+      "depends": [
+        "b50f460d-e88e-4a23-895d-ea36777af8a3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b50f460d-e88e-4a23-895d-ea36777af8a3@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-gold-4_large.png@f9941",
+    "value": {
+      "depends": [
+        "b50f460d-e88e-4a23-895d-ea36777af8a3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "873375f2-e80f-423b-bfdb-3d6a0a613857": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-1_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "873375f2-e80f-423b-bfdb-3d6a0a613857@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-1_large.png@6c48a",
+    "value": {
+      "depends": [
+        "873375f2-e80f-423b-bfdb-3d6a0a613857"
+      ]
+    },
+    "versionCode": 1
+  },
+  "873375f2-e80f-423b-bfdb-3d6a0a613857@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-1_large.png@f9941",
+    "value": {
+      "depends": [
+        "873375f2-e80f-423b-bfdb-3d6a0a613857@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b1ed3562-03f8-4389-a41c-8716706a4a2e": {
+    "url": "db://assets/Textures/Vectors/rank-gold-6_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b1ed3562-03f8-4389-a41c-8716706a4a2e@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-gold-6_large.png@6c48a",
+    "value": {
+      "depends": [
+        "b1ed3562-03f8-4389-a41c-8716706a4a2e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b1ed3562-03f8-4389-a41c-8716706a4a2e@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-gold-6_large.png@f9941",
+    "value": {
+      "depends": [
+        "b1ed3562-03f8-4389-a41c-8716706a4a2e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dcbef853-bcb6-4322-bf59-2429a2d50f7b": {
+    "url": "db://assets/Textures/Vectors/rank-gold-5_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dcbef853-bcb6-4322-bf59-2429a2d50f7b@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-gold-5_large.png@6c48a",
+    "value": {
+      "depends": [
+        "dcbef853-bcb6-4322-bf59-2429a2d50f7b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dcbef853-bcb6-4322-bf59-2429a2d50f7b@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-gold-5_large.png@f9941",
+    "value": {
+      "depends": [
+        "dcbef853-bcb6-4322-bf59-2429a2d50f7b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fb9503cf-d6e6-4233-a032-2f630540a629": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-3_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fb9503cf-d6e6-4233-a032-2f630540a629@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-3_large.png@6c48a",
+    "value": {
+      "depends": [
+        "fb9503cf-d6e6-4233-a032-2f630540a629"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fb9503cf-d6e6-4233-a032-2f630540a629@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-3_large.png@f9941",
+    "value": {
+      "depends": [
+        "fb9503cf-d6e6-4233-a032-2f630540a629@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a12f36cd-e36a-40d3-a4d7-9d0c31f91a0d": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-5_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a12f36cd-e36a-40d3-a4d7-9d0c31f91a0d@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-5_large.png@6c48a",
+    "value": {
+      "depends": [
+        "a12f36cd-e36a-40d3-a4d7-9d0c31f91a0d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a12f36cd-e36a-40d3-a4d7-9d0c31f91a0d@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-5_large.png@f9941",
+    "value": {
+      "depends": [
+        "a12f36cd-e36a-40d3-a4d7-9d0c31f91a0d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "62fe6124-3ed3-4755-a674-e39b7ab87ab1": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-2_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "62fe6124-3ed3-4755-a674-e39b7ab87ab1@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-2_large.png@6c48a",
+    "value": {
+      "depends": [
+        "62fe6124-3ed3-4755-a674-e39b7ab87ab1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "62fe6124-3ed3-4755-a674-e39b7ab87ab1@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-2_large.png@f9941",
+    "value": {
+      "depends": [
+        "62fe6124-3ed3-4755-a674-e39b7ab87ab1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "beeb3523-66d4-4a39-a2d8-6cb37efabe8a": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-4_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "beeb3523-66d4-4a39-a2d8-6cb37efabe8a@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-4_large.png@6c48a",
+    "value": {
+      "depends": [
+        "beeb3523-66d4-4a39-a2d8-6cb37efabe8a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "beeb3523-66d4-4a39-a2d8-6cb37efabe8a@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-4_large.png@f9941",
+    "value": {
+      "depends": [
+        "beeb3523-66d4-4a39-a2d8-6cb37efabe8a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "66ec076f-f947-403e-b27e-7058c2ffa53a": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-7_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "66ec076f-f947-403e-b27e-7058c2ffa53a@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-7_large.png@6c48a",
+    "value": {
+      "depends": [
+        "66ec076f-f947-403e-b27e-7058c2ffa53a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "66ec076f-f947-403e-b27e-7058c2ffa53a@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-7_large.png@f9941",
+    "value": {
+      "depends": [
+        "66ec076f-f947-403e-b27e-7058c2ffa53a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "981d4805-4e47-4651-86a6-20b2227bae9f": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-6_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "981d4805-4e47-4651-86a6-20b2227bae9f@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-6_large.png@6c48a",
+    "value": {
+      "depends": [
+        "981d4805-4e47-4651-86a6-20b2227bae9f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "981d4805-4e47-4651-86a6-20b2227bae9f@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-onyx-6_large.png@f9941",
+    "value": {
+      "depends": [
+        "981d4805-4e47-4651-86a6-20b2227bae9f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8f42a1b7-9d22-4a5f-8ae1-1250e7cb8384": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-1_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8f42a1b7-9d22-4a5f-8ae1-1250e7cb8384@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-1_large.png@6c48a",
+    "value": {
+      "depends": [
+        "8f42a1b7-9d22-4a5f-8ae1-1250e7cb8384"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8f42a1b7-9d22-4a5f-8ae1-1250e7cb8384@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-1_large.png@f9941",
+    "value": {
+      "depends": [
+        "8f42a1b7-9d22-4a5f-8ae1-1250e7cb8384@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "532d0d93-380c-47d1-b521-2055377ddbb4": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-3_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "532d0d93-380c-47d1-b521-2055377ddbb4@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-3_large.png@6c48a",
+    "value": {
+      "depends": [
+        "532d0d93-380c-47d1-b521-2055377ddbb4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "532d0d93-380c-47d1-b521-2055377ddbb4@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-3_large.png@f9941",
+    "value": {
+      "depends": [
+        "532d0d93-380c-47d1-b521-2055377ddbb4@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5c327a43-546a-4a8a-b42f-5ee54444170a": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-2_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5c327a43-546a-4a8a-b42f-5ee54444170a@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-2_large.png@6c48a",
+    "value": {
+      "depends": [
+        "5c327a43-546a-4a8a-b42f-5ee54444170a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5c327a43-546a-4a8a-b42f-5ee54444170a@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-2_large.png@f9941",
+    "value": {
+      "depends": [
+        "5c327a43-546a-4a8a-b42f-5ee54444170a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "471d43ac-6611-423c-bb25-f36534854a59": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-6_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "471d43ac-6611-423c-bb25-f36534854a59@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-6_large.png@6c48a",
+    "value": {
+      "depends": [
+        "471d43ac-6611-423c-bb25-f36534854a59"
+      ]
+    },
+    "versionCode": 1
+  },
+  "471d43ac-6611-423c-bb25-f36534854a59@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-6_large.png@f9941",
+    "value": {
+      "depends": [
+        "471d43ac-6611-423c-bb25-f36534854a59@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7b746bb3-3107-4f44-9b0a-2a2e9723ac4d": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-4_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7b746bb3-3107-4f44-9b0a-2a2e9723ac4d@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-4_large.png@6c48a",
+    "value": {
+      "depends": [
+        "7b746bb3-3107-4f44-9b0a-2a2e9723ac4d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7b746bb3-3107-4f44-9b0a-2a2e9723ac4d@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-4_large.png@f9941",
+    "value": {
+      "depends": [
+        "7b746bb3-3107-4f44-9b0a-2a2e9723ac4d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3c8f56d4-f11d-4db4-94dd-1d7398407c18": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-5_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3c8f56d4-f11d-4db4-94dd-1d7398407c18@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-5_large.png@6c48a",
+    "value": {
+      "depends": [
+        "3c8f56d4-f11d-4db4-94dd-1d7398407c18"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3c8f56d4-f11d-4db4-94dd-1d7398407c18@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-5_large.png@f9941",
+    "value": {
+      "depends": [
+        "3c8f56d4-f11d-4db4-94dd-1d7398407c18@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "413f04de-5656-4a1a-8650-31cc40a2afda": {
+    "url": "db://assets/Textures/Vectors/rank-silver-1_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "413f04de-5656-4a1a-8650-31cc40a2afda@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-silver-1_large.png@6c48a",
+    "value": {
+      "depends": [
+        "413f04de-5656-4a1a-8650-31cc40a2afda"
+      ]
+    },
+    "versionCode": 1
+  },
+  "413f04de-5656-4a1a-8650-31cc40a2afda@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-silver-1_large.png@f9941",
+    "value": {
+      "depends": [
+        "413f04de-5656-4a1a-8650-31cc40a2afda@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c0d1fa8c-3023-473a-ae48-b9cdeeccd195": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-7_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c0d1fa8c-3023-473a-ae48-b9cdeeccd195@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-7_large.png@6c48a",
+    "value": {
+      "depends": [
+        "c0d1fa8c-3023-473a-ae48-b9cdeeccd195"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c0d1fa8c-3023-473a-ae48-b9cdeeccd195@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-platinum-7_large.png@f9941",
+    "value": {
+      "depends": [
+        "c0d1fa8c-3023-473a-ae48-b9cdeeccd195@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1072863a-aae8-4a7f-ac73-506af3263155": {
+    "url": "db://assets/Textures/Vectors/rank-silver-2_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1072863a-aae8-4a7f-ac73-506af3263155@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-silver-2_large.png@6c48a",
+    "value": {
+      "depends": [
+        "1072863a-aae8-4a7f-ac73-506af3263155"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1072863a-aae8-4a7f-ac73-506af3263155@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-silver-2_large.png@f9941",
+    "value": {
+      "depends": [
+        "1072863a-aae8-4a7f-ac73-506af3263155@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fb595797-74e6-43de-b42d-167df5e631a1": {
+    "url": "db://assets/Textures/Vectors/rank-silver-3_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fb595797-74e6-43de-b42d-167df5e631a1@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-silver-3_large.png@6c48a",
+    "value": {
+      "depends": [
+        "fb595797-74e6-43de-b42d-167df5e631a1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fb595797-74e6-43de-b42d-167df5e631a1@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-silver-3_large.png@f9941",
+    "value": {
+      "depends": [
+        "fb595797-74e6-43de-b42d-167df5e631a1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "704e3527-b838-4095-8166-a2a1b7a773c1": {
+    "url": "db://assets/Textures/Vectors/rank-silver-4_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "704e3527-b838-4095-8166-a2a1b7a773c1@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-silver-4_large.png@6c48a",
+    "value": {
+      "depends": [
+        "704e3527-b838-4095-8166-a2a1b7a773c1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "704e3527-b838-4095-8166-a2a1b7a773c1@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-silver-4_large.png@f9941",
+    "value": {
+      "depends": [
+        "704e3527-b838-4095-8166-a2a1b7a773c1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "101d4751-ac5e-4d91-8110-86be717a5b58": {
+    "url": "db://assets/Textures/Vectors/rank-silver-5_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "101d4751-ac5e-4d91-8110-86be717a5b58@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-silver-5_large.png@6c48a",
+    "value": {
+      "depends": [
+        "101d4751-ac5e-4d91-8110-86be717a5b58"
+      ]
+    },
+    "versionCode": 1
+  },
+  "101d4751-ac5e-4d91-8110-86be717a5b58@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-silver-5_large.png@f9941",
+    "value": {
+      "depends": [
+        "101d4751-ac5e-4d91-8110-86be717a5b58@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "23c0e61e-29ec-4e1e-8de2-a5a2f6b4cf14": {
+    "url": "db://assets/Textures/Vectors/rank-silver-6_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "23c0e61e-29ec-4e1e-8de2-a5a2f6b4cf14@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-silver-6_large.png@6c48a",
+    "value": {
+      "depends": [
+        "23c0e61e-29ec-4e1e-8de2-a5a2f6b4cf14"
+      ]
+    },
+    "versionCode": 1
+  },
+  "23c0e61e-29ec-4e1e-8de2-a5a2f6b4cf14@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-silver-6_large.png@f9941",
+    "value": {
+      "depends": [
+        "23c0e61e-29ec-4e1e-8de2-a5a2f6b4cf14@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e1560a71-e9c3-418d-805b-f9cd3a93263c": {
+    "url": "db://assets/Textures/Vectors/rank-silver-7_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e1560a71-e9c3-418d-805b-f9cd3a93263c@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-silver-7_large.png@6c48a",
+    "value": {
+      "depends": [
+        "e1560a71-e9c3-418d-805b-f9cd3a93263c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e1560a71-e9c3-418d-805b-f9cd3a93263c@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-silver-7_large.png@f9941",
+    "value": {
+      "depends": [
+        "e1560a71-e9c3-418d-805b-f9cd3a93263c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "08f3a171-1187-4be8-b594-1e9c121cc949": {
+    "url": "db://assets/Textures/Vectors/rank-stone-2_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "08f3a171-1187-4be8-b594-1e9c121cc949@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-stone-2_large.png@6c48a",
+    "value": {
+      "depends": [
+        "08f3a171-1187-4be8-b594-1e9c121cc949"
+      ]
+    },
+    "versionCode": 1
+  },
+  "08f3a171-1187-4be8-b594-1e9c121cc949@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-stone-2_large.png@f9941",
+    "value": {
+      "depends": [
+        "08f3a171-1187-4be8-b594-1e9c121cc949@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7681ce95-9872-4b3c-bcaa-b3f45dbaacbd": {
+    "url": "db://assets/Textures/Vectors/rank-stone-3_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7681ce95-9872-4b3c-bcaa-b3f45dbaacbd@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-stone-3_large.png@6c48a",
+    "value": {
+      "depends": [
+        "7681ce95-9872-4b3c-bcaa-b3f45dbaacbd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7681ce95-9872-4b3c-bcaa-b3f45dbaacbd@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-stone-3_large.png@f9941",
+    "value": {
+      "depends": [
+        "7681ce95-9872-4b3c-bcaa-b3f45dbaacbd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e2094617-b6b3-4f0d-b7a4-c2a63ed64a44": {
+    "url": "db://assets/Textures/Vectors/rank-stone-4_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e2094617-b6b3-4f0d-b7a4-c2a63ed64a44@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-stone-4_large.png@6c48a",
+    "value": {
+      "depends": [
+        "e2094617-b6b3-4f0d-b7a4-c2a63ed64a44"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e2094617-b6b3-4f0d-b7a4-c2a63ed64a44@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-stone-4_large.png@f9941",
+    "value": {
+      "depends": [
+        "e2094617-b6b3-4f0d-b7a4-c2a63ed64a44@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b0547daa-393d-4208-b45b-5b5bad352961": {
+    "url": "db://assets/Textures/Vectors/rank-stone-1_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b0547daa-393d-4208-b45b-5b5bad352961@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-stone-1_large.png@6c48a",
+    "value": {
+      "depends": [
+        "b0547daa-393d-4208-b45b-5b5bad352961"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b0547daa-393d-4208-b45b-5b5bad352961@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-stone-1_large.png@f9941",
+    "value": {
+      "depends": [
+        "b0547daa-393d-4208-b45b-5b5bad352961@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5f87f581-6189-4670-8fe8-b32431a9404b": {
+    "url": "db://assets/Textures/Vectors/rank-stone-7_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5f87f581-6189-4670-8fe8-b32431a9404b@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-stone-7_large.png@6c48a",
+    "value": {
+      "depends": [
+        "5f87f581-6189-4670-8fe8-b32431a9404b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5f87f581-6189-4670-8fe8-b32431a9404b@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-stone-7_large.png@f9941",
+    "value": {
+      "depends": [
+        "5f87f581-6189-4670-8fe8-b32431a9404b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "614fed6d-aa58-4960-9312-50577e3de8aa": {
+    "url": "db://assets/Textures/Vectors/rank-stone-6_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "614fed6d-aa58-4960-9312-50577e3de8aa@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-stone-6_large.png@6c48a",
+    "value": {
+      "depends": [
+        "614fed6d-aa58-4960-9312-50577e3de8aa"
+      ]
+    },
+    "versionCode": 1
+  },
+  "614fed6d-aa58-4960-9312-50577e3de8aa@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-stone-6_large.png@f9941",
+    "value": {
+      "depends": [
+        "614fed6d-aa58-4960-9312-50577e3de8aa@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d955b23d-6d37-48b0-a7b6-f3f97e87917e": {
+    "url": "db://assets/Textures/Vectors/rank-stone-5_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d955b23d-6d37-48b0-a7b6-f3f97e87917e@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-stone-5_large.png@6c48a",
+    "value": {
+      "depends": [
+        "d955b23d-6d37-48b0-a7b6-f3f97e87917e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d955b23d-6d37-48b0-a7b6-f3f97e87917e@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-stone-5_large.png@f9941",
+    "value": {
+      "depends": [
+        "d955b23d-6d37-48b0-a7b6-f3f97e87917e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2ea95027-4532-47eb-836c-61dfc1823b28": {
+    "url": "db://assets/Textures/Vectors/rank-wood-1_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2ea95027-4532-47eb-836c-61dfc1823b28@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-wood-1_large.png@6c48a",
+    "value": {
+      "depends": [
+        "2ea95027-4532-47eb-836c-61dfc1823b28"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2ea95027-4532-47eb-836c-61dfc1823b28@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-wood-1_large.png@f9941",
+    "value": {
+      "depends": [
+        "2ea95027-4532-47eb-836c-61dfc1823b28@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f3216c2c-6264-4136-b193-137e8881c7ba": {
+    "url": "db://assets/Textures/Vectors/rank-wood-2_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f3216c2c-6264-4136-b193-137e8881c7ba@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-wood-2_large.png@6c48a",
+    "value": {
+      "depends": [
+        "f3216c2c-6264-4136-b193-137e8881c7ba"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f3216c2c-6264-4136-b193-137e8881c7ba@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-wood-2_large.png@f9941",
+    "value": {
+      "depends": [
+        "f3216c2c-6264-4136-b193-137e8881c7ba@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a6ff5e30-49f0-4360-a424-e4ec296e4f88": {
+    "url": "db://assets/Textures/Vectors/rank-wood-3_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a6ff5e30-49f0-4360-a424-e4ec296e4f88@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-wood-3_large.png@6c48a",
+    "value": {
+      "depends": [
+        "a6ff5e30-49f0-4360-a424-e4ec296e4f88"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a6ff5e30-49f0-4360-a424-e4ec296e4f88@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-wood-3_large.png@f9941",
+    "value": {
+      "depends": [
+        "a6ff5e30-49f0-4360-a424-e4ec296e4f88@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4a993327-1613-461d-b332-921cde911bb7": {
+    "url": "db://assets/Textures/Vectors/rank-wood-4_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4a993327-1613-461d-b332-921cde911bb7@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-wood-4_large.png@6c48a",
+    "value": {
+      "depends": [
+        "4a993327-1613-461d-b332-921cde911bb7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4a993327-1613-461d-b332-921cde911bb7@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-wood-4_large.png@f9941",
+    "value": {
+      "depends": [
+        "4a993327-1613-461d-b332-921cde911bb7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e9ffd143-e22d-47e1-ad14-894a1e51888c": {
+    "url": "db://assets/Textures/Vectors/rank-wood-6_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e9ffd143-e22d-47e1-ad14-894a1e51888c@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-wood-6_large.png@6c48a",
+    "value": {
+      "depends": [
+        "e9ffd143-e22d-47e1-ad14-894a1e51888c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e9ffd143-e22d-47e1-ad14-894a1e51888c@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-wood-6_large.png@f9941",
+    "value": {
+      "depends": [
+        "e9ffd143-e22d-47e1-ad14-894a1e51888c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d8ecd999-4884-4f5c-b3ec-3f6c1167fdac": {
+    "url": "db://assets/Textures/Vectors/rank-wood-5_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d8ecd999-4884-4f5c-b3ec-3f6c1167fdac@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-wood-5_large.png@6c48a",
+    "value": {
+      "depends": [
+        "d8ecd999-4884-4f5c-b3ec-3f6c1167fdac"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d8ecd999-4884-4f5c-b3ec-3f6c1167fdac@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-wood-5_large.png@f9941",
+    "value": {
+      "depends": [
+        "d8ecd999-4884-4f5c-b3ec-3f6c1167fdac@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1e16f461-7ed5-473b-84ca-839a887363c3": {
+    "url": "db://assets/Textures/Vectors/rank-wood-7_large.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1e16f461-7ed5-473b-84ca-839a887363c3@6c48a": {
+    "url": "db://assets/Textures/Vectors/rank-wood-7_large.png@6c48a",
+    "value": {
+      "depends": [
+        "1e16f461-7ed5-473b-84ca-839a887363c3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1e16f461-7ed5-473b-84ca-839a887363c3@f9941": {
+    "url": "db://assets/Textures/Vectors/rank-wood-7_large.png@f9941",
+    "value": {
+      "depends": [
+        "1e16f461-7ed5-473b-84ca-839a887363c3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "882a5efb-bca8-4869-b63e-8b63c88999eb": {
+    "url": "db://assets/Prefabs/Egg2.prefab",
+    "value": {
+      "depends": [
+        "41640a7a-fdb5-426c-a8ec-6432bd7d5514@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d8387840-d816-48f3-873e-2d791f2e52cd": {
+    "url": "db://assets/Prefabs/Egg3.prefab",
+    "value": {
+      "depends": [
+        "b5d7aaf5-cdcc-4e4b-bc72-889bf268a8bc@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "91359ca0-071b-4524-ab84-cf20cd7f6aa3": {
+    "url": "db://assets/Prefabs/Egg4.prefab",
+    "value": {
+      "depends": [
+        "516f687e-e1e1-4773-a98d-6b905f0a490f@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c16f6fd8-5160-4e7d-96dd-18918972ad6d": {
+    "url": "db://assets/Prefabs/Egg5.prefab",
+    "value": {
+      "depends": [
+        "d13b95a1-af5c-4e0f-9881-9154cc625354@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b2739bea-84d1-400e-bd12-49812db40b3f": {
+    "url": "db://assets/Prefabs/Egg6.prefab",
+    "value": {
+      "depends": [
+        "7fa2802a-45f9-4a09-be06-bede5d844617@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b4d9b1c9-8977-4297-9284-bd30e2df211c": {
+    "url": "db://assets/Prefabs/Egg7.prefab",
+    "value": {
+      "depends": [
+        "e9091a55-ab64-4365-9dca-3b8f8b424898@f9941"
+      ],
+      "dependScripts": [
+        "6280560e-dec3-448e-b55d-91093bd2b39d"
+      ]
+    },
     "versionCode": 1
   }
 }

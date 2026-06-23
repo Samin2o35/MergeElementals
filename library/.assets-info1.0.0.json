@@ -478,7 +478,7 @@
       "uuid": "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs": {
-      "time": 1782192696500.4556,
+      "time": 1782199072187.1958,
       "uuid": "c02e2f3c-873d-40d9-91be-08b970cb3a61"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scenes": {
@@ -494,12 +494,8 @@
       "uuid": "cd156108-0321-49b3-afba-3040d1addd62"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures": {
-      "time": 1782190896996.7893,
+      "time": 1782199353286.8057,
       "uuid": "5594931a-1893-4e17-ba4b-e807389bfc55"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs": {
-      "time": 1780863122500.6182,
-      "uuid": "d39ab3c1-105a-44f0-85cb-05e847ff22c5"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\AdManager.ts": {
       "time": 1778742007099.8013,
@@ -514,11 +510,11 @@
       "uuid": "7496fb00-a349-40fc-8ca7-49126bfe7103"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\Egg.ts": {
-      "time": 1781594673679.4575,
+      "time": 1782194801537.7002,
       "uuid": "6280560e-dec3-448e-b55d-91093bd2b39d"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\EggDatabase.ts": {
-      "time": 1780867614684.2566,
+      "time": 1782200708119.8486,
       "uuid": "bb2b77ec-7f0c-4c34-b148-8a9e35bc5504"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\EndCard.ts": {
@@ -554,7 +550,7 @@
       "uuid": "5a1b866f-7c1b-4dab-92be-549b64b664df"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\ThrowMergeGame.ts": {
-      "time": 1781637610901.5215,
+      "time": 1782194803007.7837,
       "uuid": "8e385c85-6f1a-4a0e-8805-ce0178f604c0"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs.meta": {
@@ -571,9 +567,6 @@
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures.meta": {
       "time": 1780849993544.8943
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs.meta": {
-      "time": 1780850258948.6062
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\AdManager.ts.meta": {
       "time": 1780849254461.446
@@ -618,47 +611,15 @@
       "time": 1780862545083.1707
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg1.prefab": {
-      "time": 1780990984086.5803,
+      "time": 1782202509081.3198,
       "uuid": "7ccee78d-4830-483d-861e-96c7a9ffa16c"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg2.prefab": {
-      "time": 1780990984803.6682,
-      "uuid": "7afcc593-c01f-4396-b1ae-786b1de291ea"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg3.prefab": {
-      "time": 1780990985555.7725,
-      "uuid": "2f5fa609-e238-47f1-9323-15185010eaf2"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg4.prefab": {
-      "time": 1780990986619.5725,
-      "uuid": "430062fd-187a-44eb-b1c8-df3cb4824df2"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg5.prefab": {
-      "time": 1780990987247.072,
-      "uuid": "5fe6aa88-a263-4486-9b97-2f4cfc994a3b"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg6.prefab": {
-      "time": 1780990988026.7346,
-      "uuid": "9a0326ee-b725-41db-bae5-433f726da9c5"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg7.prefab": {
-      "time": 1780990988820.5762,
-      "uuid": "fa3422e1-dede-4857-93f4-b655a89c2d61"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg8.prefab": {
-      "time": 1780990989631.8677,
-      "uuid": "636b0f73-7c2d-450e-b9e0-696bf9c3d606"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg9.prefab": {
-      "time": 1780990990404.4138,
-      "uuid": "5a06ef2a-4d68-4de7-9582-eec329720de0"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\MergeFX.prefab": {
       "time": 1780932215337.83,
       "uuid": "deccc226-f721-4bdc-a408-d1999097e447"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scenes\\scene.scene": {
-      "time": 1782192398456.9822,
+      "time": 1782202099711.533,
       "uuid": "e4599460-c72f-4397-ad20-79bfa04e3add"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\SFX\\BGM.mp3": {
@@ -709,10 +670,6 @@
       "time": 1780816227329.5425,
       "uuid": "061927ad-2681-445f-b286-9019446074c6"
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\BG.webp": {
-      "time": 1781616395374.3564,
-      "uuid": "76e94333-0850-4d03-8b84-c211a0dae96e"
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Claim_Button.webp": {
       "time": 1780985618709.7124,
       "uuid": "87f0a9a8-bd85-4017-86df-1def74b3f16e"
@@ -725,10 +682,6 @@
       "time": 1781103858439.1255,
       "uuid": "d6f65851-39c7-4038-bebf-cd86f1fff79e"
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\image.webp": {
-      "time": 1781781325251.2444,
-      "uuid": "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f"
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Line.webp": {
       "time": 1780920063228.356,
       "uuid": "46a0e931-8587-42e8-ad74-44274b5da07d"
@@ -736,10 +689,6 @@
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Logo.webp": {
       "time": 1780816227454.543,
       "uuid": "97f06b97-9560-4da2-a146-28db9616ab1c"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Main_UI_Final_UI.webp": {
-      "time": 1780816227513.8806,
-      "uuid": "4c211fd6-9152-4a81-a703-5d08d84baa70"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Next_Ip_Board.webp": {
       "time": 1780816227537.2107,
@@ -761,79 +710,11 @@
       "time": 1781616395417.0354,
       "uuid": "ec695995-cf55-4903-ac6d-a7878a3756a9"
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Shadow.webp": {
-      "time": 1780816227559.8533,
-      "uuid": "fd70d8ae-690d-450c-a347-86ce453d5870"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Star.webp": {
-      "time": 1780816227588.9292,
-      "uuid": "7f2f3031-2363-462a-b9df-337868210f07"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Blackfeather.webp": {
-      "time": 1780816227402.5818,
-      "uuid": "e7ce0687-eb9d-48b9-959b-136b71cab16b"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\fampirastral.webp": {
-      "time": 1780816227417.629,
-      "uuid": "4647fa79-d40e-4646-855c-bed4c09edd33"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Firekong.webp": {
-      "time": 1780816227373.255,
-      "uuid": "e4b04ae5-1030-4f2f-99ee-99760fb2c650"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Lady_Meow.webp": {
-      "time": 1780816227366.7427,
-      "uuid": "e9bcd66d-5b72-4234-a9e1-38fb26704b81"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\oliphanatic.webp": {
-      "time": 1780816227357.1204,
-      "uuid": "2471cdae-aff1-4bd1-b2a3-70c95392f31a"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Pandaken.webp": {
-      "time": 1780816227351.1077,
-      "uuid": "267bafd8-788c-4bce-9bd9-716059eedab3"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Pandalf.webp": {
-      "time": 1780816227391.9421,
-      "uuid": "3af1fa35-1771-4a06-811f-bb046199ba29"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Treezard.webp": {
-      "time": 1780816227383.9436,
-      "uuid": "cacb4b3d-7918-4652-b8d4-01f8b4522ff3"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Ursus.webp": {
-      "time": 1780816227428.5828,
-      "uuid": "b6ad940a-1313-4fae-9456-c77a889507c6"
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg1.prefab.meta": {
       "time": 1780866496055.572
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg3.prefab.meta": {
-      "time": 1780866495823.5496
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg5.prefab.meta": {
-      "time": 1780866495623.775
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg2.prefab.meta": {
-      "time": 1780866495939.2075
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg4.prefab.meta": {
-      "time": 1780866495708.5151
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg6.prefab.meta": {
-      "time": 1780866495545.3125
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg7.prefab.meta": {
-      "time": 1780866495460.1086
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg8.prefab.meta": {
-      "time": 1780866495120.3816
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scenes\\scene.scene.meta": {
       "time": 1780849067685.5527
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg9.prefab.meta": {
-      "time": 1780866494782.0134
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\MergeFX.prefab.meta": {
       "time": 1780930939606.0393
@@ -880,9 +761,6 @@
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\End_Screen.webp.meta": {
       "time": 1780988742424.115
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\BG.webp.meta": {
-      "time": 1780923851802.2341
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\End_Screen_BG.webp.meta": {
       "time": 1781168183614.391
     },
@@ -895,133 +773,17 @@
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Next_Ip_Board.webp.meta": {
       "time": 1780863161023.8003
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\image.webp.meta": {
-      "time": 1781781347384.3186
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Next_Up.webp.meta": {
       "time": 1781618094591.189
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Oops.webp.meta": {
       "time": 1781168183640.3638
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Main_UI_Final_UI.webp.meta": {
-      "time": 1780863161013.761
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Play_Now.webp.meta": {
       "time": 1781618087561.1028
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Perfect_Text.webp.meta": {
       "time": 1781168183630.3755
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Shadow.webp.meta": {
-      "time": 1780863161033.3574
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Star.webp.meta": {
-      "time": 1780863161043.447
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Firekong.webp.meta": {
-      "time": 1780863144377.6423
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\fampirastral.webp.meta": {
-      "time": 1780863144362.5996
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Lady_Meow.webp.meta": {
-      "time": 1780863144389.7146
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Blackfeather.webp.meta": {
-      "time": 1780863144344.8914
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\oliphanatic.webp.meta": {
-      "time": 1780863144407.3508
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Pandaken.webp.meta": {
-      "time": 1780863144444.4917
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Pandalf.webp.meta": {
-      "time": 1780863144515.0767
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Treezard.webp.meta": {
-      "time": 1780863144592.31
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Ursus.webp.meta": {
-      "time": 1780863144664.677
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom.meta": {
-      "time": 1782162991304.879
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom": {
-      "time": 1782163004092.5237,
-      "uuid": "e13b014b-8be2-421d-a019-cfa2cc53936c"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Amethyst Room.webp.meta": {
-      "time": 1782163012027.3428
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Bronze Room.webp.meta": {
-      "time": 1782163012042.2817
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Gold Room.webp.meta": {
-      "time": 1782163012055.8062
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\IceRoom.webp.meta": {
-      "time": 1782163012067.3645
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\NatureRoom.webp.meta": {
-      "time": 1782163012085.4834
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Onyx Room.webp.meta": {
-      "time": 1782163012104.5576
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Platinum Room.webp.meta": {
-      "time": 1782163012114.111
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Silver Room.webp.meta": {
-      "time": 1782163012128.724
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Stone Room.webp.meta": {
-      "time": 1782163012137.7524
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Wood Room.webp.meta": {
-      "time": 1782163012152.8203
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Gold Room.webp": {
-      "time": 1782124776140.945,
-      "uuid": "480bcb54-452c-4f36-9d90-66bf94270548"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Bronze Room.webp": {
-      "time": 1782124763816.4622,
-      "uuid": "c9df6aa3-4c82-41db-87b3-3aaafe04d83c"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\IceRoom.webp": {
-      "time": 1782124084547.5586,
-      "uuid": "8fab3ab0-4767-4361-99f1-81ec2309c02d"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Amethyst Room.webp": {
-      "time": 1782124218862.9275,
-      "uuid": "a246d2a6-eb67-4ba8-9163-d01109800b75"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\NatureRoom.webp": {
-      "time": 1782124120109.7598,
-      "uuid": "ed3d12b8-67ff-4b2e-87fd-c0b55068d678"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Onyx Room.webp": {
-      "time": 1782124135541.8462,
-      "uuid": "0799dc87-97e3-4e16-a858-289673e259e7"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Silver Room.webp": {
-      "time": 1782124173140.4785,
-      "uuid": "75d0a50b-d96a-41c8-b4e4-1be7d240638a"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Platinum Room.webp": {
-      "time": 1782124156519.727,
-      "uuid": "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Stone Room.webp": {
-      "time": 1782124188775.048,
-      "uuid": "0a9d293f-da80-4420-88ff-d87d9c1bcfa2"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Wood Room.webp": {
-      "time": 1782124203606.6128,
-      "uuid": "f037c40c-86cd-4299-8c17-91188385e4d2"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\CameraShake.ts.meta": {
       "time": 1782163500563.5083
@@ -1034,7 +796,7 @@
       "time": 1782189646637.597
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\ThemeManager.ts": {
-      "time": 1782193028219.181,
+      "time": 1782200691405.8672,
       "uuid": "e8aef76c-715a-4c9d-a193-393881ac6b2d"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Progress_Bar_Empty.webp.meta": {
@@ -1062,7 +824,7 @@
       "time": 1782192696516.4395
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\FloatingText.prefab": {
-      "time": 1782192696512.4375,
+      "time": 1782199375999.235,
       "uuid": "91fb315c-5fd5-44a7-86a3-7d5e8a558bac"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\Monster.ts.meta": {
@@ -1097,8 +859,519 @@
       "time": 1782194529607.1501
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\ThemeButton.ts": {
-      "time": 1782194529592.149,
+      "time": 1782194534341.7078,
       "uuid": "528d5edf-cda9-47cc-8899-8828a041dce0"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms.meta": {
+      "time": 1782162991304.879
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms": {
+      "time": 1782196957769.135,
+      "uuid": "e13b014b-8be2-421d-a019-cfa2cc53936c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Gold Room.webp.meta": {
+      "time": 1782163012055.8062
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Gold Room.webp": {
+      "time": 1782124776140.945,
+      "uuid": "480bcb54-452c-4f36-9d90-66bf94270548"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Amethyst Room.webp.meta": {
+      "time": 1782163012027.3428
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Amethyst Room.webp": {
+      "time": 1782124218862.9275,
+      "uuid": "a246d2a6-eb67-4ba8-9163-d01109800b75"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Bronze Room.webp.meta": {
+      "time": 1782163012042.2817
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Bronze Room.webp": {
+      "time": 1782124763816.4622,
+      "uuid": "c9df6aa3-4c82-41db-87b3-3aaafe04d83c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Onyx Room.webp.meta": {
+      "time": 1782163012104.5576
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Onyx Room.webp": {
+      "time": 1782124135541.8462,
+      "uuid": "0799dc87-97e3-4e16-a858-289673e259e7"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Platinum Room.webp.meta": {
+      "time": 1782163012114.111
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Platinum Room.webp": {
+      "time": 1782124156519.727,
+      "uuid": "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Silver Room.webp.meta": {
+      "time": 1782163012128.724
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Silver Room.webp": {
+      "time": 1782124173140.4785,
+      "uuid": "75d0a50b-d96a-41c8-b4e4-1be7d240638a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Stone Room.webp.meta": {
+      "time": 1782163012137.7524
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Stone Room.webp": {
+      "time": 1782124188775.048,
+      "uuid": "0a9d293f-da80-4420-88ff-d87d9c1bcfa2"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\WoodRoom.webp.meta": {
+      "time": 1782196312410.4324
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\WoodRoom.webp": {
+      "time": 1782124120109.7598,
+      "uuid": "ed3d12b8-67ff-4b2e-87fd-c0b55068d678"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\ThemeWheel.webp.meta": {
+      "time": 1782196958043.9888
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\ThemeWheel.webp": {
+      "time": 1782196944434.126,
+      "uuid": "1d8ab62a-6545-4bf8-a5bd-d72af80941c3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors.meta": {
+      "time": 1782198173649.3936
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors": {
+      "time": 1782198186282.1096,
+      "uuid": "a23557c3-311e-48c7-81d3-17e99560610f"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-2_large.png.meta": {
+      "time": 1782198199975.9612
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-4_large.png.meta": {
+      "time": 1782198199978.9648
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-1_large.png.meta": {
+      "time": 1782198199956.3271
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-3_large.png.meta": {
+      "time": 1782198199969.8203
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-6_large.png.meta": {
+      "time": 1782198200017.9568
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-5_large.png.meta": {
+      "time": 1782198199953.3186
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-2_large.png.meta": {
+      "time": 1782198200030.9612
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-3_large.png.meta": {
+      "time": 1782198200028.9597
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-1_large.png.meta": {
+      "time": 1782198200022.959
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-7_large.png.meta": {
+      "time": 1782198200015.9612
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-5_large.png.meta": {
+      "time": 1782198200092.4648
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-6_large.png.meta": {
+      "time": 1782198200106.462
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-3_large.png.meta": {
+      "time": 1782198204626.0676
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-4_large.png.meta": {
+      "time": 1782198200090.4668
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-1_large.png.meta": {
+      "time": 1782198200111.4648
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-7_large.png.meta": {
+      "time": 1782198200109.464
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-2_large.png.meta": {
+      "time": 1782198204636.4612
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-7_large.png.meta": {
+      "time": 1782198205457.326
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-4_large.png.meta": {
+      "time": 1782198204643.8367
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-1_large.png.meta": {
+      "time": 1782198205469.831
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-6_large.png.meta": {
+      "time": 1782198204659.1992
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-5_large.png.meta": {
+      "time": 1782198204651.8403
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-3_large.png.meta": {
+      "time": 1782198205476.823
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-5_large.png.meta": {
+      "time": 1782198205508.3845
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-2_large.png.meta": {
+      "time": 1782198205467.8284
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-4_large.png.meta": {
+      "time": 1782198205483.826
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-7_large.png.meta": {
+      "time": 1782198205518.2083
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-6_large.png.meta": {
+      "time": 1782198205516.211
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-1_large.png.meta": {
+      "time": 1782198205527.5627
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-3_large.png.meta": {
+      "time": 1782198205554.8918
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-2_large.png.meta": {
+      "time": 1782198205525.545
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-6_large.png.meta": {
+      "time": 1782198205563.8867
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-4_large.png.meta": {
+      "time": 1782198205553.8884
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-5_large.png.meta": {
+      "time": 1782198205556.8928
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-1_large.png.meta": {
+      "time": 1782198205588.4773
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-7_large.png.meta": {
+      "time": 1782198205566.93
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-2_large.png.meta": {
+      "time": 1782198205592.4705
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-3_large.png.meta": {
+      "time": 1782198205593.4766
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-4_large.png.meta": {
+      "time": 1782198205599.4756
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-5_large.png.meta": {
+      "time": 1782198205604.4756
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-6_large.png.meta": {
+      "time": 1782198205627.6306
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-7_large.png.meta": {
+      "time": 1782198205630.629
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-2_large.png.meta": {
+      "time": 1782198205639.723
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-3_large.png.meta": {
+      "time": 1782198205642.727
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-4_large.png.meta": {
+      "time": 1782198206944.9375
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-1_large.png.meta": {
+      "time": 1782198205634.6309
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-7_large.png.meta": {
+      "time": 1782198206954.4485
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-6_large.png.meta": {
+      "time": 1782198206948.5586
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-5_large.png.meta": {
+      "time": 1782198206938.9216
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-1_large.png.meta": {
+      "time": 1782198206962.3052
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-2_large.png.meta": {
+      "time": 1782198206990.448
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-3_large.png.meta": {
+      "time": 1782198206996.8684
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-4_large.png.meta": {
+      "time": 1782198206994.8474
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-6_large.png.meta": {
+      "time": 1782198207004.1753
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-5_large.png.meta": {
+      "time": 1782198207001.0002
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-7_large.png.meta": {
+      "time": 1782198207021.1956
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-2_large.png": {
+      "time": 1781841039893.9358,
+      "uuid": "41640a7a-fdb5-426c-a8ec-6432bd7d5514"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-4_large.png": {
+      "time": 1781841039941.8853,
+      "uuid": "516f687e-e1e1-4773-a98d-6b905f0a490f"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-1_large.png": {
+      "time": 1781841039871.7683,
+      "uuid": "5a2a516f-30c4-43d1-976d-ad30938fa692"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-3_large.png": {
+      "time": 1781841039914.2805,
+      "uuid": "b5d7aaf5-cdcc-4e4b-bc72-889bf268a8bc"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-6_large.png": {
+      "time": 1781841039996.091,
+      "uuid": "7fa2802a-45f9-4a09-be06-bede5d844617"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-5_large.png": {
+      "time": 1781841039965.3904,
+      "uuid": "d13b95a1-af5c-4e0f-9881-9154cc625354"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-2_large.png": {
+      "time": 1781841040072.4624,
+      "uuid": "c3107b69-c9dd-433c-9e5a-cd53c03cb20c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-3_large.png": {
+      "time": 1781841040093.0962,
+      "uuid": "e0031786-d267-48b3-bc71-c15839d8fcad"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-1_large.png": {
+      "time": 1781841040050.0493,
+      "uuid": "1ff307df-7ac5-4eda-9007-3ca5c8a2ac4d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-amethyst-7_large.png": {
+      "time": 1781841040023.2148,
+      "uuid": "e9091a55-ab64-4365-9dca-3b8f8b424898"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-5_large.png": {
+      "time": 1781841040132.9282,
+      "uuid": "24fe0fb9-9d61-4ee1-b96a-827ba246167d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-6_large.png": {
+      "time": 1781841040155.4229,
+      "uuid": "b36a99f5-a783-4c97-81ae-27e07d672e06"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-3_large.png": {
+      "time": 1781841040257.0203,
+      "uuid": "e07e2871-0a3c-4fc2-8225-d5f0199c00db"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-4_large.png": {
+      "time": 1781841040112.387,
+      "uuid": "e7f19fc5-e608-4a35-8b66-ada0e2513f81"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-1_large.png": {
+      "time": 1781841040209.4778,
+      "uuid": "13cc4204-4684-4fe3-8115-e5f6db4e7863"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-bronze-7_large.png": {
+      "time": 1781841040177.2087,
+      "uuid": "faca758a-c770-4e65-b03b-377b10e3638d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-2_large.png": {
+      "time": 1781841040235.1292,
+      "uuid": "687bc0d2-7f1c-4af6-9a0d-5b7e2fef64cd"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-7_large.png": {
+      "time": 1781841040349.2698,
+      "uuid": "b0207fa2-2cf7-4793-a6d0-f547df278eff"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-4_large.png": {
+      "time": 1781841040278.3186,
+      "uuid": "b50f460d-e88e-4a23-895d-ea36777af8a3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-1_large.png": {
+      "time": 1781841040373.8567,
+      "uuid": "873375f2-e80f-423b-bfdb-3d6a0a613857"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-6_large.png": {
+      "time": 1781841040327.0322,
+      "uuid": "b1ed3562-03f8-4389-a41c-8716706a4a2e"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-gold-5_large.png": {
+      "time": 1781841040302.8477,
+      "uuid": "dcbef853-bcb6-4322-bf59-2429a2d50f7b"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-3_large.png": {
+      "time": 1781841040414.8972,
+      "uuid": "fb9503cf-d6e6-4233-a032-2f630540a629"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-5_large.png": {
+      "time": 1781841040453.3281,
+      "uuid": "a12f36cd-e36a-40d3-a4d7-9d0c31f91a0d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-2_large.png": {
+      "time": 1781841040395.452,
+      "uuid": "62fe6124-3ed3-4755-a674-e39b7ab87ab1"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-4_large.png": {
+      "time": 1781841040433.9316,
+      "uuid": "beeb3523-66d4-4a39-a2d8-6cb37efabe8a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-7_large.png": {
+      "time": 1781841040498.2473,
+      "uuid": "66ec076f-f947-403e-b27e-7058c2ffa53a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-onyx-6_large.png": {
+      "time": 1781841040475.5444,
+      "uuid": "981d4805-4e47-4651-86a6-20b2227bae9f"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-1_large.png": {
+      "time": 1781841040525.5332,
+      "uuid": "8f42a1b7-9d22-4a5f-8ae1-1250e7cb8384"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-3_large.png": {
+      "time": 1781841040572.927,
+      "uuid": "532d0d93-380c-47d1-b521-2055377ddbb4"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-2_large.png": {
+      "time": 1781841040548.5864,
+      "uuid": "5c327a43-546a-4a8a-b42f-5ee54444170a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-6_large.png": {
+      "time": 1781841040637.53,
+      "uuid": "471d43ac-6611-423c-bb25-f36534854a59"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-4_large.png": {
+      "time": 1781841040593.2288,
+      "uuid": "7b746bb3-3107-4f44-9b0a-2a2e9723ac4d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-5_large.png": {
+      "time": 1781841040614.9893,
+      "uuid": "3c8f56d4-f11d-4db4-94dd-1d7398407c18"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-1_large.png": {
+      "time": 1781841040683.7146,
+      "uuid": "413f04de-5656-4a1a-8650-31cc40a2afda"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-platinum-7_large.png": {
+      "time": 1781841040660.6782,
+      "uuid": "c0d1fa8c-3023-473a-ae48-b9cdeeccd195"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-2_large.png": {
+      "time": 1781841040705.3625,
+      "uuid": "1072863a-aae8-4a7f-ac73-506af3263155"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-3_large.png": {
+      "time": 1781841040725.669,
+      "uuid": "fb595797-74e6-43de-b42d-167df5e631a1"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-4_large.png": {
+      "time": 1781841040746.4521,
+      "uuid": "704e3527-b838-4095-8166-a2a1b7a773c1"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-5_large.png": {
+      "time": 1781841040766.1738,
+      "uuid": "101d4751-ac5e-4d91-8110-86be717a5b58"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-6_large.png": {
+      "time": 1781841040788.8984,
+      "uuid": "23c0e61e-29ec-4e1e-8de2-a5a2f6b4cf14"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-silver-7_large.png": {
+      "time": 1781841040810.7422,
+      "uuid": "e1560a71-e9c3-418d-805b-f9cd3a93263c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-2_large.png": {
+      "time": 1781841040858.849,
+      "uuid": "08f3a171-1187-4be8-b594-1e9c121cc949"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-3_large.png": {
+      "time": 1781841040879.5957,
+      "uuid": "7681ce95-9872-4b3c-bcaa-b3f45dbaacbd"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-4_large.png": {
+      "time": 1781841040901.319,
+      "uuid": "e2094617-b6b3-4f0d-b7a4-c2a63ed64a44"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-1_large.png": {
+      "time": 1781841040834.5537,
+      "uuid": "b0547daa-393d-4208-b45b-5b5bad352961"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-7_large.png": {
+      "time": 1781841040960.6035,
+      "uuid": "5f87f581-6189-4670-8fe8-b32431a9404b"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-6_large.png": {
+      "time": 1781841040940.5247,
+      "uuid": "614fed6d-aa58-4960-9312-50577e3de8aa"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-stone-5_large.png": {
+      "time": 1781841040919.9224,
+      "uuid": "d955b23d-6d37-48b0-a7b6-f3f97e87917e"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-1_large.png": {
+      "time": 1781841040985.0066,
+      "uuid": "2ea95027-4532-47eb-836c-61dfc1823b28"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-2_large.png": {
+      "time": 1781841041009.5283,
+      "uuid": "f3216c2c-6264-4136-b193-137e8881c7ba"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-3_large.png": {
+      "time": 1781841041030.6812,
+      "uuid": "a6ff5e30-49f0-4360-a424-e4ec296e4f88"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-4_large.png": {
+      "time": 1781841041056.5376,
+      "uuid": "4a993327-1613-461d-b332-921cde911bb7"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-6_large.png": {
+      "time": 1781841041106.0852,
+      "uuid": "e9ffd143-e22d-47e1-ad14-894a1e51888c"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-5_large.png": {
+      "time": 1781841041080.3972,
+      "uuid": "d8ecd999-4884-4f5c-b3ec-3f6c1167fdac"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Vectors\\rank-wood-7_large.png": {
+      "time": 1781841041129.0398,
+      "uuid": "1e16f461-7ed5-473b-84ca-839a887363c3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg2.prefab.meta": {
+      "time": 1782199065794.183
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg2.prefab": {
+      "time": 1782202518299.5083,
+      "uuid": "882a5efb-bca8-4869-b63e-8b63c88999eb"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg3.prefab.meta": {
+      "time": 1782199070398.6404
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg3.prefab": {
+      "time": 1782202560277.3745,
+      "uuid": "d8387840-d816-48f3-873e-2d791f2e52cd"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg4.prefab.meta": {
+      "time": 1782199070911.9585
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg4.prefab": {
+      "time": 1782202572477.8396,
+      "uuid": "91359ca0-071b-4524-ab84-cf20cd7f6aa3"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg5.prefab.meta": {
+      "time": 1782199071326.1494
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg5.prefab": {
+      "time": 1782202616741.3022,
+      "uuid": "c16f6fd8-5160-4e7d-96dd-18918972ad6d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg6.prefab.meta": {
+      "time": 1782199071800.684
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg6.prefab": {
+      "time": 1782202629381.2144,
+      "uuid": "b2739bea-84d1-400e-bd12-49812db40b3f"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg7.prefab.meta": {
+      "time": 1782199072235.195
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg7.prefab": {
+      "time": 1782202636470.8535,
+      "uuid": "b4d9b1c9-8977-4297-9284-bd30e2df211c"
     }
   },
   "missing": {
@@ -1108,9 +1381,9 @@
       "removeTime": 1780923848186
     },
     "76e94333-0850-4d03-8b84-c211a0dae96e": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Main_Scene_1_00000.webp",
-      "time": 1780920064396.1309,
-      "removeTime": 1780923851580
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\BG.webp",
+      "time": 1781616395374.3564,
+      "removeTime": 1782195325945
     },
     "eb7a1d64-96e4-4661-9e23-a9f18d434164": {
       "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\BGM.mp3",
@@ -1216,6 +1489,176 @@
       "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Evolution_Chart.webp",
       "time": 1780816227438.5688,
       "removeTime": 1782163860746
+    },
+    "e13b014b-8be2-421d-a019-cfa2cc53936c": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom",
+      "time": 1782163004092.5237,
+      "removeTime": 1782194854223
+    },
+    "a246d2a6-eb67-4ba8-9163-d01109800b75": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Amethyst Room.webp",
+      "time": 1782124218862.9275,
+      "removeTime": 1782194854225
+    },
+    "c9df6aa3-4c82-41db-87b3-3aaafe04d83c": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Bronze Room.webp",
+      "time": 1782124763816.4622,
+      "removeTime": 1782194854226
+    },
+    "480bcb54-452c-4f36-9d90-66bf94270548": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Gold Room.webp",
+      "time": 1782124776140.945,
+      "removeTime": 1782194854227
+    },
+    "8fab3ab0-4767-4361-99f1-81ec2309c02d": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\IceRoom.webp",
+      "time": 1782124084547.5586,
+      "removeTime": 1782196266304
+    },
+    "ed3d12b8-67ff-4b2e-87fd-c0b55068d678": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\WooodRoom.webp",
+      "time": 1782124120109.7598,
+      "removeTime": 1782196312146
+    },
+    "0799dc87-97e3-4e16-a858-289673e259e7": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Onyx Room.webp",
+      "time": 1782124135541.8462,
+      "removeTime": 1782194854230
+    },
+    "e8f4c63f-e20e-44f7-b2c1-9f8e49718bc3": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Platinum Room.webp",
+      "time": 1782124156519.727,
+      "removeTime": 1782194854231
+    },
+    "75d0a50b-d96a-41c8-b4e4-1be7d240638a": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Silver Room.webp",
+      "time": 1782124173140.4785,
+      "removeTime": 1782194854232
+    },
+    "0a9d293f-da80-4420-88ff-d87d9c1bcfa2": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom\\Stone Room.webp",
+      "time": 1782124188775.048,
+      "removeTime": 1782194854232
+    },
+    "f037c40c-86cd-4299-8c17-91188385e4d2": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Wood Room.webp",
+      "time": 1782124203606.6128,
+      "removeTime": 1782196302860
+    },
+    "4c211fd6-9152-4a81-a703-5d08d84baa70": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Main_UI_Final_UI.webp",
+      "time": 1780816227513.8806,
+      "removeTime": 1782195320081
+    },
+    "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\image.webp",
+      "time": 1781781325251.2444,
+      "removeTime": 1782195320222
+    },
+    "d44bd91d-75f6-4b44-b0ea-880db5d96356": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\ThemeWheel.webp",
+      "time": 1782196596800.0088,
+      "removeTime": 1782196796689
+    },
+    "430062fd-187a-44eb-b1c8-df3cb4824df2": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg4.prefab",
+      "time": 1780990986619.5725,
+      "removeTime": 1782199055265
+    },
+    "636b0f73-7c2d-450e-b9e0-696bf9c3d606": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg8.prefab",
+      "time": 1780990989631.8677,
+      "removeTime": 1782199055265
+    },
+    "5a06ef2a-4d68-4de7-9582-eec329720de0": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg9.prefab",
+      "time": 1780990990404.4138,
+      "removeTime": 1782199055266
+    },
+    "7afcc593-c01f-4396-b1ae-786b1de291ea": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg2.prefab",
+      "time": 1780990984803.6682,
+      "removeTime": 1782199055416
+    },
+    "5fe6aa88-a263-4486-9b97-2f4cfc994a3b": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg5.prefab",
+      "time": 1780990987247.072,
+      "removeTime": 1782199055416
+    },
+    "9a0326ee-b725-41db-bae5-433f726da9c5": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg6.prefab",
+      "time": 1780990988026.7346,
+      "removeTime": 1782199055416
+    },
+    "fa3422e1-dede-4857-93f4-b655a89c2d61": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg7.prefab",
+      "time": 1780990988820.5762,
+      "removeTime": 1782199055419
+    },
+    "2f5fa609-e238-47f1-9323-15185010eaf2": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg3.prefab",
+      "time": 1780990985555.7725,
+      "removeTime": 1782199055488
+    },
+    "d39ab3c1-105a-44f0-85cb-05e847ff22c5": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs",
+      "time": 1780863122500.6182,
+      "removeTime": 1782199091072
+    },
+    "e7ce0687-eb9d-48b9-959b-136b71cab16b": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Blackfeather.webp",
+      "time": 1780816227402.5818,
+      "removeTime": 1782199091072
+    },
+    "4647fa79-d40e-4646-855c-bed4c09edd33": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\fampirastral.webp",
+      "time": 1780816227417.629,
+      "removeTime": 1782199091073
+    },
+    "e4b04ae5-1030-4f2f-99ee-99760fb2c650": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Firekong.webp",
+      "time": 1780816227373.255,
+      "removeTime": 1782199091073
+    },
+    "e9bcd66d-5b72-4234-a9e1-38fb26704b81": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Lady_Meow.webp",
+      "time": 1780816227366.7427,
+      "removeTime": 1782199091073
+    },
+    "2471cdae-aff1-4bd1-b2a3-70c95392f31a": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\oliphanatic.webp",
+      "time": 1780816227357.1204,
+      "removeTime": 1782199091073
+    },
+    "267bafd8-788c-4bce-9bd9-716059eedab3": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Pandaken.webp",
+      "time": 1780816227351.1077,
+      "removeTime": 1782199091073
+    },
+    "3af1fa35-1771-4a06-811f-bb046199ba29": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Pandalf.webp",
+      "time": 1780816227391.9421,
+      "removeTime": 1782199091073
+    },
+    "cacb4b3d-7918-4652-b8d4-01f8b4522ff3": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Treezard.webp",
+      "time": 1780816227383.9436,
+      "removeTime": 1782199091073
+    },
+    "b6ad940a-1313-4fae-9456-c77a889507c6": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Ursus.webp",
+      "time": 1780816227428.5828,
+      "removeTime": 1782199091073
+    },
+    "fd70d8ae-690d-450c-a347-86ce453d5870": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Shadow.webp",
+      "time": 1780816227559.8533,
+      "removeTime": 1782199353292
+    },
+    "7f2f3031-2363-462a-b9df-337868210f07": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Star.webp",
+      "time": 1780816227588.9292,
+      "removeTime": 1782199353292
     }
   }
 }

@@ -1,5 +1,5 @@
 import {
-    _decorator, Component, Sprite,
+    _decorator, Component, Sprite, SpriteFrame,
     RigidBody2D, CircleCollider2D, Collider2D, Contact2DType,
     ERigidBody2DType, Vec2,
 } from 'cc';
@@ -43,6 +43,11 @@ export class Egg extends Component {
 
     onDestroy() {
         if (this._col) this._col.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+    }
+
+    /** Swap the piece art (used on spawn and on theme change). Tier/physics unchanged. */
+    public setArt(frame: SpriteFrame | null) {
+        if (frame && this.eggArt) this.eggArt.spriteFrame = frame;
     }
 
     /** Call BEFORE addChild — sets serialized physics values read on fixture creation. */
