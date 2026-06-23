@@ -478,7 +478,7 @@
       "uuid": "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs": {
-      "time": 1780930939544.4646,
+      "time": 1782192696500.4556,
       "uuid": "c02e2f3c-873d-40d9-91be-08b970cb3a61"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scenes": {
@@ -486,7 +486,7 @@
       "uuid": "ae717591-2f3b-47ec-bbb8-2b847188177f"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts": {
-      "time": 1782163500548.4563,
+      "time": 1782194529593.148,
       "uuid": "12964a29-f495-4aaa-83d2-1b60562b2f49"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\SFX": {
@@ -494,7 +494,7 @@
       "uuid": "cd156108-0321-49b3-afba-3040d1addd62"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures": {
-      "time": 1782163860745.7012,
+      "time": 1782190896996.7893,
       "uuid": "5594931a-1893-4e17-ba4b-e807389bfc55"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs": {
@@ -658,7 +658,7 @@
       "uuid": "deccc226-f721-4bdc-a408-d1999097e447"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scenes\\scene.scene": {
-      "time": 1782163014405.0933,
+      "time": 1782192398456.9822,
       "uuid": "e4599460-c72f-4397-ad20-79bfa04e3add"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\SFX\\BGM.mp3": {
@@ -1029,6 +1029,76 @@
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\CameraShake.ts": {
       "time": 1782163508214.327,
       "uuid": "5b82e634-2850-4f6d-8c74-63614b136776"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\ThemeManager.ts.meta": {
+      "time": 1782189646637.597
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\ThemeManager.ts": {
+      "time": 1782193028219.181,
+      "uuid": "e8aef76c-715a-4c9d-a193-393881ac6b2d"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Progress_Bar_Empty.webp.meta": {
+      "time": 1782190914645.244
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Progress_Bar_Filled.webp.meta": {
+      "time": 1782190914586.2417
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Progress_Bar_Empty.webp": {
+      "time": 1780563986419.9204,
+      "uuid": "e93942f9-572c-431b-9ac1-5c65a796d6da"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Progress_Bar_Filled.webp": {
+      "time": 1780563986426.419,
+      "uuid": "f83a5422-eeba-45b3-a6a0-a6c0ca224e55"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Monster.prefab.meta": {
+      "time": 1782192514133.538
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Monster.prefab": {
+      "time": 1782192514129.6484,
+      "uuid": "9a0070f2-8eb8-4eb5-ae82-ede1cd972c1a"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\FloatingText.prefab.meta": {
+      "time": 1782192696516.4395
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\FloatingText.prefab": {
+      "time": 1782192696512.4375,
+      "uuid": "91fb315c-5fd5-44a7-86a3-7d5e8a558bac"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\Monster.ts.meta": {
+      "time": 1782193130609.7622
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\Monster.ts": {
+      "time": 1782193186409.2424,
+      "uuid": "70b81383-46ce-43a0-88d8-ff0b31e6a151"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\MonsterDatabase.ts.meta": {
+      "time": 1782193154160.9368
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\MonsterDatabase.ts": {
+      "time": 1782193159808.5369,
+      "uuid": "716a24c4-7b04-439f-abdf-03d4efd4b8bb"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\FloatingText.ts.meta": {
+      "time": 1782193179016.1409
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\FloatingText.ts": {
+      "time": 1782193184835.4307,
+      "uuid": "944b7a62-458d-41dd-87bd-b350560fbb84"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\RoundManager.ts.meta": {
+      "time": 1782193739171.8215
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\RoundManager.ts": {
+      "time": 1782193745587.5918,
+      "uuid": "f210455b-cdbe-49a2-866d-9adcb08f9bbb"
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\ThemeButton.ts.meta": {
+      "time": 1782194529607.1501
+    },
+    "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts\\ThemeButton.ts": {
+      "time": 1782194529592.149,
+      "uuid": "528d5edf-cda9-47cc-8899-8828a041dce0"
     }
   },
   "missing": {

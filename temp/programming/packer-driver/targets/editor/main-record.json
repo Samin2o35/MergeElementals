@@ -976,7 +976,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1922709.449,
+      "mTimestamp": 32949576.629,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1162,7 +1162,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/GameManager.ts",
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/FloatingText.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
@@ -1171,105 +1171,189 @@
             },
             "end": {
               "line": 5,
-              "column": 1775
+              "column": 1776
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/GameManager.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1792
+            },
+            "end": {
+              "line": 5,
+              "column": 1879
             }
           }
         },
         {
           "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/GlobalAudioManager.ts",
-          "resolved": "__unresolved_14",
+          "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1791
+              "column": 1895
             },
             "end": {
               "line": 5,
-              "column": 1885
+              "column": 1989
             }
           }
         },
         {
           "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Helper.ts",
-          "resolved": "__unresolved_15",
+          "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1901
+              "column": 2005
             },
             "end": {
               "line": 5,
-              "column": 1983
+              "column": 2087
             }
           }
         },
         {
           "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Launcher.ts",
-          "resolved": "__unresolved_16",
+          "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1999
+              "column": 2103
             },
             "end": {
               "line": 5,
-              "column": 2083
+              "column": 2187
             }
           }
         },
         {
           "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/LayoutResponsive.ts",
-          "resolved": "__unresolved_17",
+          "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2099
+              "column": 2203
             },
             "end": {
               "line": 5,
-              "column": 2191
+              "column": 2295
             }
           }
         },
         {
           "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/MergeEffect.ts",
-          "resolved": "__unresolved_18",
+          "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2207
+              "column": 2311
             },
             "end": {
               "line": 5,
-              "column": 2294
+              "column": 2398
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Monster.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2414
+            },
+            "end": {
+              "line": 5,
+              "column": 2497
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/MonsterDatabase.ts",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2513
+            },
+            "end": {
+              "line": 5,
+              "column": 2604
             }
           }
         },
         {
           "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/PlayableUiCanvasFix.ts",
-          "resolved": "__unresolved_19",
+          "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2310
+              "column": 2620
             },
             "end": {
               "line": 5,
-              "column": 2405
+              "column": 2715
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/RoundManager.ts",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2731
+            },
+            "end": {
+              "line": 5,
+              "column": 2819
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ThemeButton.ts",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2835
+            },
+            "end": {
+              "line": 5,
+              "column": 2922
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ThemeManager.ts",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2938
+            },
+            "end": {
+              "line": 5,
+              "column": 3026
             }
           }
         },
         {
           "value": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ThrowMergeGame.ts",
-          "resolved": "__unresolved_20",
+          "resolved": "__unresolved_26",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2421
+              "column": 3042
             },
             "end": {
               "line": 5,
-              "column": 2511
+              "column": 3132
             }
           }
         }
@@ -1370,6 +1454,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/FloatingText.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/GameManager.ts"
           },
           "messages": []
@@ -1412,7 +1503,42 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Monster.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/MonsterDatabase.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/PlayableUiCanvasFix.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/RoundManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ThemeButton.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ThemeManager.ts"
           },
           "messages": []
         },
@@ -4133,6 +4259,445 @@
             "end": {
               "line": 1,
               "column": 62
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ThemeManager.ts": {
+      "mTimestamp": {
+        "mtime": 1782193028219.181,
+        "uuid": "e8aef76c-715a-4c9d-a193-393881ac6b2d"
+      },
+      "chunkId": "bd2ba23fd1a735a5162e0bc740fa0fec4cf94d12",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 89
+            },
+            "end": {
+              "line": 1,
+              "column": 93
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Monster.ts": {
+      "mTimestamp": {
+        "mtime": 1782193186409.2424,
+        "uuid": "70b81383-46ce-43a0-88d8-ff0b31e6a151"
+      },
+      "chunkId": "c671fa40be57fd534d41bba352ac8ed158bc890c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./FloatingText",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 29
+            },
+            "end": {
+              "line": 5,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./CameraShake",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 28
+            },
+            "end": {
+              "line": 6,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/FloatingText.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/CameraShake.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/MonsterDatabase.ts": {
+      "mTimestamp": {
+        "mtime": 1782193159808.5369,
+        "uuid": "716a24c4-7b04-439f-abdf-03d4efd4b8bb"
+      },
+      "chunkId": "9a56840afa0b2dce93dcc6f3ecd0e906e0913349",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/FloatingText.ts": {
+      "mTimestamp": {
+        "mtime": 1782193184835.4307,
+        "uuid": "944b7a62-458d-41dd-87bd-b350560fbb84"
+      },
+      "chunkId": "b51686a25eb603d6b53fbe18357e56ce758ba749",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 76
+            },
+            "end": {
+              "line": 1,
+              "column": 80
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/RoundManager.ts": {
+      "mTimestamp": {
+        "mtime": 1782193745587.5918,
+        "uuid": "f210455b-cdbe-49a2-866d-9adcb08f9bbb"
+      },
+      "chunkId": "2d10ac59958a4fbb054777cef093200e40827228",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "end": {
+              "line": 3,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./Monster",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 37
+            },
+            "end": {
+              "line": 4,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./MonsterDatabase",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 45
+            },
+            "end": {
+              "line": 5,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "./ThemeManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 29
+            },
+            "end": {
+              "line": 6,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/Monster.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/MonsterDatabase.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ThemeManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Samin/Documents/GitHub/MergeElementals/assets/Scripts/ThemeButton.ts": {
+      "mTimestamp": {
+        "mtime": 1782194529592.149,
+        "uuid": "528d5edf-cda9-47cc-8899-8828a041dce0"
+      },
+      "chunkId": "b1b8278be31519acc6cb0280934d3e56397aa090",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
             }
           }
         }
