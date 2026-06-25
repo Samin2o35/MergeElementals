@@ -755,12 +755,12 @@
     "versionCode": 1
   },
   "76e94333-0850-4d03-8b84-c211a0dae96e": {
-    "url": "db://assets/Textures/BG.webp",
+    "url": "db://assets/Prefabs/BG.webp",
     "value": {},
     "versionCode": 1
   },
   "76e94333-0850-4d03-8b84-c211a0dae96e@6c48a": {
-    "url": "db://assets/Textures/BG.webp@6c48a",
+    "url": "db://assets/Prefabs/BG.webp@6c48a",
     "value": {
       "depends": [
         "76e94333-0850-4d03-8b84-c211a0dae96e"
@@ -769,7 +769,7 @@
     "versionCode": 1
   },
   "76e94333-0850-4d03-8b84-c211a0dae96e@f9941": {
-    "url": "db://assets/Textures/BG.webp@f9941",
+    "url": "db://assets/Prefabs/BG.webp@f9941",
     "value": {
       "depends": [
         "76e94333-0850-4d03-8b84-c211a0dae96e@6c48a"
@@ -7126,6 +7126,121 @@
   "689b3c80-12ca-4873-b118-0cb087f5775b": {
     "url": "db://assets/Textures/Monsters/Wood",
     "value": {},
+    "versionCode": 1
+  },
+  "f9b4ac48-257c-4f06-9378-569675b3114d": {
+    "url": "db://assets/Prefabs/Gemini_Generated_Image_7kcmwm7kcmwm7kcm.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "f9b4ac48-257c-4f06-9378-569675b3114d@6c48a": {
+    "url": "db://assets/Prefabs/Gemini_Generated_Image_7kcmwm7kcmwm7kcm.png@6c48a",
+    "value": {
+      "depends": [
+        "f9b4ac48-257c-4f06-9378-569675b3114d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f9b4ac48-257c-4f06-9378-569675b3114d@f9941": {
+    "url": "db://assets/Prefabs/Gemini_Generated_Image_7kcmwm7kcmwm7kcm.png@f9941",
+    "value": {
+      "depends": [
+        "f9b4ac48-257c-4f06-9378-569675b3114d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6fefeb5c-e7b3-40f1-bd98-f6b5264cd401": {
+    "url": "db://assets/Prefabs/Gemini_Generated_Image_29vtwo29vtwo29vt.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "6fefeb5c-e7b3-40f1-bd98-f6b5264cd401@6c48a": {
+    "url": "db://assets/Prefabs/Gemini_Generated_Image_29vtwo29vtwo29vt.png@6c48a",
+    "value": {
+      "depends": [
+        "6fefeb5c-e7b3-40f1-bd98-f6b5264cd401"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6fefeb5c-e7b3-40f1-bd98-f6b5264cd401@f9941": {
+    "url": "db://assets/Prefabs/Gemini_Generated_Image_29vtwo29vtwo29vt.png@f9941",
+    "value": {
+      "depends": [
+        "6fefeb5c-e7b3-40f1-bd98-f6b5264cd401@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "04e12a91-7c89-4a95-b822-598d4990e3e3": {
+    "url": "db://assets/Textures/ThemedRooms/BG.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "04e12a91-7c89-4a95-b822-598d4990e3e3@6c48a": {
+    "url": "db://assets/Textures/ThemedRooms/BG.png@6c48a",
+    "value": {
+      "depends": [
+        "04e12a91-7c89-4a95-b822-598d4990e3e3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "04e12a91-7c89-4a95-b822-598d4990e3e3@f9941": {
+    "url": "db://assets/Textures/ThemedRooms/BG.png@f9941",
+    "value": {
+      "depends": [
+        "04e12a91-7c89-4a95-b822-598d4990e3e3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "107ac8d5-a77d-44e8-a028-3af8a49baae1": {
+    "url": "db://assets/Textures/ThemedRooms/BG.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "107ac8d5-a77d-44e8-a028-3af8a49baae1@6c48a": {
+    "url": "db://assets/Textures/ThemedRooms/BG.webp@6c48a",
+    "value": {
+      "depends": [
+        "107ac8d5-a77d-44e8-a028-3af8a49baae1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "107ac8d5-a77d-44e8-a028-3af8a49baae1@f9941": {
+    "url": "db://assets/Textures/ThemedRooms/BG.webp@f9941",
+    "value": {
+      "depends": [
+        "107ac8d5-a77d-44e8-a028-3af8a49baae1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2dd68046-fcd7-4235-9c52-9341b2d04dbd": {
+    "url": "db://assets/Textures/ThemedRooms/WhiteBG.webp",
+    "value": {},
+    "versionCode": 1
+  },
+  "2dd68046-fcd7-4235-9c52-9341b2d04dbd@6c48a": {
+    "url": "db://assets/Textures/ThemedRooms/WhiteBG.webp@6c48a",
+    "value": {
+      "depends": [
+        "2dd68046-fcd7-4235-9c52-9341b2d04dbd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2dd68046-fcd7-4235-9c52-9341b2d04dbd@f9941": {
+    "url": "db://assets/Textures/ThemedRooms/WhiteBG.webp@f9941",
+    "value": {
+      "depends": [
+        "2dd68046-fcd7-4235-9c52-9341b2d04dbd@6c48a"
+      ]
+    },
     "versionCode": 1
   }
 }

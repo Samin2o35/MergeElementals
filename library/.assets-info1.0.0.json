@@ -478,11 +478,11 @@
       "uuid": "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs": {
-      "time": 1782199072187.1958,
+      "time": 1782374869351.5115,
       "uuid": "c02e2f3c-873d-40d9-91be-08b970cb3a61"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scenes": {
-      "time": 1780849097474.4812,
+      "time": 1782374869366.468,
       "uuid": "ae717591-2f3b-47ec-bbb8-2b847188177f"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scripts": {
@@ -619,7 +619,7 @@
       "uuid": "deccc226-f721-4bdc-a408-d1999097e447"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Scenes\\scene.scene": {
-      "time": 1782209339067.2246,
+      "time": 1782374869367.4753,
       "uuid": "e4599460-c72f-4397-ad20-79bfa04e3add"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\SFX\\BGM.mp3": {
@@ -817,7 +817,7 @@
       "time": 1782192514133.538
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Monster.prefab": {
-      "time": 1782207544772.2026,
+      "time": 1782374869351.5115,
       "uuid": "9a0070f2-8eb8-4eb5-ae82-ede1cd972c1a"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\FloatingText.prefab.meta": {
@@ -866,7 +866,7 @@
       "time": 1782162991304.879
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms": {
-      "time": 1782196957769.135,
+      "time": 1782374869068.5293,
       "uuid": "e13b014b-8be2-421d-a019-cfa2cc53936c"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\Gold Room.webp.meta": {
@@ -2536,9 +2536,9 @@
       "removeTime": 1780923848186
     },
     "76e94333-0850-4d03-8b84-c211a0dae96e": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\BG.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\BG.webp",
       "time": 1781616395374.3564,
-      "removeTime": 1782195325945
+      "removeTime": 1782369722872
     },
     "eb7a1d64-96e4-4661-9e23-a9f18d434164": {
       "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\BGM.mp3",
@@ -2929,6 +2929,31 @@
       "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\Gold\\pipo-enemy005.png",
       "time": 1781840987129.088,
       "removeTime": 1782206585394
+    },
+    "f9b4ac48-257c-4f06-9378-569675b3114d": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Gemini_Generated_Image_7kcmwm7kcmwm7kcm.png",
+      "time": 1782363573709.5696,
+      "removeTime": 1782368589421
+    },
+    "6fefeb5c-e7b3-40f1-bd98-f6b5264cd401": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Gemini_Generated_Image_29vtwo29vtwo29vt.png",
+      "time": 1782368544680.0093,
+      "removeTime": 1782369089415
+    },
+    "04e12a91-7c89-4a95-b822-598d4990e3e3": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\BG.png",
+      "time": 1782368828361.6348,
+      "removeTime": 1782369837711
+    },
+    "107ac8d5-a77d-44e8-a028-3af8a49baae1": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\BG.webp",
+      "time": 1782369804104.2632,
+      "removeTime": 1782374885119
+    },
+    "2dd68046-fcd7-4235-9c52-9341b2d04dbd": {
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\WhiteBG.webp",
+      "time": 1782374276110.7478,
+      "removeTime": 1782374885119
     }
   }
 }
