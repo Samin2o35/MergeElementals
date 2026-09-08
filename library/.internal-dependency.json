@@ -2640,8 +2640,8 @@
       "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\reflect-map-fs.chunk",
       "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shading-entries\\main-functions\\render-to-reflectmap\\fs.chunk"
     ],
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic.fnt": [
-      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic_0.png"
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom_new.plist": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.png"
     ],
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Bold.fnt": [
       "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Bold_0.png"
@@ -2649,14 +2649,14 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Italic.fnt": [
       "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Italic_0.png"
     ],
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.plist": [
-      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.png"
-    ],
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom_new.plist": [
-      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.png"
-    ],
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Regular.fnt": [
       "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Regular_0.png"
+    ],
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic.fnt": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic_0.png"
+    ],
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.plist": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.png"
     ]
   },
   "uuid": {
