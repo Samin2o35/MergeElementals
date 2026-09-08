@@ -17,10 +17,6 @@
       "time": 1782152790221.5974,
       "uuid": "5594931a-1893-4e17-ba4b-e807389bfc55"
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs": {
-      "time": 1780863122500.6182,
-      "uuid": "d39ab3c1-105a-44f0-85cb-05e847ff22c5"
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Scripts\\AdManager.ts": {
       "time": 1778742007099.8013,
       "uuid": "24a5964d-248c-42c5-990f-7fb761b4fab5"
@@ -131,38 +127,6 @@
       "time": 1780990984086.5803,
       "uuid": "7ccee78d-4830-483d-861e-96c7a9ffa16c"
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg2.prefab": {
-      "time": 1780990984803.6682,
-      "uuid": "7afcc593-c01f-4396-b1ae-786b1de291ea"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg3.prefab": {
-      "time": 1780990985555.7725,
-      "uuid": "2f5fa609-e238-47f1-9323-15185010eaf2"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg4.prefab": {
-      "time": 1780990986619.5725,
-      "uuid": "430062fd-187a-44eb-b1c8-df3cb4824df2"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg5.prefab": {
-      "time": 1780990987247.072,
-      "uuid": "5fe6aa88-a263-4486-9b97-2f4cfc994a3b"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg6.prefab": {
-      "time": 1780990988026.7346,
-      "uuid": "9a0326ee-b725-41db-bae5-433f726da9c5"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg7.prefab": {
-      "time": 1780990988820.5762,
-      "uuid": "fa3422e1-dede-4857-93f4-b655a89c2d61"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg8.prefab": {
-      "time": 1780990989631.8677,
-      "uuid": "636b0f73-7c2d-450e-b9e0-696bf9c3d606"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg9.prefab": {
-      "time": 1780990990404.4138,
-      "uuid": "5a06ef2a-4d68-4de7-9582-eec329720de0"
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Scenes\\scene.scene": {
       "time": 1782143019689.5754,
       "uuid": "e4599460-c72f-4397-ad20-79bfa04e3add"
@@ -179,65 +143,13 @@
       "time": 1780816227329.5425,
       "uuid": "061927ad-2681-445f-b286-9019446074c6"
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Evolution_Chart.webp": {
-      "time": 1780816227438.5688,
-      "uuid": "df9d692f-a33d-4869-ad03-0b59419c9cd6"
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Logo.webp": {
       "time": 1780816227454.543,
       "uuid": "97f06b97-9560-4da2-a146-28db9616ab1c"
     },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Main_UI_Final_UI.webp": {
-      "time": 1780816227513.8806,
-      "uuid": "4c211fd6-9152-4a81-a703-5d08d84baa70"
-    },
     "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Next_Ip_Board.webp": {
       "time": 1780816227537.2107,
       "uuid": "6cbfb3ea-d869-453a-92ae-14a4b459833b"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Shadow.webp": {
-      "time": 1780816227559.8533,
-      "uuid": "fd70d8ae-690d-450c-a347-86ce453d5870"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Star.webp": {
-      "time": 1780816227588.9292,
-      "uuid": "7f2f3031-2363-462a-b9df-337868210f07"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Blackfeather.webp": {
-      "time": 1780816227402.5818,
-      "uuid": "e7ce0687-eb9d-48b9-959b-136b71cab16b"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\fampirastral.webp": {
-      "time": 1780816227417.629,
-      "uuid": "4647fa79-d40e-4646-855c-bed4c09edd33"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Firekong.webp": {
-      "time": 1780816227373.255,
-      "uuid": "e4b04ae5-1030-4f2f-99ee-99760fb2c650"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Lady_Meow.webp": {
-      "time": 1780816227366.7427,
-      "uuid": "e9bcd66d-5b72-4234-a9e1-38fb26704b81"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\oliphanatic.webp": {
-      "time": 1780816227357.1204,
-      "uuid": "2471cdae-aff1-4bd1-b2a3-70c95392f31a"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Pandaken.webp": {
-      "time": 1780816227351.1077,
-      "uuid": "267bafd8-788c-4bce-9bd9-716059eedab3"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Pandalf.webp": {
-      "time": 1780816227391.9421,
-      "uuid": "3af1fa35-1771-4a06-811f-bb046199ba29"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Treezard.webp": {
-      "time": 1780816227383.9436,
-      "uuid": "cacb4b3d-7918-4652-b8d4-01f8b4522ff3"
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Ursus.webp": {
-      "time": 1780816227428.5828,
-      "uuid": "b6ad940a-1313-4fae-9456-c77a889507c6"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg4.prefab.meta": {
       "time": 1780866495708.5151
@@ -332,10 +244,6 @@
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\BG.webp.meta": {
       "time": 1780923851802.2341
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\BG.webp": {
-      "time": 1781616395374.3564,
-      "uuid": "76e94333-0850-4d03-8b84-c211a0dae96e"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\SFX.meta": {
       "time": 1780928058982.995
@@ -472,10 +380,6 @@
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\image.webp.meta": {
       "time": 1781781347384.3186
-    },
-    "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\image.webp": {
-      "time": 1781781325251.2444,
-      "uuid": "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f"
     },
     "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs": {
       "time": 1782374869351.5115,
@@ -2536,9 +2440,9 @@
       "removeTime": 1780923848186
     },
     "76e94333-0850-4d03-8b84-c211a0dae96e": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\BG.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\BG.webp",
       "time": 1781616395374.3564,
-      "removeTime": 1782369722872
+      "removeTime": 1783407634467
     },
     "eb7a1d64-96e4-4661-9e23-a9f18d434164": {
       "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\BGM.mp3",
@@ -2641,9 +2545,9 @@
       "removeTime": 1782152784897
     },
     "df9d692f-a33d-4869-ad03-0b59419c9cd6": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Evolution_Chart.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Evolution_Chart.webp",
       "time": 1780816227438.5688,
-      "removeTime": 1782163860746
+      "removeTime": 1783407634464
     },
     "e13b014b-8be2-421d-a019-cfa2cc53936c": {
       "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Custom",
@@ -2701,14 +2605,14 @@
       "removeTime": 1782196302860
     },
     "4c211fd6-9152-4a81-a703-5d08d84baa70": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Main_UI_Final_UI.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Main_UI_Final_UI.webp",
       "time": 1780816227513.8806,
-      "removeTime": 1782195320081
+      "removeTime": 1783407634464
     },
     "be8d4752-2dc2-41d3-a6d0-b07d7ae4ee2f": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\image.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\image.webp",
       "time": 1781781325251.2444,
-      "removeTime": 1782195320222
+      "removeTime": 1783407634468
     },
     "d44bd91d-75f6-4b44-b0ea-880db5d96356": {
       "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\ThemedRooms\\ThemeWheel.webp",
@@ -2716,104 +2620,104 @@
       "removeTime": 1782196796689
     },
     "430062fd-187a-44eb-b1c8-df3cb4824df2": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg4.prefab",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg4.prefab",
       "time": 1780990986619.5725,
-      "removeTime": 1782199055265
+      "removeTime": 1783407634463
     },
     "636b0f73-7c2d-450e-b9e0-696bf9c3d606": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg8.prefab",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg8.prefab",
       "time": 1780990989631.8677,
-      "removeTime": 1782199055265
+      "removeTime": 1783407634464
     },
     "5a06ef2a-4d68-4de7-9582-eec329720de0": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg9.prefab",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg9.prefab",
       "time": 1780990990404.4138,
-      "removeTime": 1782199055266
+      "removeTime": 1783407634464
     },
     "7afcc593-c01f-4396-b1ae-786b1de291ea": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg2.prefab",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg2.prefab",
       "time": 1780990984803.6682,
-      "removeTime": 1782199055416
+      "removeTime": 1783407634462
     },
     "5fe6aa88-a263-4486-9b97-2f4cfc994a3b": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg5.prefab",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg5.prefab",
       "time": 1780990987247.072,
-      "removeTime": 1782199055416
+      "removeTime": 1783407634463
     },
     "9a0326ee-b725-41db-bae5-433f726da9c5": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg6.prefab",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg6.prefab",
       "time": 1780990988026.7346,
-      "removeTime": 1782199055416
+      "removeTime": 1783407634463
     },
     "fa3422e1-dede-4857-93f4-b655a89c2d61": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg7.prefab",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg7.prefab",
       "time": 1780990988820.5762,
-      "removeTime": 1782199055419
+      "removeTime": 1783407634463
     },
     "2f5fa609-e238-47f1-9323-15185010eaf2": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Prefabs\\Egg3.prefab",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Prefabs\\Egg3.prefab",
       "time": 1780990985555.7725,
-      "removeTime": 1782199055488
+      "removeTime": 1783407634462
     },
     "d39ab3c1-105a-44f0-85cb-05e847ff22c5": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs",
       "time": 1780863122500.6182,
-      "removeTime": 1782199091072
+      "removeTime": 1783407634462
     },
     "e7ce0687-eb9d-48b9-959b-136b71cab16b": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Blackfeather.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Blackfeather.webp",
       "time": 1780816227402.5818,
-      "removeTime": 1782199091072
+      "removeTime": 1783407634465
     },
     "4647fa79-d40e-4646-855c-bed4c09edd33": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\fampirastral.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\fampirastral.webp",
       "time": 1780816227417.629,
-      "removeTime": 1782199091073
+      "removeTime": 1783407634465
     },
     "e4b04ae5-1030-4f2f-99ee-99760fb2c650": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Firekong.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Firekong.webp",
       "time": 1780816227373.255,
-      "removeTime": 1782199091073
+      "removeTime": 1783407634466
     },
     "e9bcd66d-5b72-4234-a9e1-38fb26704b81": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Lady_Meow.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Lady_Meow.webp",
       "time": 1780816227366.7427,
-      "removeTime": 1782199091073
+      "removeTime": 1783407634466
     },
     "2471cdae-aff1-4bd1-b2a3-70c95392f31a": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\oliphanatic.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\oliphanatic.webp",
       "time": 1780816227357.1204,
-      "removeTime": 1782199091073
+      "removeTime": 1783407634466
     },
     "267bafd8-788c-4bce-9bd9-716059eedab3": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Pandaken.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Pandaken.webp",
       "time": 1780816227351.1077,
-      "removeTime": 1782199091073
+      "removeTime": 1783407634466
     },
     "3af1fa35-1771-4a06-811f-bb046199ba29": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Pandalf.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Pandalf.webp",
       "time": 1780816227391.9421,
-      "removeTime": 1782199091073
+      "removeTime": 1783407634467
     },
     "cacb4b3d-7918-4652-b8d4-01f8b4522ff3": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Treezard.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Treezard.webp",
       "time": 1780816227383.9436,
-      "removeTime": 1782199091073
+      "removeTime": 1783407634467
     },
     "b6ad940a-1313-4fae-9456-c77a889507c6": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Eggs\\Ursus.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Eggs\\Ursus.webp",
       "time": 1780816227428.5828,
-      "removeTime": 1782199091073
+      "removeTime": 1783407634467
     },
     "fd70d8ae-690d-450c-a347-86ce453d5870": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Shadow.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Shadow.webp",
       "time": 1780816227559.8533,
-      "removeTime": 1782199353292
+      "removeTime": 1783407634464
     },
     "7f2f3031-2363-462a-b9df-337868210f07": {
-      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Star.webp",
+      "path": "C:\\Users\\Samin\\Documents\\GitHub\\MonsterLegends_ThrowMerge\\assets\\Textures\\Star.webp",
       "time": 1780816227588.9292,
-      "removeTime": 1782199353292
+      "removeTime": 1783407634465
     },
     "9ee0a130-6bbf-42f3-a893-cdd18449e8dd": {
       "path": "C:\\Users\\Samin\\Documents\\GitHub\\MergeElementals\\assets\\Textures\\Monsters\\onyx_bat.png",
