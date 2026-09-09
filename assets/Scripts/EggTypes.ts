@@ -55,11 +55,13 @@ export class EggSpecies {
     @property({ tooltip: 'Lineage group. A fork offers species from the running family.' })
     family: string = '';
 
-    @property(Prefab) prefabNormal: Prefab = null!;
-    @property(Prefab) prefabGold: Prefab = null!;
-
-    @property(SpriteFrame) iconNormal: SpriteFrame = null!;
+    @property({ type: SpriteFrame, tooltip: 'UI icon (Next Up, chart, codex).' })
+    iconNormal: SpriteFrame = null!;
     @property(SpriteFrame) iconGold: SpriteFrame = null!;
+
+    @property({ type: SpriteFrame, tooltip: 'Board art. Falls back to the icon when empty.' })
+    boardNormal: SpriteFrame = null!;
+    @property(SpriteFrame) boardGold: SpriteFrame = null!;
 
     @property({ type: CCInteger, tooltip: 'Lowest ladder slot this may occupy (0-based).' })
     minTier: number = 3;
@@ -75,11 +77,12 @@ export class EggSpecies {
 
     public get isAltForm(): boolean { return this.fuseParents.length === 2; }
 
-    public prefab(v: EggVariant): Prefab {
-        return v === EggVariant.Gold && this.prefabGold ? this.prefabGold : this.prefabNormal;
-    }
-
     public icon(v: EggVariant): SpriteFrame {
         return v === EggVariant.Gold && this.iconGold ? this.iconGold : this.iconNormal;
+    }
+
+    public boardArt(v: EggVariant): SpriteFrame {
+        const a = v === EggVariant.Gold ? (this.boardGold ?? this.iconGold) : (this.boardNormal ?? this.iconNormal);
+        return a ?? this.icon(v);
     }
 }

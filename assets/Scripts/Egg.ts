@@ -1,5 +1,5 @@
 import {
-    _decorator, Component, Sprite,
+    _decorator, Component, Sprite, SpriteFrame,
     RigidBody2D, CircleCollider2D, Collider2D, Contact2DType,
     ERigidBody2DType, Vec2,
 } from 'cc';
@@ -11,6 +11,8 @@ export interface EggInitOpts {
     tier: number;
     speciesId: string;
     variant: EggVariant;
+    artFrame: SpriteFrame;
+    scale: number;
     linearDamping: number;
     restitution: number;
     friction: number;
@@ -58,6 +60,9 @@ export class Egg extends Component {
         this.enteredField = false;
         this.mergeable = true;
         this._contactCb = o.contactCb;
+
+        if (this.eggArt && o.artFrame) this.eggArt.spriteFrame = o.artFrame;
+        this.node.setScale(o.scale, o.scale, 1);
 
         const col = this.getComponent(CircleCollider2D);
         if (col) {

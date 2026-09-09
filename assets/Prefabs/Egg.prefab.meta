@@ -2,12 +2,12 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
-  "uuid": "5fe6aa88-a263-4486-9b97-2f4cfc994a3b",
+  "uuid": "7ccee78d-4830-483d-861e-96c7a9ffa16c",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "Egg5"
+    "syncNodeName": "Egg"
   }
 }

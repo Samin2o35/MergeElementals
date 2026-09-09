@@ -1,4 +1,4 @@
-import { _decorator, Component, SpriteFrame, CCInteger, CCString } from 'cc';
+import { _decorator, Component, Prefab, SpriteFrame, CCInteger, CCFloat, CCString } from 'cc';
 import { EggSpecies, EggVariant } from './EggTypes';
 
 const { ccclass, property } = _decorator;
@@ -6,6 +6,12 @@ const { ccclass, property } = _decorator;
 /** Flat pool of every species plus the fixed opening tiers. Lives on the Database node. */
 @ccclass('EggSpeciesDatabase')
 export class EggSpeciesDatabase extends Component {
+
+    @property({ type: Prefab, tooltip: 'The one board egg prefab. Art and size come from species data.' })
+    eggPrefab: Prefab = null!;
+
+    @property({ type: [CCFloat], tooltip: 'Node scale per tier, low to high. Scales the collider too.' })
+    tierScale: number[] = [0.55, 0.66, 0.78, 0.92, 1.08, 1.26, 1.46, 1.70, 1.96];
 
     @property({ type: [EggSpecies] })
     species: EggSpecies[] = [];
@@ -37,6 +43,11 @@ export class EggSpeciesDatabase extends Component {
     }
 
     public get topTier(): number { return this.ladderSize - 1; }
+
+    public scaleFor(tier: number): number {
+        if (!this.tierScale.length) return 1;
+        return this.tierScale[Math.min(Math.max(tier, 0), this.tierScale.length - 1)];
+    }
 
     public isForkTier(tier: number): boolean { return this.forkTiers.indexOf(tier) >= 0; }
 

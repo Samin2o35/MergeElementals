@@ -82,7 +82,7 @@
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0.5,
-      "y": 0
+      "y": 0.5
     },
     "_id": ""
   },
@@ -126,7 +126,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_useGrayscale": false,
     "_atlas": null,
     "_id": ""
@@ -147,7 +147,10 @@
     "__prefab": {
       "__id__": 7
     },
-    "burstFrame": null,
+    "burstFrame": {
+      "__uuid__": "a9d651c6-cc7f-4ff8-8e19-c2dd8cae862b@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
     "burstDuration": 0.45,
     "revealDuration": 1.1,
     "revealSwapAt": 0.5,

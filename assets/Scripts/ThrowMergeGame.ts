@@ -158,13 +158,14 @@ export class ThrowMergeGame extends Component {
     }
 
     private spawnEgg(species: EggSpecies, tier: number, variant: EggVariant, worldPos: Readonly<Vec3>): Egg | null {
-        const prefab = species.prefab(variant);
-        if (!prefab) { console.warn(`[Game] no prefab for ${species.id} variant ${variant}`); return null; }
+        if (!this.db.eggPrefab) { console.warn('[Game] Database.eggPrefab not set'); return null; }
 
-        const node = instantiate(prefab);
+        const node = instantiate(this.db.eggPrefab);
         const egg = node.getComponent(Egg)!;
         egg.init({
             tier, speciesId: species.id, variant,
+            artFrame: species.boardArt(variant),
+            scale: this.db.scaleFor(tier),
             linearDamping: this.linearDamping,
             restitution: this.restitution,
             friction: this.friction,
