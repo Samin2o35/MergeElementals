@@ -1,0 +1,114 @@
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        alphaThreshold: { value: 0.5 }
+        nextTexture:  { value: white }
+        maskTexture:  { value: grey }
+        fxParams:     { value: [0.0, 1.0, 0.0, 1.0], editor: { type: vec4, tooltip: "x progress, y radius, z blend, w aspect" } }
+        fxShape:      { value: [2.0, 0.4, 0.18, 0.0], editor: { type: vec4, tooltip: "x maskScale, y scroll, z edgeSoftness, w twist" } }
+        fxDistort:    { value: [0.12, 0.7, 0.0, 0.0], editor: { type: vec4, tooltip: "x distortion, y glow, zw unused" } }
+        fxColorA:     { value: [1.0, 1.0, 1.0, 1.0], editor: { type: color } }
+        fxColorB:     { value: [1.0, 0.82, 0.35, 1.0], editor: { type: color } }
+}%
+
+CCProgram sprite-vs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+
+  in vec3 a_position;
+  in vec2 a_texCoord;
+  in vec4 a_color;
+
+  out vec4 color;
+  out vec2 uv0;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1);
+    pos = cc_matViewProj * pos;
+    uv0 = a_texCoord;
+    color = a_color;
+    return pos;
+  }
+}%
+
+CCProgram sprite-fs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  #include <builtin/internal/embedded-alpha>
+  #include <builtin/internal/alpha-test>
+
+  in vec4 color;
+  in vec2 uv0;
+
+  #pragma builtin(local)
+  layout(set = 2, binding = 12) uniform sampler2D cc_spriteTexture;
+
+  uniform sampler2D nextTexture;
+  uniform sampler2D maskTexture;
+
+  uniform EggFxBlock {
+    vec4 fxParams;   // x progress, y radius, z blend, w aspect
+    vec4 fxShape;    // x maskScale, y scroll, z edgeSoftness, w twist
+    vec4 fxDistort;  // x distortion, y glow
+    vec4 fxColorA;
+    vec4 fxColorB;
+  };
+
+  vec4 frag () {
+    float progress = fxParams.x;
+    float radius   = max(fxParams.y, 0.0001);
+    float edge     = max(fxShape.z, 0.0001);
+
+    // Aspect-corrected centred uv, and a falloff that confines distortion to `radius`.
+    vec2 uv = uv0 - 0.5;
+    uv.x *= fxParams.w;
+    float dist = length(uv);
+    float influence = smoothstep(radius, 0.0, dist);
+
+    // Swirl.
+    float angle = influence * fxShape.w * progress;
+    float s = sin(angle);
+    float c = cos(angle);
+    uv = mat2(c, -s, s, c) * uv;
+
+    // Radial push outward as the burst grows.
+    uv += normalize(uv + vec2(0.0001)) * influence * progress * fxDistort.x;
+
+    uv.x /= fxParams.w;
+    uv += 0.5;
+
+    vec4 baseColor = CCSampleWithAlphaSeparated(cc_spriteTexture, uv);
+    vec4 nextColor = texture(nextTexture, uv);
+    vec4 outColor  = mix(baseColor, nextColor, fxParams.z);
+
+    // Masked dissolve. `d` > 0 survives; the band just above 0 is the burn edge.
+    vec2 muv  = uv * fxShape.x + vec2(cc_time.x * fxShape.y, cc_time.x * fxShape.y * 0.6);
+    float m   = texture(maskTexture, muv).r;
+    float d   = m - progress;
+    float keep = smoothstep(0.0, edge, d);
+    float burn = (1.0 - keep) * step(-edge, d);
+
+    vec3 burnCol = mix(fxColorB.rgb, fxColorA.rgb, keep);
+    outColor.rgb += burnCol * burn;
+    outColor.rgb += fxColorA.rgb * (influence * fxDistort.y * (1.0 - progress));
+    outColor.a   *= keep;
+
+    outColor *= color;
+    ALPHA_TEST(outColor);
+    return outColor;
+  }
+}%

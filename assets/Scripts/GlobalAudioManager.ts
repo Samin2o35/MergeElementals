@@ -1,94 +1,75 @@
-import { _decorator, Component, AudioSource, Node, AudioClip } from 'cc';
+import { _decorator, Component, AudioSource } from 'cc';
 import { AudioContent } from './AudioContent';
-const { ccclass } = _decorator;
+
+const { ccclass, property } = _decorator;
 
 @ccclass('GlobalAudioManager')
 export class GlobalAudioManager extends Component {
-    private static _instance: GlobalAudioManager;
-    private _audioSources: AudioSource[] = [];
-    private _poolSize: number = 10; 
 
-    public static get instance(): GlobalAudioManager {
-        return this._instance;
-    }
+    private static _instance: GlobalAudioManager;
+
+    @property({ tooltip: 'Voices reserved for SFX. One extra source is added for BGM.' })
+    private _poolSize: number = 16;
+
+    private _sfx: AudioSource[] = [];
+    private _bgm: AudioSource = null!;
+    private _masterVolume: number = 1;
+
+    public static get instance(): GlobalAudioManager { return this._instance; }
 
     onLoad() {
-        if (GlobalAudioManager._instance) {
-            this.destroy();
-            return;
-        }
+        if (GlobalAudioManager._instance) { this.destroy(); return; }
         GlobalAudioManager._instance = this;
 
         for (let i = 0; i < this._poolSize; i++) {
-            const audioSource = this.node.addComponent(AudioSource);
-            audioSource.playOnAwake = false;
-            this._audioSources.push(audioSource);
+            const s = this.node.addComponent(AudioSource);
+            s.playOnAwake = false;
+            this._sfx.push(s);
         }
+        this._bgm = this.node.addComponent(AudioSource);
+        this._bgm.playOnAwake = false;
     }
 
-    public playOneShot(audioContent : AudioContent) {
-        const source = this._audioSources.find(s => !s.playing);
-        if (source) 
-        {
-            source.playOneShot(audioContent.AudioClip, audioContent.Volume * source.volume);
-        } else {
-            console.warn('No free AudioSource available in pool!');
-        }
+    /** Falls back to the oldest voice rather than dropping the sound. */
+    private freeSource(): AudioSource {
+        return this._sfx.find(s => !s.playing) ?? this._sfx[0];
     }
 
-    public play(audioContent : AudioContent)
-    {
-        const source = this._audioSources.find(s => !s.playing);
-        if (source) {
-            source.clip = audioContent.AudioClip;
-            source.volume = Math.min(audioContent.Volume, source.volume);
-            source.loop = audioContent.Loop;
-            source.play();
-        } else {
-            console.warn('No free AudioSource available in pool!');
-        }   
+    public playOneShot(audioContent: AudioContent) {
+        if (!audioContent?.AudioClip) return;
+        this.freeSource().playOneShot(audioContent.AudioClip, audioContent.Volume * this._masterVolume);
     }
 
-    public playBGM(audioContent : AudioContent) {
-        const bgm = this._audioSources[this._poolSize - 1];
-        bgm.clip = audioContent.AudioClip;
-        bgm.volume = Math.min(audioContent.Volume, bgm.volume);;
-        bgm.loop = audioContent.Loop;
-        if (!bgm.playing) {
-            bgm.play();
-        }
+    public play(audioContent: AudioContent) {
+        if (!audioContent?.AudioClip) return;
+        const s = this.freeSource();
+        s.clip = audioContent.AudioClip;
+        s.volume = audioContent.Volume * this._masterVolume;
+        s.loop = audioContent.Loop;
+        s.play();
     }
 
-    public stop(audioContent: AudioContent): void
-    {
-        if (!audioContent || !audioContent.AudioClip)
-            return;
-
-        const source = this._audioSources.find(s => 
-            s && s.clip && s.clip.uuid === audioContent.AudioClip.uuid
-        );
-
-        if (source)
-        {
-            source.stop();
-        }
+    public playBGM(audioContent: AudioContent) {
+        if (!audioContent?.AudioClip) return;
+        this._bgm.clip = audioContent.AudioClip;
+        this._bgm.volume = audioContent.Volume * this._masterVolume;
+        this._bgm.loop = audioContent.Loop;
+        if (!this._bgm.playing) this._bgm.play();
     }
 
-    public stopBGM() {
-        const bgm = this._audioSources[0];
-        if (bgm.playing) bgm.stop();
+    public stop(audioContent: AudioContent) {
+        if (!audioContent?.AudioClip) return;
+        const s = this._sfx.find(x => x.clip && x.clip.uuid === audioContent.AudioClip.uuid);
+        s?.stop();
     }
 
-    public getBGMPlayer()
-    {
-        return this._audioSources[0];
-    }
+    public stopBGM() { if (this._bgm.playing) this._bgm.stop(); }
 
-    public setVolume(volume : number)
-    {
-        this._audioSources.forEach((audioSource) => 
-        {
-            audioSource.volume = volume;
-        });
+    public getBGMPlayer(): AudioSource { return this._bgm; }
+
+    public setVolume(volume: number) {
+        this._masterVolume = volume;
+        this._sfx.forEach(s => { s.volume = volume; });
+        this._bgm.volume = volume;
     }
 }
