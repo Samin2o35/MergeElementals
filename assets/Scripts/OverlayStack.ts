@@ -5,6 +5,7 @@ import { ForkSelect } from './ForkSelect';
 import { CodexView } from './CodexView';
 import { DiscoveryBanner } from './DiscoveryBanner';
 import { RunEndView } from './RunEndView';
+import { CodexStore } from './CodexStore';
 
 const { ccclass, property } = _decorator;
 
@@ -103,6 +104,12 @@ export class OverlayStack extends Component {
 
     public showOptions() {
         this.enqueue(() => { if (this.options) this.options.active = true; });
+    }
+
+    /** Clears all save data. Wire to a debug button while tuning. */
+    public wipeSave() {
+        CodexStore.wipe();
+        console.log('[Save] wiped');
     }
 
     public closeOptions() {

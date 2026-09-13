@@ -147,6 +147,7 @@ export class ThrowMergeGame extends Component {
 
         const egg = this.spawnEgg(species, tier, variant, this.launcher.node.worldPosition);
         if (!egg) return;
+        this.run.reportCreated(species, variant);
         this._dockedEgg = egg;
         this.launcher.loadEgg(egg, () => this.onShotFired());
     }
@@ -227,22 +228,33 @@ export class ThrowMergeGame extends Component {
                 continue;
             }
 
-            this.run.addMergeEssence(m.tier, m.variant);
-            this.playAudio(this.mergeAudio);
-            this.spawnFx(m.x, m.y, result.species, m.variant, 1.0);
-
-            const merged = this.spawnEgg(result.species, result.tier, m.variant, new Vec3(m.x, m.y, 0));
-            if (merged) {
-                merged.setVelocity(new Vec2(m.vx * this.mergeInertia, m.vy * this.mergeInertia));
-                merged.setMergeGrace(this.mergeGrace);
-                const authored = merged.node.scale.clone();
-                merged.node.setScale(authored.x * 0.2, authored.y * 0.2, authored.z);
-                tween(merged.node).to(0.18, { scale: authored }, { easing: 'backOut' }).start();
+            // Unassigned fork tier: park the rest of the queue, ask, then finish.
+            if (!result.species) {
+                this._pending = list.slice(list.indexOf(m) + 1).concat(this._pending);
+                this.run.requestFork(result.tier, s => this.completeMerge(m, s, result.tier));
+                return;
             }
 
-            this.run.reportCreated(result.species, m.variant);
-            if (this.run.onTierReached(result.tier)) break;
+            this.completeMerge(m, result.species, result.tier);
         }
+    }
+
+    private completeMerge(m: PendingMerge, species: EggSpecies, tier: number) {
+        this.run.addMergeEssence(m.tier, m.variant);
+        this.playAudio(this.mergeAudio);
+        this.spawnFx(m.x, m.y, species, m.variant, 1.0);
+
+        const merged = this.spawnEgg(species, tier, m.variant, new Vec3(m.x, m.y, 0));
+        if (merged) {
+            merged.setVelocity(new Vec2(m.vx * this.mergeInertia, m.vy * this.mergeInertia));
+            merged.setMergeGrace(this.mergeGrace);
+            const authored = merged.node.scale.clone();
+            merged.node.setScale(authored.x * 0.2, authored.y * 0.2, authored.z);
+            tween(merged.node).to(0.18, { scale: authored }, { easing: 'backOut' }).start();
+        }
+
+        this.run.reportCreated(species, m.variant);
+        this.run.noteTier(tier);
     }
 
     private spawnFx(x: number, y: number, species: EggSpecies, variant: EggVariant, scale: number) {

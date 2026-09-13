@@ -43,6 +43,7 @@ export class RunManager extends Component {
     private _ascensions: number = 0;
     private _discoveries: { species: EggSpecies; variant: EggVariant }[] = [];
 
+    private _onForkChosen: ((s: EggSpecies) => void) | null = null;
     private _heirloom: Heirloom | null = null;
     private _heirloomUsed: boolean = false;
     private _shots: number = 0;
@@ -61,6 +62,7 @@ export class RunManager extends Component {
         this._heirloom = CodexStore.heirloom;
         this._heirloomUsed = false;
         this._shots = 0;
+        this._onForkChosen = null;
 
         for (let i = 0; i < this.db.baseLadder.length && i < this._ladder.length; i++) {
             const s = this.db.get(this.db.baseLadder[i]);
@@ -105,22 +107,34 @@ export class RunManager extends Component {
 
     // ── Forks ────────────────────────────────────────────────────────────
 
-    /** Called when a tier is first reached. True if a fork overlay was raised. */
-    public onTierReached(tier: number): boolean {
-        if (tier > this._highestTier) {
-            this._highestTier = tier;
-            this.events.emit(RunEvent.TIER_CHANGED, this._highestTier);
-        }
-        if (!this.db.isForkTier(tier) || this._ladder[tier]) return false;
+    public noteTier(tier: number) {
+        if (tier <= this._highestTier) return;
+        this._highestTier = tier;
+        this.events.emit(RunEvent.TIER_CHANGED, this._highestTier);
+    }
 
-        const pool = this.db.forkCandidates(tier, this._family, this._used)
+    /**
+     * Raises the fork overlay for an unassigned fork tier. `onChosen` fires after
+     * the player picks, so the merge that triggered it can finish.
+     * Returns false if no candidates exist, in which case the tier is auto-filled.
+     */
+    public requestFork(tier: number, onChosen: (s: EggSpecies) => void): boolean {
+        const themed = this.db.forkCandidates(tier, this._family, this._used)
             .filter(s => CodexStore.isInPool(s.id) || s.family === this._family || this._family === '');
-        const src = pool.length >= this.forkOptions ? pool : this.db.forkCandidates(tier, '', this._used);
-        if (!src.length) { this.autoFillUpTo(tier + 1); return false; }
+        const src = themed.length >= this.forkOptions
+            ? themed
+            : this.db.forkCandidates(tier, this._family, this._used);
+        const pool = src.length ? src : this.db.forkCandidates(tier, '', this._used);
 
-        const offer = this.shuffle(src.slice()).slice(0, this.forkOptions);
+        if (!pool.length) {
+            const auto = this.pickAuto(tier);
+            if (auto) { this._ladder[tier] = auto; this._used.add(auto.id); onChosen(auto); }
+            return false;
+        }
+
+        this._onForkChosen = onChosen;
         this._paused = true;
-        this.events.emit(RunEvent.FORK_REQUESTED, tier, offer);
+        this.events.emit(RunEvent.FORK_REQUESTED, tier, this.shuffle(pool.slice()).slice(0, this.forkOptions));
         return true;
     }
 
@@ -128,10 +142,13 @@ export class RunManager extends Component {
         this._ladder[tier] = species;
         this._used.add(species.id);
         this._family = species.family;
-        const next = this.nextForkTierAfter(tier);
-        this.autoFillUpTo(next);
+        this.autoFillUpTo(this.nextForkTierAfter(tier));
         this._paused = false;
         this.events.emit(RunEvent.LADDER_CHANGED);
+
+        const cb = this._onForkChosen;
+        this._onForkChosen = null;
+        cb?.(species);
     }
 
     private nextForkTierAfter(tier: number): number {
@@ -143,17 +160,25 @@ export class RunManager extends Component {
 
     /**
      * What two same-tier, same-variant eggs produce.
-     * Returns null for an ascension (both parents clear, nothing spawns).
+     * null            = ascension (both parents clear, nothing spawns)
+     * species null    = target tier is an unassigned fork tier; call requestFork
      */
-    public resolveMerge(tier: number, idA: string, idB: string): { species: EggSpecies; tier: number } | null {
+    public resolveMerge(tier: number, idA: string, idB: string): { species: EggSpecies | null; tier: number } | null {
         if (idA !== idB) {
             const fused = this.db.findFusion(idA, idB);
             if (fused) return { species: fused, tier };
         }
         if (tier >= this.db.topTier) return null;
-        const next = this._ladder[tier + 1] ?? this.pickAuto(tier + 1);
-        if (next && !this._ladder[tier + 1]) { this._ladder[tier + 1] = next; this._used.add(next.id); }
-        return next ? { species: next, tier: tier + 1 } : null;
+
+        const up = tier + 1;
+        if (this._ladder[up]) return { species: this._ladder[up], tier: up };
+        if (this.db.isForkTier(up)) return { species: null, tier: up };
+
+        const next = this.pickAuto(up);
+        if (!next) return null;
+        this._ladder[up] = next;
+        this._used.add(next.id);
+        return { species: next, tier: up };
     }
 
     // ── Scoring ──────────────────────────────────────────────────────────

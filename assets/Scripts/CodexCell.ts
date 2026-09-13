@@ -22,8 +22,9 @@ export class CodexCell extends Component {
     public bind(db: EggSpeciesDatabase, s: EggSpecies | null, v: EggVariant) {
         this._species = s;
         this._variant = v;
-        this.node.active = !!s;
-        if (!s || !this.icon) return;
+        if (!this.icon) return;
+        this.icon.enabled = !!s;
+        if (!s) return;
         this.icon.spriteFrame = CodexStore.isUnlocked(s.id, v) ? s.icon(v) : db.lockedIcon(v);
     }
 
