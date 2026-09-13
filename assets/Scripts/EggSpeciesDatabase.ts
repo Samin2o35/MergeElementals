@@ -36,6 +36,29 @@ export class EggSpeciesDatabase extends Component {
             if (this._byId.has(s.id)) console.warn(`[Database] duplicate species id "${s.id}"`);
             this._byId.set(s.id, s);
         }
+        this.validate();
+    }
+
+    /** Surfaces the data mistakes that fail silently at runtime. */
+    private validate() {
+        for (const s of this.species) {
+            const n = s.fuseParents.filter(p => !!p).length;
+            if (n === 1 || n > 2) {
+                console.warn(`[Database] "${s.id}" has ${n} fuseParents. Use 0 (forkable) or 2 (alt form).`);
+            }
+            if (n === 2) {
+                for (const p of s.fuseParents) {
+                    if (!this._byId.has(p)) console.warn(`[Database] "${s.id}" fuseParent "${p}" is not a species id.`);
+                }
+            }
+            if (!s.iconNormal) console.warn(`[Database] "${s.id}" has no iconNormal.`);
+        }
+        for (const id of this.baseLadder) {
+            if (!this._byId.has(id)) console.warn(`[Database] baseLadder id "${id}" is not a species id.`);
+        }
+        if (this.tierScale.length < this.ladderSize) {
+            console.warn(`[Database] tierScale has ${this.tierScale.length} entries but ladderSize is ${this.ladderSize}.`);
+        }
     }
 
     public get(id: string): EggSpecies | null {

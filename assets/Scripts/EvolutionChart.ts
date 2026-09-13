@@ -15,8 +15,11 @@ export class EvolutionChart extends Component {
     @property({ type: [Sprite], tooltip: 'Egg1..Egg9 sprites, in ladder order.' })
     slots: Sprite[] = [];
 
-    start() {
+    onLoad() {
         this.run.events.on(RunEvent.LADDER_CHANGED, this.refresh, this);
+    }
+
+    start() {
         this.refresh();
     }
 

@@ -17,13 +17,15 @@ export class HudView extends Component {
     @property(UiButton) codexButton: UiButton = null!;
     @property(UiButton) optionsButton: UiButton = null!;
 
-    start() {
-        this.codexButton?.onTap(() => this.overlays.showCodex());
-        this.optionsButton?.onTap(() => this.overlays.showOptions());
-
+    onLoad() {
         this.run.events.on(RunEvent.ESSENCE_CHANGED, this.onEssence, this);
         this.run.events.on(RunEvent.TIER_CHANGED, this.refresh, this);
         this.run.events.on(RunEvent.LADDER_CHANGED, this.refresh, this);
+    }
+
+    start() {
+        this.codexButton?.onTap(() => this.overlays.showCodex());
+        this.optionsButton?.onTap(() => this.overlays.showOptions());
         this.refresh();
     }
 
