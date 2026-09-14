@@ -42,6 +42,7 @@ export class RunManager extends Component {
     private _highestTier: number = 0;
     private _ascensions: number = 0;
     private _discoveries: { species: EggSpecies; variant: EggVariant }[] = [];
+    private _seen: Set<string> = new Set();   // species ids created this run
 
     private _onForkChosen: ((s: EggSpecies) => void) | null = null;
     private _heirloom: Heirloom | null = null;
@@ -59,6 +60,7 @@ export class RunManager extends Component {
         this._highestTier = 0;
         this._ascensions = 0;
         this._discoveries = [];
+        this._seen.clear();
         this._heirloom = CodexStore.heirloom;
         this._heirloomUsed = false;
         this._shots = 0;
@@ -119,12 +121,10 @@ export class RunManager extends Component {
      * Returns false if no candidates exist, in which case the tier is auto-filled.
      */
     public requestFork(tier: number, onChosen: (s: EggSpecies) => void): boolean {
-        const themed = this.db.forkCandidates(tier, this._family, this._used)
-            .filter(s => CodexStore.isInPool(s.id) || s.family === this._family || this._family === '');
-        const src = themed.length >= this.forkOptions
+        const themed = this.db.forkCandidates(tier, this._family, this._used);
+        const pool = themed.length >= this.forkOptions
             ? themed
-            : this.db.forkCandidates(tier, this._family, this._used);
-        const pool = src.length ? src : this.db.forkCandidates(tier, '', this._used);
+            : this.db.forkCandidates(tier, '', this._used);
 
         if (!pool.length) {
             const auto = this.pickAuto(tier);
@@ -198,13 +198,17 @@ export class RunManager extends Component {
         this.events.emit(RunEvent.ESSENCE_CHANGED, this._runEssence);
     }
 
-    /** Records a first sighting. Returns true if it was new. */
+    /** Records a first sighting. Returns true if it was new to the codex. */
     public reportCreated(species: EggSpecies, variant: EggVariant): boolean {
+        this._seen.add(species.id);
         if (!CodexStore.unlock(species.id, variant)) return false;
         this._discoveries.push({ species, variant });
         this.events.emit(RunEvent.DISCOVERED, species, variant);
         return true;
     }
+
+    /** Has this species been made at least once this run? Drives the chart. */
+    public isSeen(id: string): boolean { return this._seen.has(id); }
 
     // ── Heirloom ─────────────────────────────────────────────────────────
 

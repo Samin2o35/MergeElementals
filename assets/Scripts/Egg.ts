@@ -32,7 +32,6 @@ export class Egg extends Component {
 
     public mergeable: boolean = true;
     public consumed: boolean = false;
-    public launched: boolean = false;
     public enteredField: boolean = false;
 
     private _rb: RigidBody2D = null!;
@@ -56,7 +55,6 @@ export class Egg extends Component {
         this.speciesId = o.speciesId;
         this.variant = o.variant;
         this.consumed = false;
-        this.launched = false;
         this.enteredField = false;
         this.mergeable = true;
         this._contactCb = o.contactCb;
@@ -82,7 +80,6 @@ export class Egg extends Component {
     }
 
     public launch(dir: Vec2, speed: number) {
-        this.launched = true;
         this.mergeable = true;
         if (!this._rb) return;
         this._rb.type = ERigidBody2DType.Dynamic;

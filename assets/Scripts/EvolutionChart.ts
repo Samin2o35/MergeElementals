@@ -1,11 +1,16 @@
-import { _decorator, Component, Node, Sprite, tween } from 'cc';
+import { _decorator, Component, Sprite, CCFloat } from 'cc';
 import { RunManager, RunEvent } from './RunManager';
 import { EggSpeciesDatabase } from './EggSpeciesDatabase';
-import { EggVariant } from './EggTypes';
+import { EggSpecies, EggVariant } from './EggTypes';
+import { EggFX } from './EggFX';
 
 const { ccclass, property } = _decorator;
 
-/** Shows the run's ladder. Unreached slots hold the `?` icon. */
+/**
+ * Shows only what the player has actually made this run. Slots ahead of the
+ * player stay `?` even once the ladder has assigned them, so the chart is a
+ * record rather than a spoiler.
+ */
 @ccclass('EvolutionChart')
 export class EvolutionChart extends Component {
 
@@ -15,33 +20,55 @@ export class EvolutionChart extends Component {
     @property({ type: [Sprite], tooltip: 'Egg1..Egg9 sprites, in ladder order.' })
     slots: Sprite[] = [];
 
+    @property({ type: [EggFX], tooltip: 'EggFX on the same nodes as slots, same order. Optional.' })
+    slotFx: EggFX[] = [];
+
+    @property({ type: CCFloat, tooltip: 'Delay before the reveal plays, so the merge burst lands first.' })
+    revealDelay: number = 0.18;
+
     onLoad() {
+        this.run.events.on(RunEvent.DISCOVERED, this.onDiscovered, this);
         this.run.events.on(RunEvent.LADDER_CHANGED, this.refresh, this);
     }
 
-    start() {
-        this.refresh();
-    }
-
     onDestroy() {
+        this.run.events.off(RunEvent.DISCOVERED, this.onDiscovered, this);
         this.run.events.off(RunEvent.LADDER_CHANGED, this.refresh, this);
     }
 
+    start() { this.refresh(); }
+
+    /** Repaints without animation. Used on load and after a fork reshuffles slots. */
     private refresh() {
         for (let i = 0; i < this.slots.length; i++) {
             const sp = this.slots[i];
             if (!sp) continue;
-            const species = this.run.speciesAt(i);
-            const next = species ? species.icon(EggVariant.Normal) : this.db.lockedIcon(EggVariant.Normal);
-            if (sp.spriteFrame === next) continue;
-            sp.spriteFrame = next;
-            if (species) this.pop(sp.node);
+            const s = this.run.speciesAt(i);
+            const shown = s && this.run.isSeen(s.id);
+            sp.spriteFrame = shown ? s!.icon(EggVariant.Normal) : this.db.lockedIcon(EggVariant.Normal);
         }
     }
 
-    private pop(n: Node) {
-        const base = n.scale.clone();
-        n.setScale(base.x * 0.5, base.y * 0.5, base.z);
-        tween(n).to(0.22, { scale: base }, { easing: 'backOut' }).start();
+    private onDiscovered(species: EggSpecies, _variant: EggVariant) {
+        const tier = this.tierOf(species);
+        if (tier < 0) return;
+
+        const sp = this.slots[tier];
+        const fx = this.slotFx[tier];
+        if (!sp) return;
+
+        const target = species.icon(EggVariant.Normal);
+        if (!fx) { sp.spriteFrame = target; return; }
+
+        this.scheduleOnce(() => {
+            fx.playReveal(species.fx, this.db.lockedIcon(EggVariant.Normal), target, false);
+        }, this.revealDelay);
+    }
+
+    private tierOf(species: EggSpecies): number {
+        for (let i = 0; i < this.slots.length; i++) {
+            if (this.run.speciesAt(i)?.id === species.id) return i;
+        }
+        return -1;
     }
 }

@@ -5,7 +5,6 @@ import { ForkSelect } from './ForkSelect';
 import { CodexView } from './CodexView';
 import { DiscoveryBanner } from './DiscoveryBanner';
 import { RunEndView } from './RunEndView';
-import { CodexStore } from './CodexStore';
 import { Launcher } from './Launcher';
 
 const { ccclass, property } = _decorator;
@@ -94,10 +93,10 @@ export class OverlayStack extends Component {
         this.enqueue(() => this.banner.show(species, variant, () => this.release()));
     }
 
-    public showCodex(revealFocus: { species: EggSpecies; variant: EggVariant } | null = null) {
+    public showCodex() {
         this.enqueue(() => {
             this.fadeHud(0);
-            this.codex.show(revealFocus, () => this.release());
+            this.codex.show(() => this.release());
         });
     }
 
@@ -110,12 +109,6 @@ export class OverlayStack extends Component {
 
     public showOptions() {
         this.enqueue(() => { if (this.options) this.options.active = true; });
-    }
-
-    /** Clears all save data. Wire to a debug button while tuning. */
-    public wipeSave() {
-        CodexStore.wipe();
-        console.log('[Save] wiped');
     }
 
     public closeOptions() {

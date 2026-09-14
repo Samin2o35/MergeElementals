@@ -43,7 +43,7 @@ export class ThrowMergeGame extends Component {
     @property friction: number = 0.15;
     @property density: number = 1.0;
 
-    @property({ tooltip: 'Highest tier that can spawn from the launcher (0-based).' })
+    @property({ tooltip: 'Ceiling on launcher spawn tier (0-based). The live cap also rises only as tiers are actually reached.' })
     maxSpawnTier: number = 2;
     @property relaunchDelay: number = 0.35;
 
@@ -115,8 +115,9 @@ export class ThrowMergeGame extends Component {
 
     // ── Launcher feed ────────────────────────────────────────────────────
 
+    /** Pool grows with the run: only tier 0 until tier 1 exists, and so on. */
     private rollNext() {
-        const max = Math.min(this.maxSpawnTier, this.db.topTier);
+        const max = Math.min(this.maxSpawnTier, this.db.topTier, this.run.highestTier);
         this._nextTier = Math.floor(Math.random() * (max + 1));
         this._nextVariant = Math.random() < this.goldChance ? EggVariant.Gold : EggVariant.Normal;
     }

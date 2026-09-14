@@ -6,7 +6,10 @@ import { EggFX } from './EggFX';
 
 const { ccclass, property } = _decorator;
 
-/** One grid slot. Shows the `?` icon until its pair is unlocked. */
+/**
+ * One grid slot. Shows `?` until its pair is unlocked AND the book has played
+ * its reveal, so a discovery made mid-run is still a surprise when you open it.
+ */
 @ccclass('CodexCell')
 export class CodexCell extends Component {
 
@@ -25,19 +28,23 @@ export class CodexCell extends Component {
         if (!this.icon) return;
         this.icon.enabled = !!s;
         if (!s) return;
-        this.icon.spriteFrame = CodexStore.isUnlocked(s.id, v) ? s.icon(v) : db.lockedIcon(v);
+
+        const shown = CodexStore.isUnlocked(s.id, v) && !CodexStore.isPending(s.id, v);
+        this.icon.spriteFrame = shown ? s.icon(v) : db.lockedIcon(v);
     }
 
-    public matches(s: EggSpecies, v: EggVariant): boolean {
-        return this._species?.id === s.id && this._variant === v;
+    public matches(id: string, v: EggVariant): boolean {
+        return this._species?.id === id && this._variant === v;
     }
 
     /** Dissolves the `?` into the real icon using the species' own profile. */
     public reveal(db: EggSpeciesDatabase, onDone?: () => void) {
-        if (!this._species || !this.fx) { onDone?.(); return; }
         const s = this._species;
+        if (!s || !this.fx) { onDone?.(); return; }
+
         this.fx.playReveal(s.fx, db.lockedIcon(this._variant), s.icon(this._variant),
             this._variant === EggVariant.Gold, () => {
+                CodexStore.clearPending(s.id, this._variant);
                 const base = this.node.scale.clone();
                 tween(this.node)
                     .to(0.12, { scale: base.clone().multiplyScalar(1.25) }, { easing: 'quadOut' })
