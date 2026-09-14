@@ -6,6 +6,7 @@ import { CodexView } from './CodexView';
 import { DiscoveryBanner } from './DiscoveryBanner';
 import { RunEndView } from './RunEndView';
 import { CodexStore } from './CodexStore';
+import { Launcher } from './Launcher';
 
 const { ccclass, property } = _decorator;
 
@@ -17,6 +18,8 @@ export class OverlayStack extends Component {
 
     @property(RunManager) run: RunManager = null!;
     @property(Node) hud: Node = null!;
+    @property({ type: Launcher, tooltip: 'Board input is suspended while an overlay is up.' })
+    launcher: Launcher = null!;
 
     @property(ForkSelect) fork: ForkSelect = null!;
     @property(CodexView) codex: CodexView = null!;
@@ -51,6 +54,7 @@ export class OverlayStack extends Component {
 
     private enqueue(job: Job) {
         this._queue.push(job);
+        this.launcher?.setInputEnabled(false);
         this.pump();
     }
 
@@ -63,7 +67,9 @@ export class OverlayStack extends Component {
     private release() {
         this._busy = false;
         this.pump();
-        if (!this._busy) this.fadeHud(255);
+        if (this._busy) return;
+        this.fadeHud(255);
+        this.launcher?.setInputEnabled(true);
     }
 
     private fadeHud(to: number) {

@@ -48,6 +48,7 @@ export class Launcher extends Component {
     private _aiming: boolean = false;
     private _onLaunched: (() => void) | null = null;
     private _locked: boolean = true;
+    private _inputBlocked: boolean = false;
 
     start() {
         this.computeBounds();
@@ -85,6 +86,19 @@ export class Launcher extends Component {
         this.updateAim();
     }
 
+    /**
+     * Suspend board input while an overlay owns the screen. Distinct from
+     * disable(), which is permanent. A Sprite alone will not swallow touches in
+     * Cocos, so the dim layer cannot be relied on for this.
+     */
+    public setInputEnabled(on: boolean) {
+        this._inputBlocked = !on;
+        if (this._inputBlocked) {
+            this._aiming = false;
+            this.updateAimVisibility();
+        }
+    }
+
     /** Stop accepting input (win/lose). */
     public disable() {
         this._locked = true;
@@ -93,19 +107,20 @@ export class Launcher extends Component {
     }
 
     private onTouchStart(_e: EventTouch) {
-        if (this._locked || !this._currentEgg) return;
+        if (this._inputBlocked || this._locked || !this._currentEgg) return;
         this._aiming = true;
         this.updateAimVisibility();
         this.updateAim();
     }
 
     private onTouchMove(e: EventTouch) {
-        if (!this._aiming) return;
+        if (this._inputBlocked || !this._aiming) return;
         const p = e.getLocation(); // screen pixels
         this.slideTo(p.x, p.y);
     }
 
     private onTouchEnd(_e: EventTouch) {
+        if (this._inputBlocked) { this._aiming = false; return; }
         if (!this._aiming || this._locked || !this._currentEgg) {
             this._aiming = false;
             return;

@@ -1,4 +1,4 @@
-import { _decorator, Component, Sprite, Label, tween, UIOpacity } from 'cc';
+import { _decorator, Component, Sprite, Label, tween, Tween, UIOpacity, Vec3 } from 'cc';
 import { EggSpecies, EggVariant } from './EggTypes';
 import { UiButton } from './UiButton';
 
@@ -14,6 +14,14 @@ export class ForkCard extends Component {
     @property(UiButton) button: UiButton = null!;
 
     private _species: EggSpecies | null = null;
+    private _base: Vec3 = new Vec3(1, 1, 1);
+
+    onLoad() {
+        this._base = this.node.scale.clone();
+    }
+
+    /** The authored prefab scale. UiButton reads this so the two never disagree. */
+    public get baseScale(): Readonly<Vec3> { return this._base; }
 
     public bind(s: EggSpecies, onPick: (s: EggSpecies) => void) {
         this._species = s;
@@ -25,11 +33,21 @@ export class ForkCard extends Component {
     }
 
     public dealIn(delay: number) {
-        const base = this.node.scale.clone();
+        const base = this._base;
+        Tween.stopAllByTarget(this.node);
         this.node.setScale(base.x * 0.7, base.y * 0.7, base.z);
+
         const op = this.node.getComponent(UIOpacity) ?? this.node.addComponent(UIOpacity);
+        Tween.stopAllByTarget(op);
         op.opacity = 0;
-        tween(this.node).delay(delay).to(0.26, { scale: base }, { easing: 'backOut' }).start();
+
+        tween(this.node).delay(delay).to(0.26, { scale: base.clone() }, { easing: 'backOut' }).start();
         tween(op).delay(delay).to(0.2, { opacity: 255 }).start();
+    }
+
+    /** Restores the authored scale so a re-show can't inherit a mid-tween value. */
+    public resetTransform() {
+        Tween.stopAllByTarget(this.node);
+        this.node.setScale(this._base);
     }
 }

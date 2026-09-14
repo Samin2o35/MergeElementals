@@ -17,10 +17,14 @@ export class ForkSelect extends Component {
         this.node.active = true;
         if (this.titleLabel) this.titleLabel.string = `Choose your tier ${tier + 1} egg`;
 
+        for (const card of this.cards) card?.resetTransform();
+
         for (let i = 0; i < this.cards.length; i++) {
             const card = this.cards[i];
+            if (!card) continue;
             if (i >= offer.length) { card.node.active = false; continue; }
             card.bind(offer[i], s => { this.hide(); onPick(s); });
+            card.button?.setBaseScale(card.baseScale);
             card.dealIn(i * this.dealStagger);
         }
     }
